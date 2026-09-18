@@ -1,0 +1,193 @@
+Package: flick-tiler
+Version: 1.0
+Architecture: all
+Maintainer: Jon <dvbondoy@gmail.com>
+Installed-Size: 50
+Depends: python3, labwc, flickos-layouts (>= 1.7), flickos-settings (>= 1.11)
+Recommends: fuzzel
+Priority: optional
+Section: x11
+Filename: pool/main/f/flick-tiler/flick-tiler_1.0_all.deb
+Size: 11964
+SHA256: 3be774d4a548c79e160631b58006ce04bd1950922a43a4a5422e63a2a3292852
+SHA1: 6441649ea28e86ad8ac37d46644f53241df07536
+MD5sum: c5d197a7889deaf1bbc915e66f675f1e
+Description: opt-in window tiling for the FlickOS labwc session
+ flick-tiler arranges windows side by side in the FlickOS labwc session:
+ master and stack, columns, grid or one at a time, with gaps. New windows
+ are tiled as they open; keybinds move the focus and the windows, and a
+ panel button turns tiling on and off and chooses the arrangement.
+ .
+ labwc stays the window manager. flick-tiler places windows through
+ labwc's own regions, which it rewrites as windows open and close, so
+ turning it off gives the normal floating desktop back.
+
+Package: flickos-archive-keyring
+Version: 1.3
+Architecture: all
+Maintainer: Jon <dvbondoy@gmail.com>
+Installed-Size: 15
+Priority: optional
+Section: misc
+Filename: pool/main/f/flickos-archive-keyring/flickos-archive-keyring_1.3_all.deb
+Size: 3224
+SHA256: 654a0ed8ef8e00b5937cdba2270362eaf7ee16ed0654e2b461878930ff5e3347
+SHA1: 2312c7f4b70a69b2ec60c31bc5e1c3808c277fb3
+MD5sum: 78c3fcdf89d2c70f37bd252a912d4cc4
+Description: OpenPGP key and apt source for the FlickOS package repository
+ The public key used to verify packages from the FlickOS apt repository,
+ installed to /usr/share/keyrings and referenced with Signed-By so apt trusts
+ it only for the FlickOS repository.
+ .
+ Also configures the repository itself in
+ /etc/apt/sources.list.d/flickos.sources, so its address can be updated with
+ a new version of this package.
+
+Package: flickos-branding
+Version: 1.4
+Architecture: all
+Maintainer: Jon <dvbondoy@gmail.com>
+Installed-Size: 159
+Depends: base-files, plymouth, plymouth-themes, plymouth-label, fonts-dejavu-core
+Priority: optional
+Section: misc
+Filename: pool/main/f/flickos-branding/flickos-branding_1.4_all.deb
+Size: 37304
+SHA256: 9f3692282eb3fd4546a882d01ec424d672b15a42c6fe5f95b05d9ab12d927bda
+SHA1: 4b45f5a56f0399130191b2a7a432c4dc7d523419
+MD5sum: da649fe92bafbbe630c1699989d6e996
+Description: FlickOS branding: logo, boot splash, OS name and login banner
+ Installs the FlickOS logo icons (flickos, flickos-symbolic) and the FlickOS
+ Plymouth boot splash, and makes the splash the default theme.
+ .
+ Shows "FlickOS" in /etc/os-release (PRETTY_NAME, VARIANT) and on the text
+ console login banner (/etc/issue, /etc/issue.net). Debian's originals are
+ kept via dpkg-divert and the FlickOS versions are regenerated from them
+ whenever base-files is upgraded. ID=debian and all version fields stay
+ unchanged, so software that detects Debian keeps working.
+
+Package: flickos-desktop
+Version: 1.10
+Architecture: all
+Maintainer: Jon <dvbondoy@gmail.com>
+Installed-Size: 7
+Depends: flickos-archive-keyring (>= 1.1), flickos-settings (>= 1.10), flickos-layouts (>= 1.6), flickos-branding (>= 1.3), labwc, xwayland, waybar, swaybg, mako-notifier, xdg-desktop-portal, xdg-desktop-portal-wlr, xdg-desktop-portal-gtk, mate-polkit, polkitd, dbus-user-session, pipewire, pipewire-audio, pipewire-pulse, wireplumber, network-manager, network-manager-applet, udisks2, gvfs, adwaita-icon-theme, fonts-dejavu-core, unattended-upgrades, waypaper, flick-tiler
+Recommends: foot, fuzzel, pcmanfm, gvfs-backends, firefox-esr, mousepad, ristretto, evince, vlc, libreoffice-writer, libreoffice-calc, libreoffice-impress, libreoffice-draw, libreoffice-gtk3, hunspell-en-us, hyphen-en-us, xarchiver, pavucontrol, nm-connection-editor, wpasupplicant, intel-microcode, amd64-microcode, wdisplays, bluez, blueman, cups, system-config-printer, swayidle, swaylock, wlr-randr, grim, slurp, wl-clipboard, cliphist, wlsunset, playerctl, libnotify-bin, xdg-utils, brightnessctl, gnome-themes-extra, nwg-look, fonts-noto-color-emoji, zram-tools, flatpak, ufw, sudo, locales, console-setup, ca-certificates, curl, htop, nano, less, pciutils, usbutils
+Priority: optional
+Section: metapackages
+Filename: pool/main/f/flickos-desktop/flickos-desktop_1.10_all.deb
+Size: 2548
+SHA256: ad490a9986fb3933ae4e957e50a7e88d6d6f98f3924568596c03fd37b4fb69bf
+SHA1: 8fd39744c5c08189298a6e8a44e3b83f248e8d32
+MD5sum: 18827f821f971ff94cf4e2966b875bb4
+Description: FlickOS desktop environment (metapackage)
+ Installs the complete FlickOS labwc desktop: compositor, panel,
+ notifications, portals, PipeWire audio, networking, Bluetooth, printing,
+ automatic security updates and default applications (Firefox ESR,
+ LibreOffice, VLC, Mousepad, Ristretto, Evince, Xarchiver).
+
+Package: flickos-installer
+Version: 1.6
+Architecture: all
+Maintainer: Jon <dvbondoy@gmail.com>
+Installed-Size: 107
+Depends: calamares, rsync, cryptsetup, keyutils, libglib2.0-bin, sudo, qt6-wayland, qml6-module-qtquick, qml6-module-qtquick-window, dconf-gsettings-backend | gsettings-backend, flickos-settings (>= 1.5)
+Conflicts: calamares-settings-debian
+Replaces: calamares-settings-debian
+Provides: calamares-settings
+Priority: optional
+Section: admin
+Filename: pool/main/f/flickos-installer/flickos-installer_1.6_all.deb
+Size: 34724
+SHA256: 002ed71266f014415c02784a9ca6a3405795c3a1e87da38dcf10db0bd2095381
+SHA1: 8b5ef56056d6446808de4ede00d8a51b31c3b646
+MD5sum: 5a1f598a730ba7e0fa3f024a0f348978
+Description: FlickOS live installer (Calamares configuration)
+ Calamares settings, branding and launcher for installing FlickOS from the
+ live session, plus the live-session menu with an "Install FlickOS" entry.
+ .
+ Based on calamares-settings-debian. The installer removes this package from
+ the installed system.
+
+Package: flickos-layouts
+Version: 1.7
+Architecture: all
+Maintainer: Jon <dvbondoy@gmail.com>
+Installed-Size: 3401
+Depends: flickos-branding (>= 1.4), python3, python3-gi, gir1.2-gtk-3.0, libglib2.0-bin, flickos-settings (>= 1.10)
+Recommends: waypaper
+Priority: optional
+Section: misc
+Filename: pool/main/f/flickos-layouts/flickos-layouts_1.7_all.deb
+Size: 3363816
+SHA256: 59e9ac795755a59d9cc661dacd2d4438a8f273ec1d8b6a93365a0b94237befe1
+SHA1: 9c9305b65661faf9888455ab5cc884780aed6eed
+MD5sum: 5916e56cae91baffe9808eba2c195f7c
+Description: FlickOS desktop layouts and styles, and the flickos-layout tool
+ Desktop layouts for the FlickOS labwc session: Redmond (one bottom panel),
+ Cupertino (top bar and dock) and Traditional (top panel and window list),
+ each with its panel arrangement, window title bar buttons and wallpaper.
+ A user's own wallpaper (waypaper) is kept. Dark (Arc-Dark)
+ and Light (Arc) styles recolor GTK apps, icons, window borders, panel,
+ terminal, launcher and notifications. Desktop clicks choose what a left
+ or right click on the empty desktop does.
+ flickos-layout lists the layouts and styles, applies a choice to the
+ running session and starts the panel and notifications at login. The
+ Desktop Layout & Style chooser (Settings menu and app launcher) shows each
+ layout with a preview.
+ .
+ The choice is applied through generated files in $XDG_RUNTIME_DIR, so
+ nothing is copied into the home directory and package updates keep
+ reaching every user.
+
+Package: flickos-settings
+Version: 1.11
+Architecture: all
+Maintainer: Jon <dvbondoy@gmail.com>
+Installed-Size: 1801
+Depends: labwc, swaybg, waybar, mako-notifier, mate-polkit, network-manager-applet, swayidle, swaylock, xdg-user-dirs, gsettings-desktop-schemas, dconf-gsettings-backend, arc-theme, numix-icon-theme-circle
+Recommends: foot, fuzzel, pcmanfm, grim, slurp, wl-clipboard, libnotify-bin, brightnessctl, wireplumber, cliphist, wlsunset, playerctl, vlc, libreoffice-writer, libreoffice-calc, libreoffice-impress, gnome-themes-extra, adwaita-icon-theme, nwg-look, waypaper
+Breaks: flickos-layouts (<< 1.6)
+Priority: optional
+Section: misc
+Filename: pool/main/f/flickos-settings/flickos-settings_1.11_all.deb
+Size: 1778644
+SHA256: f5cc7af66c82bb4b27ed0116f1438344bdde63f0772c5964522b3afe6946ba32
+SHA1: 6518b963682531b51bb8c5d0096f81b45dff431a
+MD5sum: bfb9ce1e777897a69538c613c8a2d1a9
+Description: FlickOS default desktop configuration
+ System-wide defaults for the FlickOS labwc session: keybindings, root menu,
+ session startup programs, wallpaper, panel, notification and launcher
+ styles, the Arc-Dark look (GTK theme, Numix-Circle icons, FlickOS-Arc-Dark
+ labwc window theme), the FlickOS-Arc window theme for the Light style, and
+ starting labwc on tty1 login.
+ .
+ Program configuration is installed to /etc/xdg/labwc, /etc/xdg/flickos and
+ /usr/share/flickos, so it applies to every user without a personal
+ ~/.config override.
+
+Package: waypaper
+Version: 2.9+flickos1
+Architecture: all
+Maintainer: Jon <dvbondoy@gmail.com>
+Installed-Size: 245
+Depends: python3 (>= 3.11), python3-gi, gir1.2-gtk-3.0, python3-pil, python3-imageio, python3-platformdirs, python3-screeninfo, swaybg
+Suggests: python3-imageio-ffmpeg
+Homepage: https://github.com/anufrievroman/waypaper
+Priority: optional
+Section: graphics
+Filename: pool/main/w/waypaper/waypaper_2.9+flickos1_all.deb
+Size: 44776
+SHA256: 0043e6376cab83b698c939a41d290fd0b7f6f1111b7d4fbe431df87e5ebe53cb
+SHA1: 58f831458e4ff104f9d420029d5ae2872c4da4c3
+MD5sum: a7d59cc883b66b306bb9173801d5aafb
+Description: GUI wallpaper setter for Wayland
+ Waypaper shows the images of a folder as thumbnails and sets the one you
+ click as the wallpaper with swaybg (or swww, hyprpaper, mpvpaper and
+ other backends). It remembers the choice and restores it at login with
+ waypaper --restore.
+ .
+ This is upstream waypaper, packaged for FlickOS. It reads default
+ settings from /etc/xdg/waypaper/config.ini (FlickOS wallpapers, swaybg,
+ Arc-Dark background color) before the user's ~/.config/waypaper/config.ini.
+

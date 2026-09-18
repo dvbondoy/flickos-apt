@@ -1,0 +1,38 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: FlickOS
+Label: FlickOS
+Codename: trixie
+Date: Fri, 18 Sep 2026 14:43:34 UTC
+Architectures: amd64
+Components: main
+Description: FlickOS package repository
+MD5Sum:
+ b149d1b0a9758858f7c6cb96eef897de 9791 main/binary-amd64/Packages
+ 2992e808288bcdb84ef9b3c7be8d8ce9 4074 main/binary-amd64/Packages.gz
+ 4996bc0b6fe407af1e10063597b51190 107 main/binary-amd64/Release
+SHA1:
+ 508e4c1a5323d72f06dfca17bb4b6503de68b473 9791 main/binary-amd64/Packages
+ 2e1710608533acd1761b126fcbeccf1d6a13aadb 4074 main/binary-amd64/Packages.gz
+ 533641725dddc8b260db75e2635080e02d9baa88 107 main/binary-amd64/Release
+SHA256:
+ 991c418264b8d83cb8b47ca9698de0853975fb83fac15ecd9eb07db955280114 9791 main/binary-amd64/Packages
+ 5911441ab090a8994490453c7c921c51def40161c1b4b4fb82dbdb33bcb517fb 4074 main/binary-amd64/Packages.gz
+ dfa7764d94eecd3c6d7c2d7239cd116e854f45521baafb6cf19e9d70d10e52fd 107 main/binary-amd64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIyBAEBCgAdFiEEUgEBifQFVhEh/ZaMmxiP+U7RnmgFAmqtThcACgkQmxiP+U7R
+nmhXpw/4r1SmHRf2Rq7liCVDxmFMKzR/AzZnWpIXc6SJXQiSD9RD+BfRIGFz1fxf
+M96AQ9ab/SuIKuDkaX2SBOhJtg03HKe+rMSRPV6qqlAQfLxOAhXuh1rDSpd0D/VJ
+P8U/JO97VSanvR6h6dwnvp8D4ekri3gftdUg0TTYRXcmsCLTgxuyDEdQ3e3iYwIE
+p8z94lADP/yxgt8stU4L1zBWuAPriPk6FsCQfvQiMwI6tpZcnt/XzyT2maFqswiz
+Pr+JJNHYJKH98tyfPmIvB3V/qZnbPPGXFIXyl5pLo+UfT43GR9TFFlfKPGTfivQO
+bqpxq+MrxQwQmO7giWNm4P5Vn5leWkbV0nicyNWXZK1fCT/uGMCuWEbfTXkJ4XHt
+VdzOGJyG+0C+0a65XumJgJHfOQybY4srft3JEeMP/3EaMsVtcXmYijlImz/Ndod8
+OAikbuF9yv3GyYWuOIiJyAKmYhal4AtElN1J3u/qzhHHByHaDf4G7mmv7mEczpZA
+YbYOIXMa+zWmnguKz4X8XKfpfYtniQ9qf4cA0nXipPmY8mPnpOjPwJE3jR7u4Pfj
+01vcl+o68RZ01CDtfjVd/cGFAd4xZcn/uJA+2KROMH4fGpaDlQX+LJPC0ZBg/orI
+Ex5YoarOiPdzbdtpduqT6FErR6Mgv9sh/A2Qd60Hhh8+4HWARw==
+=sCcl
+-----END PGP SIGNATURE-----

@@ -1,0 +1,5 @@
+Component: main
+Origin: FlickOS
+Label: FlickOS
+Architecture: amd64
+Description: FlickOS package repository
