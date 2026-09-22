@@ -67,19 +67,19 @@ Description: FlickOS branding: logo, boot splash, OS name and login banner
  unchanged, so software that detects Debian keeps working.
 
 Package: flickos-desktop
-Version: 1.11
+Version: 1.12
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 7
-Depends: flickos-archive-keyring (>= 1.1), flickos-settings (>= 1.10), flickos-layouts (>= 1.6), flickos-branding (>= 1.3), labwc, xwayland, waybar, swaybg, mako-notifier, xdg-desktop-portal, xdg-desktop-portal-wlr, xdg-desktop-portal-gtk, mate-polkit, polkitd, dbus-user-session, pipewire, pipewire-audio, pipewire-pulse, wireplumber, network-manager, network-manager-applet, udisks2, gvfs, adwaita-icon-theme, fonts-dejavu-core, unattended-upgrades, waypaper, flick-tiler, flickos-greeter
+Depends: flickos-archive-keyring (>= 1.1), flickos-settings (>= 1.10), flickos-layouts (>= 1.6), flickos-branding (>= 1.3), labwc, xwayland, waybar, swaybg, mako-notifier, xdg-desktop-portal, xdg-desktop-portal-wlr, xdg-desktop-portal-gtk, mate-polkit, polkitd, dbus-user-session, pipewire, pipewire-audio, pipewire-pulse, wireplumber, network-manager, network-manager-applet, udisks2, gvfs, adwaita-icon-theme, fonts-dejavu-core, unattended-upgrades, waypaper, flick-tiler, flickos-shortcuts, flickos-greeter
 Recommends: foot, fuzzel, pcmanfm, gvfs-backends, firefox-esr, mousepad, ristretto, evince, vlc, libreoffice-writer, libreoffice-calc, libreoffice-impress, libreoffice-draw, libreoffice-gtk3, hunspell-en-us, hyphen-en-us, xarchiver, pavucontrol, nm-connection-editor, wpasupplicant, intel-microcode, amd64-microcode, wdisplays, bluez, blueman, cups, system-config-printer, swayidle, swaylock, wlr-randr, grim, slurp, wl-clipboard, cliphist, wlsunset, playerctl, libnotify-bin, xdg-utils, brightnessctl, gnome-themes-extra, nwg-look, fonts-noto-color-emoji, zram-tools, flatpak, ufw, sudo, locales, console-setup, ca-certificates, curl, htop, nano, less, pciutils, usbutils
 Priority: optional
 Section: metapackages
-Filename: pool/main/f/flickos-desktop/flickos-desktop_1.11_all.deb
-Size: 2600
-SHA256: 18a15fc4e402ac19103c5511410e85e40c7e349108022be47187a2401d19c5c6
-SHA1: 7e96f3ff6680863753347959765a2ab66cf7c515
-MD5sum: 7605e7d103fd8dd278f10ab138ead66b
+Filename: pool/main/f/flickos-desktop/flickos-desktop_1.12_all.deb
+Size: 2660
+SHA256: c1992483dbbb2d74e70590ea6f25f5000107ce8266cbbe674562b63b4a581388
+SHA1: 8ddc037649d786ccb4cb456c1749856e66c09b4f
+MD5sum: 8bc3c3ee610eed9dd356c84c3a98ed67
 Description: FlickOS desktop environment (metapackage)
  Installs the complete FlickOS labwc desktop: compositor, panel,
  notifications, portals, PipeWire audio, networking, Bluetooth, printing,
@@ -112,21 +112,21 @@ Description: FlickOS graphical login screen
  automatic login on tty1.
 
 Package: flickos-installer
-Version: 1.8
+Version: 1.9
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 106
+Installed-Size: 107
 Depends: calamares, squashfs-tools, dosfstools, rsync, cryptsetup, keyutils, libglib2.0-bin, sudo, qt6-wayland, qml6-module-qtquick, qml6-module-qtquick-window, dconf-gsettings-backend | gsettings-backend, flickos-settings (>= 1.5)
 Conflicts: calamares-settings-debian
 Replaces: calamares-settings-debian
 Provides: calamares-settings
 Priority: optional
 Section: admin
-Filename: pool/main/f/flickos-installer/flickos-installer_1.8_all.deb
-Size: 35292
-SHA256: ef86a86be9833605ce818fbe333de5707a1951f53e6a17b7ed347ce13b755225
-SHA1: b4dba63cd4790e158e2d37b7087b0dc304288971
-MD5sum: b34be2814fd08b788e684a5b5c72f45f
+Filename: pool/main/f/flickos-installer/flickos-installer_1.9_all.deb
+Size: 35372
+SHA256: 3e438fe87dce246805552590a66a4915ee02915fa50c71bb82b63328d11783b7
+SHA1: 2fafba06883ed9080c4e8d3ea67b25a78adc7a0e
+MD5sum: 5e0b81f343c2646a67a09e8653f291d2
 Description: FlickOS live installer (Calamares configuration)
  Calamares settings, branding and launcher for installing FlickOS from the
  live session, plus the live-session menu with an "Install FlickOS" entry.
