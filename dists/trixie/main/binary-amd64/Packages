@@ -67,25 +67,26 @@ Description: FlickOS branding: logo, boot splash, OS name and login banner
  unchanged, so software that detects Debian keeps working.
 
 Package: flickos-control
-Version: 1.7
+Version: 1.8
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 192
+Installed-Size: 203
 Depends: python3, python3-gi, gir1.2-gtk-3.0, flickos-layouts (>= 1.19), flick-tiler (>= 1.3), flickos-shortcuts, pkexec, xkb-data, adduser, xdg-utils, kanshi, wlr-randr
 Recommends: wl-clipboard, pciutils
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-control/flickos-control_1.7_all.deb
-Size: 42916
-SHA256: b3da70ff4e9d1ff4cdbc4f6ca7b20d153e3ce14caa635c019266e808669ea318
-SHA1: a8396e9d4739f16044135fe4cb8791ef036bfe71
-MD5sum: a20ac2f7235df63ca76e98bcdac46c48
+Filename: pool/main/f/flickos-control/flickos-control_1.8_all.deb
+Size: 45240
+SHA256: 2d1b86e10d3869a0f324d3a3c15f0a52b60e1c1b29f16ef40d440f9a5b80aa13
+SHA1: e411ed2010df913b475ae76d30b90f5750978faa
+MD5sum: a84065462caa53e28d23e16de7a9ac94
 Description: Settings window of the FlickOS desktop
  One window for the settings of the FlickOS labwc desktop: desktop layout,
  style and desktop clicks, mouse and touchpad, keyboard layout and typing,
  window tiling, screen arrangements kept for every login and whenever the
- same screens are plugged in, language and formats, the keyboard shortcuts,
- default applications, screen lock and sleep times, the power button and
+ same screens are plugged in, night light, language and formats, the
+ keyboard shortcuts, default applications, Do Not Disturb for
+ notifications, screen lock and sleep times, the power button and
  the lid, date and time, logging in automatically, user accounts, the
  firewall on or off, and what the system is (with a copy for bug reports).
  Other settings (wallpaper, appearance, arranging the screens, network,
@@ -245,20 +246,20 @@ Description: optional classic start menu for the FlickOS labwc session
  in Settings > Desktop Layout & Style. While it is off, nothing of it runs.
 
 Package: flickos-settings
-Version: 1.20
+Version: 1.21
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 1814
+Installed-Size: 1815
 Depends: labwc, swaybg, waybar, mako-notifier, mate-polkit, network-manager-applet, swayidle, swaylock, xdg-user-dirs, gsettings-desktop-schemas, dconf-gsettings-backend, arc-theme, numix-icon-theme-circle
 Recommends: foot, fuzzel, pcmanfm, grim, slurp, wl-clipboard, libnotify-bin, brightnessctl, wireplumber, cliphist, wlsunset, playerctl, vlc, libreoffice-writer, libreoffice-calc, libreoffice-impress, gnome-themes-extra, adwaita-icon-theme, nwg-look, waypaper
-Breaks: flickos-layouts (<< 1.6)
+Breaks: flickos-control (<< 1.8), flickos-layouts (<< 1.6)
 Priority: optional
 Section: misc
-Filename: pool/main/f/flickos-settings/flickos-settings_1.20_all.deb
-Size: 1781852
-SHA256: 779a4c8f8630df210f9305948e67a4b6e187ec810ac3d41ba8e292b0658c8142
-SHA1: 3c77c3128b7ee2d1a119cdcaadd7c553130eed7b
-MD5sum: c16b95f118c179fd2d3419f3474a010d
+Filename: pool/main/f/flickos-settings/flickos-settings_1.21_all.deb
+Size: 1782380
+SHA256: ab8ceb7d5059804b741a45f59726afb0639a063d0d626962ecc8bc67a074daf2
+SHA1: a4f969973006824b9e3510bc18faf8e7ef51068c
+MD5sum: 637865a5ee293b9e095bc340dec6841b
 Description: FlickOS default desktop configuration
  System-wide defaults for the FlickOS labwc session: keybindings, root menu,
  session startup programs, wallpaper, panel, notification and launcher
