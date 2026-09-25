@@ -67,25 +67,26 @@ Description: FlickOS branding: logo, boot splash, OS name and login banner
  unchanged, so software that detects Debian keeps working.
 
 Package: flickos-control
-Version: 1.4
+Version: 1.5
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 145
+Installed-Size: 150
 Depends: python3, python3-gi, gir1.2-gtk-3.0, flickos-layouts (>= 1.13), flick-tiler (>= 1.3), flickos-shortcuts, pkexec, xkb-data, adduser, xdg-utils
 Recommends: wl-clipboard, pciutils
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-control/flickos-control_1.4_all.deb
-Size: 32336
-SHA256: fd4ca7141720ba5565903f84b21eb1a02c12f8abf29c0b749098932fbea0d1a9
-SHA1: 262f26a7a1272c1a5e30441cd6300f0fa3bc166d
-MD5sum: c0c1b649985a7668dd24d5bf01774c70
+Filename: pool/main/f/flickos-control/flickos-control_1.5_all.deb
+Size: 33208
+SHA256: 20a119725cfe1469150216037056f5aa984cdb8621ca761cb92b21f143d1d390
+SHA1: b2725d6560c14d6dafb770d7ff54537cf57e30a0
+MD5sum: da4a933a962563c2ade0cedaf8bc3f76
 Description: Settings window of the FlickOS desktop
  One window for the settings of the FlickOS labwc desktop: desktop layout,
  style and desktop clicks, mouse and touchpad, keyboard layout and typing,
  window tiling, the keyboard shortcuts, default applications, screen lock
  and sleep times, date and time, logging in automatically, user accounts,
- and what the system is (with a copy for bug reports). Other
+ the firewall on or off, and what the system is (with a copy for bug
+ reports). Other
  settings (wallpaper, appearance, displays, network, sound, Bluetooth,
  printers, software updates) open their own app from the same window.
  .
@@ -165,7 +166,7 @@ Description: FlickOS graphical login screen
  automatic login on tty1.
 
 Package: flickos-installer
-Version: 1.15
+Version: 1.16
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 109
@@ -175,11 +176,11 @@ Replaces: calamares-settings-debian
 Provides: calamares-settings
 Priority: optional
 Section: admin
-Filename: pool/main/f/flickos-installer/flickos-installer_1.15_all.deb
-Size: 36204
-SHA256: 8ad7a6670acdc4fca3473e71b48f7040b3f7d7ec0a3567fc72732f628f234a47
-SHA1: 2b890243e0189d2c37a8728b625c073527d837b8
-MD5sum: 592cb1456a9d935da3200f20707fe775
+Filename: pool/main/f/flickos-installer/flickos-installer_1.16_all.deb
+Size: 36256
+SHA256: 962beedd67c38e638673a3727452d89bb4c83178412f9d817af50ed0eb8960da
+SHA1: 35097b4e102e4a7cb459475b0117bcb42b82d1a8
+MD5sum: bd9763575034f1fb5ec65907f5e51431
 Description: FlickOS live installer (Calamares configuration)
  Calamares settings, branding and launcher for installing FlickOS from the
  live session, plus the live-session menu with an "Install FlickOS" entry.
@@ -290,18 +291,18 @@ Description: keyboard shortcut sheet for the FlickOS labwc session
  own configuration.
 
 Package: flickos-welcome
-Version: 1.0
+Version: 1.1
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 35
 Depends: python3, python3-gi, gir1.2-gtk-3.0, flickos-settings (>= 1.19), xdg-utils
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-welcome/flickos-welcome_1.0_all.deb
-Size: 7204
-SHA256: f0f5cbf8577c7c2ad5d232ae7957c962a5fec0d9ac1216e093b292d696d9d4aa
-SHA1: 370f6e5f732b8222420b2a3a7048e459178ff97b
-MD5sum: b2f7012d7257b5161f8da96c59f858fb
+Filename: pool/main/f/flickos-welcome/flickos-welcome_1.1_all.deb
+Size: 7308
+SHA256: beac60ba86dee07b87c808193631b4c0b75ea0da70dcc5f176f4c0e36aefbf27
+SHA1: a933134cf4433f1faeceb12f6173d0f83968b9db
+MD5sum: c14bd7411ebe62677c4627215a82e542
 Description: welcome window of the FlickOS desktop
  A window shown once, at the first login of a new account on an installed
  FlickOS system: choose a desktop layout and style, open Settings, connect
