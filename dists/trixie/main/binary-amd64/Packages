@@ -296,18 +296,18 @@ Description: keyboard shortcut sheet for the FlickOS labwc session
  own configuration.
 
 Package: flickos-welcome
-Version: 1.3
+Version: 1.4
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 37
+Installed-Size: 39
 Depends: python3, python3-gi, gir1.2-gtk-3.0, flickos-settings (>= 1.19), xdg-utils
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-welcome/flickos-welcome_1.3_all.deb
-Size: 8032
-SHA256: 3f2d6b1ebf18b5a98ab0b356d05b7e21d3195755f763c33d314fb72880e92afa
-SHA1: c613d521b132ffd5c61a2cb85f2f7c0cf99e6874
-MD5sum: f4bcd056d469debb073ce0c3d80d805b
+Filename: pool/main/f/flickos-welcome/flickos-welcome_1.4_all.deb
+Size: 8964
+SHA256: 7b91c80a73fe45d4b3ff84060881900d421dc7722c02ad2053472431202a5d1e
+SHA1: 53c0f7cb3459347a286b22d6c531797413d9b3d3
+MD5sum: 719bd5edbefb252e389909e1e9f97e44
 Description: welcome window of the FlickOS desktop
  A window shown once, at the first login of a new account on an installed
  FlickOS system: choose a desktop layout and style, open Settings, connect
