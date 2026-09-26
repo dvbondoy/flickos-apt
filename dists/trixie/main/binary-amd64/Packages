@@ -67,7 +67,7 @@ Description: FlickOS branding: logo, boot splash, OS name and login banner
  unchanged, so software that detects Debian keeps working.
 
 Package: flickos-control
-Version: 1.16
+Version: 1.17
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 346
@@ -75,11 +75,11 @@ Depends: python3, python3-gi, gir1.2-gtk-3.0, flickos-layouts (>= 1.22), flick-t
 Recommends: wl-clipboard, pciutils
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-control/flickos-control_1.16_all.deb
-Size: 76876
-SHA256: 7b0eb50da9f6ab07c24762fb425e0822c29b378c7148220feb0c29dc71c416ef
-SHA1: 61ec782014b5eb440c73ec4e6fb10e2d89a294ae
-MD5sum: b2d9479b08becaefc7c59fe791de7a8c
+Filename: pool/main/f/flickos-control/flickos-control_1.17_all.deb
+Size: 76908
+SHA256: fab9fad68146b65d8423028fe4f9a622fe60038cf7e7adbd162a5a301871d719
+SHA1: 161c0bd8a4099f7985ae2de85fa42eb3308c356e
+MD5sum: d31008acd5228b98e731c968ef0b5a53
 Description: Settings window of the FlickOS desktop
  One window for the settings of the FlickOS labwc desktop: desktop layout,
  style and desktop clicks, mouse and touchpad, keyboard layout and typing,
@@ -193,7 +193,7 @@ Description: FlickOS live installer (Calamares configuration)
  the installed system.
 
 Package: flickos-layouts
-Version: 1.23
+Version: 1.24
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 3449
@@ -202,11 +202,11 @@ Recommends: waypaper
 Breaks: flick-tiler (<< 1.1)
 Priority: optional
 Section: misc
-Filename: pool/main/f/flickos-layouts/flickos-layouts_1.23_all.deb
-Size: 3377024
-SHA256: 7fd1a899b8e946dcb2d51c4a89619b434c1f4de96fff73d41122b446bbad241d
-SHA1: bca459d702da2eb779a74b1f21164eaf7bd6f950
-MD5sum: 73ebec3b3317d928d7ef26ec08687424
+Filename: pool/main/f/flickos-layouts/flickos-layouts_1.24_all.deb
+Size: 3377100
+SHA256: c16a9b69329c6e9cd7495fc90c735f217ca1ff5091d5b5e37b471c49962c32a2
+SHA1: ba72897b79cb05961a82861e16c201c4f232d17e
+MD5sum: eda6045aba14b76cd8ef2f916f93ed32
 Description: FlickOS desktop layouts and styles, and the flickos-layout tool
  Desktop layouts for the FlickOS labwc session: Redmond (one bottom panel),
  Cupertino (top bar and an auto-hiding dock) and Traditional (top panel and
