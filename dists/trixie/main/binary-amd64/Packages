@@ -1,5 +1,5 @@
 Package: flick-tiler
-Version: 1.5
+Version: 1.6
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 64
@@ -7,11 +7,11 @@ Depends: python3, labwc, flickos-layouts (>= 1.8), flickos-settings (>= 1.11)
 Recommends: fuzzel
 Priority: optional
 Section: x11
-Filename: pool/main/f/flick-tiler/flick-tiler_1.5_all.deb
-Size: 16532
-SHA256: 18f2f5edff30b7eef8a51fa80b71394ecc11343b67983fa81cf01aac09fa870d
-SHA1: 678b8466773cda629f77651cb2e521e4f5d28467
-MD5sum: 24f6d604a084c7932863c81f7aead724
+Filename: pool/main/f/flick-tiler/flick-tiler_1.6_all.deb
+Size: 16616
+SHA256: 15155db34d39a91927ec4fe8995e4cb4a70272ad23fe4676440209d9ea8c0a32
+SHA1: c4d2a1bf00d5241f7ac28ab9bce0c6e05d1599cf
+MD5sum: 6e27ffae2768e7d59f0b38daa4606c6b
 Description: opt-in window tiling for the FlickOS labwc session
  flick-tiler arranges windows side by side in the FlickOS labwc session:
  master and stack, columns, grid or one at a time, with gaps. New windows
@@ -44,18 +44,18 @@ Description: OpenPGP key and apt source for the FlickOS package repository
  a new version of this package.
 
 Package: flickos-branding
-Version: 1.6
+Version: 1.7
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 160
 Depends: base-files, plymouth, plymouth-themes, plymouth-label, fonts-dejavu-core
 Priority: optional
 Section: misc
-Filename: pool/main/f/flickos-branding/flickos-branding_1.6_all.deb
-Size: 38112
-SHA256: ce376c3e024fa9d7b369c7adea30a20484ec2066944839caccbb1f20f088b32a
-SHA1: 24638a36c55e7945b7ef7890d6132a65635edbca
-MD5sum: b744d8d8d8af9512e7651b669eaf0e1c
+Filename: pool/main/f/flickos-branding/flickos-branding_1.7_all.deb
+Size: 38108
+SHA256: 6846fa6f7525e116c9047aebf672553ce596310f9a611d52b492eef00905f9ac
+SHA1: ace002ba42c4cc9d79dcd0ecadd23426234bfc2f
+MD5sum: 38d9897d954c6118477c75bfcaa7730d
 Description: FlickOS branding: logo, boot splash, OS name and login banner
  Installs the FlickOS logo icons (flickos, flickos-symbolic) and the FlickOS
  Plymouth boot splash, and makes the splash the default theme.
@@ -67,7 +67,7 @@ Description: FlickOS branding: logo, boot splash, OS name and login banner
  unchanged, so software that detects Debian keeps working.
 
 Package: flickos-control
-Version: 1.17
+Version: 1.18
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 346
@@ -75,11 +75,11 @@ Depends: python3, python3-gi, gir1.2-gtk-3.0, flickos-layouts (>= 1.22), flick-t
 Recommends: wl-clipboard, pciutils
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-control/flickos-control_1.17_all.deb
-Size: 76908
-SHA256: fab9fad68146b65d8423028fe4f9a622fe60038cf7e7adbd162a5a301871d719
-SHA1: 161c0bd8a4099f7985ae2de85fa42eb3308c356e
-MD5sum: d31008acd5228b98e731c968ef0b5a53
+Filename: pool/main/f/flickos-control/flickos-control_1.18_all.deb
+Size: 76956
+SHA256: 407977e7a2bc248392e1dbe9ce7621b1b00439276c8b722b0e67c4577f445702
+SHA1: 287af57e90959ca53064b1510d4e11435617c1b2
+MD5sum: 7c2679b684fcdbc6f6140b4230db7a0b
 Description: Settings window of the FlickOS desktop
  One window for the settings of the FlickOS labwc desktop: desktop layout,
  style and desktop clicks, mouse and touchpad, keyboard layout and typing,
@@ -170,7 +170,7 @@ Description: FlickOS graphical login screen
  automatic login on tty1.
 
 Package: flickos-installer
-Version: 1.18
+Version: 1.19
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 109
@@ -180,11 +180,11 @@ Replaces: calamares-settings-debian
 Provides: calamares-settings
 Priority: optional
 Section: admin
-Filename: pool/main/f/flickos-installer/flickos-installer_1.18_all.deb
-Size: 36356
-SHA256: d8dd1c4ec4586043861d3486cdccc3298398dd0dc694f51e0186121b40be1014
-SHA1: 7d73f77d4d39d7285530934b058291ebd6c0324b
-MD5sum: 2f0375c3a72999555b1394f1c4018f96
+Filename: pool/main/f/flickos-installer/flickos-installer_1.19_all.deb
+Size: 36376
+SHA256: b0cd3f52c7bcb8a2e9f9b178dbe3d127a8582071ac4e0dc2fe5a59cdab8fc025
+SHA1: 373d2f3ae56fd1c449c1025dd51e4c5a74cf5992
+MD5sum: cc0114503342ed7a11bcc87879453b1e
 Description: FlickOS live installer (Calamares configuration)
  Calamares settings, branding and launcher for installing FlickOS from the
  live session, plus the live-session menu with an "Install FlickOS" entry.
@@ -193,7 +193,7 @@ Description: FlickOS live installer (Calamares configuration)
  the installed system.
 
 Package: flickos-layouts
-Version: 1.24
+Version: 1.25
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 3449
@@ -202,11 +202,11 @@ Recommends: waypaper
 Breaks: flick-tiler (<< 1.1)
 Priority: optional
 Section: misc
-Filename: pool/main/f/flickos-layouts/flickos-layouts_1.24_all.deb
-Size: 3377100
-SHA256: c16a9b69329c6e9cd7495fc90c735f217ca1ff5091d5b5e37b471c49962c32a2
-SHA1: ba72897b79cb05961a82861e16c201c4f232d17e
-MD5sum: eda6045aba14b76cd8ef2f916f93ed32
+Filename: pool/main/f/flickos-layouts/flickos-layouts_1.25_all.deb
+Size: 3377196
+SHA256: 95959602b579538759738629b06eb61a22d38c11bd18fd50c333a3589e2e447a
+SHA1: 31f5006de6fdf691180c4f5de3efc3886f3cc765
+MD5sum: 8f1690a4702f91316ab728aba3c733b8
 Description: FlickOS desktop layouts and styles, and the flickos-layout tool
  Desktop layouts for the FlickOS labwc session: Redmond (one bottom panel),
  Cupertino (top bar and an auto-hiding dock) and Traditional (top panel and
@@ -296,18 +296,18 @@ Description: keyboard shortcut sheet for the FlickOS labwc session
  own configuration.
 
 Package: flickos-welcome
-Version: 1.2
+Version: 1.3
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 37
 Depends: python3, python3-gi, gir1.2-gtk-3.0, flickos-settings (>= 1.19), xdg-utils
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-welcome/flickos-welcome_1.2_all.deb
-Size: 7960
-SHA256: 46bd3cf05bdf34b732fe7a5b25c8e87287a6f6929252a5db7ec84c9b34f4c22f
-SHA1: 613cf048e785584e85a183715fd5835d5f5fe93f
-MD5sum: 7cb07073abb7e8099b001bb38e7c0801
+Filename: pool/main/f/flickos-welcome/flickos-welcome_1.3_all.deb
+Size: 8032
+SHA256: 3f2d6b1ebf18b5a98ab0b356d05b7e21d3195755f763c33d314fb72880e92afa
+SHA1: c613d521b132ffd5c61a2cb85f2f7c0cf99e6874
+MD5sum: f4bcd056d469debb073ce0c3d80d805b
 Description: welcome window of the FlickOS desktop
  A window shown once, at the first login of a new account on an installed
  FlickOS system: choose a desktop layout and style, open Settings, connect
