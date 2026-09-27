@@ -193,20 +193,20 @@ Description: FlickOS live installer (Calamares configuration)
  the installed system.
 
 Package: flickos-layouts
-Version: 1.29
+Version: 1.30
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 3460
+Installed-Size: 3462
 Depends: flickos-branding (>= 1.4), python3, python3-gi, gir1.2-gtk-3.0, libglib2.0-bin, flickos-settings (>= 1.17), sfwbar (>= 1.0~beta17+git20260910+flickos4)
 Recommends: waypaper
 Breaks: flick-tiler (<< 1.7)
 Priority: optional
 Section: misc
-Filename: pool/main/f/flickos-layouts/flickos-layouts_1.29_all.deb
-Size: 3380768
-SHA256: 7ddc6f7ace4a1bc65fb40d192d5bb7de6d3121711fe9b37a99bd33a379d6679e
-SHA1: bbe2b62acdd38fd635a731f284d5ac65f80fe295
-MD5sum: 289fcc0fa1d4bbe01e45bcac5bb5c145
+Filename: pool/main/f/flickos-layouts/flickos-layouts_1.30_all.deb
+Size: 3381408
+SHA256: 313bbeb2cdc03b5de93e927a0c29bf4fe69d2eb2d9a13d3b4f2fa370ef09e4cb
+SHA1: e4293df1bee3380aac2b671bf84a61a87978f7fc
+MD5sum: 9f4c06d23659659c2dbe3216e730bdb4
 Description: FlickOS desktop layouts and styles, and the flickos-layout tool
  Desktop layouts for the FlickOS labwc session: Redmond (one bottom panel),
  Cupertino (top bar and an auto-hiding dock) and Traditional (top panel and
@@ -248,30 +248,32 @@ Description: classic start menu for the FlickOS labwc session
  it runs.
 
 Package: flickos-phone
-Version: 1.2
+Version: 1.3
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 89
-Depends: python3, openssl, libnotify-bin (>= 0.8), wl-clipboard, xdg-utils, xdg-user-dirs, network-manager, libfm-modules
+Installed-Size: 102
+Depends: python3, openssl, libnotify-bin (>= 0.8), wl-clipboard, xdg-utils, xdg-user-dirs, network-manager, libfm-modules, python3-gi, gir1.2-gtk-3.0
 Priority: optional
 Section: net
-Filename: pool/main/f/flickos-phone/flickos-phone_1.2_all.deb
-Size: 21384
-SHA256: 87f893788a8b12762e3ab3d63f5b72ab8af32c56c01ebf3aeac6242fb883f958
-SHA1: 2d88f3ce10373373d8d059e1dd9faad8656c6e0e
-MD5sum: e2f7e085c3394c220768a7baada04ecb
+Filename: pool/main/f/flickos-phone/flickos-phone_1.3_all.deb
+Size: 24764
+SHA256: 3bab3ee9786368ac6b915eab0f761887919e3b88f94188ecbe73ce1c1b61bd73
+SHA1: 81f6b43f387cbfded865231febaee7b1bd235d30
+MD5sum: d3580e67671bd56b7bbeba97363a92bf
 Description: send pages, files and text between a phone and FlickOS
  Share a page, a photo or some text on an Android phone with the KDE
  Connect app, choose this computer, and it arrives here as a notification:
- click it to open the page or the file. Send files the other way with
- Send to Phone in the file manager, and addresses and the clipboard's text
- with flickos-phone send.
+ click it to open the page or the file. The other way, Send to Phone in
+ the file manager sends files, and so does the panel button, which also
+ sends typed text, the clipboard (a copied web address arrives as a page
+ the phone offers to open) or a screenshot. The button also rings the phone when
+ it's lost, shows its battery, and lists what came from it.
  .
  It is off until turned on (flickos-phone set enabled yes), and then pairs
  with a phone once (flickos-phone pair). It speaks only the part of KDE
- Connect's protocol that moving things needs; the phone can't control the
- computer. It listens only on the networks where a phone was paired, and
- nothing runs while it is off.
+ Connect's protocol that moving things, ringing and the battery need; the
+ phone can't control the computer. It listens only on the networks where
+ a phone was paired, and nothing runs while it is off.
 
 Package: flickos-settings
 Version: 1.28
