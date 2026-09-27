@@ -193,7 +193,7 @@ Description: FlickOS live installer (Calamares configuration)
  the installed system.
 
 Package: flickos-layouts
-Version: 1.30
+Version: 1.31
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 3462
@@ -202,11 +202,11 @@ Recommends: waypaper
 Breaks: flick-tiler (<< 1.7)
 Priority: optional
 Section: misc
-Filename: pool/main/f/flickos-layouts/flickos-layouts_1.30_all.deb
-Size: 3381408
-SHA256: 313bbeb2cdc03b5de93e927a0c29bf4fe69d2eb2d9a13d3b4f2fa370ef09e4cb
-SHA1: e4293df1bee3380aac2b671bf84a61a87978f7fc
-MD5sum: 9f4c06d23659659c2dbe3216e730bdb4
+Filename: pool/main/f/flickos-layouts/flickos-layouts_1.31_all.deb
+Size: 3381604
+SHA256: ec13b93abb1b1bb6dc3e742e745b3fd13f746677ca0b45ab81236087a171eb0e
+SHA1: 446a72159436e7b0f8c82efc50b5387d02ae597b
+MD5sum: affa6b79e40d451b42b6fa1cd459d705
 Description: FlickOS desktop layouts and styles, and the flickos-layout tool
  Desktop layouts for the FlickOS labwc session: Redmond (one bottom panel),
  Cupertino (top bar and an auto-hiding dock) and Traditional (top panel and
@@ -302,18 +302,18 @@ Description: FlickOS default desktop configuration
  ~/.config override.
 
 Package: flickos-shortcuts
-Version: 1.6
+Version: 1.7
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 39
 Depends: python3, python3-gi, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-gtklayershell-0.1, labwc
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-shortcuts/flickos-shortcuts_1.6_all.deb
-Size: 11020
-SHA256: 695a69150f0366967f7d6c855b0b33ba3a138ee8c746b00cc9b28cb655586df2
-SHA1: e66bb6fc1fa7c334acc3ede86b60833c92ac9101
-MD5sum: 59878725b1727aa13ed0c7f0016f25f5
+Filename: pool/main/f/flickos-shortcuts/flickos-shortcuts_1.7_all.deb
+Size: 11220
+SHA256: e4900051766b840de8904c46032c933feb8230863a30d36df080707d262ab2c2
+SHA1: b866bf5e155cc0b0355cef63f507f34dc6c08f92
+MD5sum: 1661b3ad008e62cbd67642a6da9055f5
 Description: keyboard shortcut sheet for the FlickOS labwc session
  Press and hold the Super (Windows) key in the FlickOS session and a sheet
  with the keyboard shortcuts appears until the key is let go. The shortcuts
