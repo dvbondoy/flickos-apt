@@ -1,17 +1,17 @@
 Package: flick-tiler
-Version: 1.6
+Version: 1.7
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 64
+Installed-Size: 66
 Depends: python3, labwc, flickos-layouts (>= 1.8), flickos-settings (>= 1.11)
 Recommends: fuzzel
 Priority: optional
 Section: x11
-Filename: pool/main/f/flick-tiler/flick-tiler_1.6_all.deb
-Size: 16616
-SHA256: 15155db34d39a91927ec4fe8995e4cb4a70272ad23fe4676440209d9ea8c0a32
-SHA1: c4d2a1bf00d5241f7ac28ab9bce0c6e05d1599cf
-MD5sum: 6e27ffae2768e7d59f0b38daa4606c6b
+Filename: pool/main/f/flick-tiler/flick-tiler_1.7_all.deb
+Size: 17180
+SHA256: b4f4e87edcf6e5046c63b0db53de7ec6901c7221a26d1c1acfe709a37010dec7
+SHA1: 1a1fad08617ac767648a1082060426d671aad173
+MD5sum: 5fde613d7899740429695398c3845088
 Description: opt-in window tiling for the FlickOS labwc session
  flick-tiler arranges windows side by side in the FlickOS labwc session:
  master and stack, columns, grid or one at a time, with gaps. New windows
@@ -193,20 +193,20 @@ Description: FlickOS live installer (Calamares configuration)
  the installed system.
 
 Package: flickos-layouts
-Version: 1.26
+Version: 1.28
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 3450
-Depends: flickos-branding (>= 1.4), python3, python3-gi, gir1.2-gtk-3.0, libglib2.0-bin, flickos-settings (>= 1.17), sfwbar (>= 1.0~beta17+git20260910+flickos3)
+Installed-Size: 3460
+Depends: flickos-branding (>= 1.4), python3, python3-gi, gir1.2-gtk-3.0, libglib2.0-bin, flickos-settings (>= 1.17), sfwbar (>= 1.0~beta17+git20260910+flickos4)
 Recommends: waypaper
-Breaks: flick-tiler (<< 1.1)
+Breaks: flick-tiler (<< 1.7)
 Priority: optional
 Section: misc
-Filename: pool/main/f/flickos-layouts/flickos-layouts_1.26_all.deb
-Size: 3378504
-SHA256: 16a81d0f01993bc4bd6532c1c1d2106c214970beeab71c6c5f866d8289b58bb5
-SHA1: 0da51c84351be1708ecd246ec4c16f797a28fc52
-MD5sum: 2fe6540a647ff5351c9d6919a1b0c7df
+Filename: pool/main/f/flickos-layouts/flickos-layouts_1.28_all.deb
+Size: 3380820
+SHA256: 1967de6538deb37098b4244c8a4128248bd84afc956db1f4790f82ba96d43229
+SHA1: 2c858e23515014028c5e90c0f1c4cbac63f9de1f
+MD5sum: fe08c3218899c6f0f40b0e013d071bb7
 Description: FlickOS desktop layouts and styles, and the flickos-layout tool
  Desktop layouts for the FlickOS labwc session: Redmond (one bottom panel),
  Cupertino (top bar and an auto-hiding dock) and Traditional (top panel and
@@ -248,20 +248,20 @@ Description: classic start menu for the FlickOS labwc session
  it runs.
 
 Package: flickos-settings
-Version: 1.24
+Version: 1.26
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 1822
+Installed-Size: 1823
 Depends: labwc, swaybg, waybar, mako-notifier, mate-polkit, network-manager-applet, swayidle, swaylock, xdg-user-dirs, gsettings-desktop-schemas, dconf-gsettings-backend, arc-theme, numix-icon-theme-circle
 Recommends: foot, fuzzel, pcmanfm, grim, slurp, wl-clipboard, libnotify-bin, brightnessctl, wireplumber, cliphist, wlsunset, playerctl, vlc, libreoffice-writer, libreoffice-calc, libreoffice-impress, gnome-themes-extra, adwaita-icon-theme, nwg-look, waypaper
-Breaks: flickos-control (<< 1.10), flickos-layouts (<< 1.6)
+Breaks: flick-tiler (<< 1.7), flickos-control (<< 1.10), flickos-layouts (<< 1.6)
 Priority: optional
 Section: misc
-Filename: pool/main/f/flickos-settings/flickos-settings_1.24_all.deb
-Size: 1782760
-SHA256: ff0814be906df8276417500accd187e5526bb82af7260cd7606ec4430b2fee52
-SHA1: 18b3595ae7edb7c1f3a538fd9a9298b0f5617b9c
-MD5sum: 96c1beab696557e27342d9721ffdc5ec
+Filename: pool/main/f/flickos-settings/flickos-settings_1.26_all.deb
+Size: 1783196
+SHA256: a8fbc1013c5db2af2f885a7b97a267c89ab2640ed266aba981d07e3fb832a513
+SHA1: 267a4b8bd36de799e6b9aa17726378c37d88f149
+MD5sum: b9c45009f30f856b4d643672e896139a
 Description: FlickOS default desktop configuration
  System-wide defaults for the FlickOS labwc session: keybindings, root menu,
  session startup programs, wallpaper, panel, notification and launcher
@@ -274,18 +274,18 @@ Description: FlickOS default desktop configuration
  ~/.config override.
 
 Package: flickos-shortcuts
-Version: 1.5
+Version: 1.6
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 39
 Depends: python3, python3-gi, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-gtklayershell-0.1, labwc
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-shortcuts/flickos-shortcuts_1.5_all.deb
-Size: 10756
-SHA256: a46ddb155af22c6fa316a20e3f1ddb459537bd480142b8dae60c5bb6ae23267d
-SHA1: 0e299ae773bdb59c1655d99db362751545059144
-MD5sum: 527e330c6e69267c9c70e4ebc9530a39
+Filename: pool/main/f/flickos-shortcuts/flickos-shortcuts_1.6_all.deb
+Size: 11020
+SHA256: 695a69150f0366967f7d6c855b0b33ba3a138ee8c746b00cc9b28cb655586df2
+SHA1: e66bb6fc1fa7c334acc3ede86b60833c92ac9101
+MD5sum: 59878725b1727aa13ed0c7f0016f25f5
 Description: keyboard shortcut sheet for the FlickOS labwc session
  Press and hold the Super (Windows) key in the FlickOS session and a sheet
  with the keyboard shortcuts appears until the key is let go. The shortcuts
@@ -319,7 +319,7 @@ Description: welcome window of the FlickOS desktop
  left out. The window can be opened again from the menu, under Welcome.
 
 Package: sfwbar
-Version: 1.0~beta17+git20260910+flickos3
+Version: 1.0~beta17+git20260910+flickos4
 Architecture: amd64
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 1499
@@ -328,11 +328,11 @@ Suggests: python3
 Homepage: https://github.com/LBCrion/sfwbar
 Priority: optional
 Section: x11
-Filename: pool/main/s/sfwbar/sfwbar_1.0~beta17+git20260910+flickos3_amd64.deb
-Size: 319120
-SHA256: 3b8d8addb8ab4f48d27d2cf31bb195f6b5ae5deef851801b3c2eb9efdbbb375f
-SHA1: 60f2be1343e2ea470902e14f52bf23d98b3c7f75
-MD5sum: d86ad12d8f3b65a80a74e2ebe153411b
+Filename: pool/main/s/sfwbar/sfwbar_1.0~beta17+git20260910+flickos4_amd64.deb
+Size: 319324
+SHA256: c4b2d5278de97c8b01006068eba9f9c851813a7c5c9d07dae1270691adb57bed
+SHA1: 3788a13e80cdd609e95351ab32d4d710fc659b26
+MD5sum: 935758e73f81e52cee745c0ea36ed5e1
 Description: taskbar, dock and panel for Wayland stacking compositors
  SFWBar is a GTK 3 layer-shell panel for Wayland compositors with a
  stacking layout, such as labwc. It has a taskbar with pinned apps and
