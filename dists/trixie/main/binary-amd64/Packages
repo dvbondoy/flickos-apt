@@ -193,7 +193,7 @@ Description: FlickOS live installer (Calamares configuration)
  the installed system.
 
 Package: flickos-layouts
-Version: 1.28
+Version: 1.29
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 3460
@@ -202,11 +202,11 @@ Recommends: waypaper
 Breaks: flick-tiler (<< 1.7)
 Priority: optional
 Section: misc
-Filename: pool/main/f/flickos-layouts/flickos-layouts_1.28_all.deb
-Size: 3380820
-SHA256: 1967de6538deb37098b4244c8a4128248bd84afc956db1f4790f82ba96d43229
-SHA1: 2c858e23515014028c5e90c0f1c4cbac63f9de1f
-MD5sum: fe08c3218899c6f0f40b0e013d071bb7
+Filename: pool/main/f/flickos-layouts/flickos-layouts_1.29_all.deb
+Size: 3380768
+SHA256: 7ddc6f7ace4a1bc65fb40d192d5bb7de6d3121711fe9b37a99bd33a379d6679e
+SHA1: bbe2b62acdd38fd635a731f284d5ac65f80fe295
+MD5sum: 289fcc0fa1d4bbe01e45bcac5bb5c145
 Description: FlickOS desktop layouts and styles, and the flickos-layout tool
  Desktop layouts for the FlickOS labwc session: Redmond (one bottom panel),
  Cupertino (top bar and an auto-hiding dock) and Traditional (top panel and
