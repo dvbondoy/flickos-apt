@@ -104,18 +104,18 @@ Description: Settings window of the FlickOS desktop
  line.
 
 Package: flickos-countme
-Version: 1.1
+Version: 1.2
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 39
 Depends: python3, flickos-branding, pkexec, systemd | systemd-standalone-sysusers | systemd-sysusers
 Priority: optional
 Section: admin
-Filename: pool/main/f/flickos-countme/flickos-countme_1.1_all.deb
-Size: 8468
-SHA256: 1377b847342f0feecbe3951983a3c73140a70233d3a5eb272ce255131ecf6f58
-SHA1: e0b07055c61ee34f300794eb533b081b0602b968
-MD5sum: cb8b6682828ee4358166636d77f9c191
+Filename: pool/main/f/flickos-countme/flickos-countme_1.2_all.deb
+Size: 8588
+SHA256: b24b272acfedb92000492a4f8552e9595e4903373ec0125c31d59f7a24e58847
+SHA1: 286496ab01e50327a204a04929197c1760384ee9
+MD5sum: ac56d2243fb07bd0bb7a980c1c69de02
 Description: anonymous weekly count of FlickOS installs
  Once a week a timer sends one request to the FlickOS counting server with
  only the FlickOS version and roughly how long ago it was installed (first
@@ -125,24 +125,24 @@ Description: anonymous weekly count of FlickOS installs
  run which version.
  .
  Nothing is sent in the live session. The installer asks whether to send
- it; Settings -> Privacy or "flickos-countme disable" turns it off, and
- removing this package stops it for good. "flickos-countme show" prints
- exactly what is sent.
+ it; systems installed before it are counted until it is turned off.
+ Settings -> Privacy or "flickos-countme disable" turns it off, and
+ "flickos-countme show" prints exactly what is sent.
 
 Package: flickos-desktop
-Version: 1.25
+Version: 1.26
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 9
-Depends: flickos-archive-keyring (>= 1.1), flickos-settings (>= 1.31), flickos-layouts (>= 1.6), flickos-branding (>= 1.3), labwc, xwayland, waybar, swaybg, mako-notifier, xdg-desktop-portal, xdg-desktop-portal-wlr, xdg-desktop-portal-gtk, mate-polkit, polkitd, dbus-user-session, pipewire, pipewire-audio, pipewire-pulse, wireplumber, network-manager, network-manager-applet, udisks2, gvfs, adwaita-icon-theme, fonts-dejavu-core, unattended-upgrades, waypaper, flick-tiler, flickos-shortcuts, flickos-control, systemd-timesyncd, xdg-terminal-exec, flickos-greeter, flickos-menu (>= 1.0), flickos-welcome, flickos-phone, flickos-screenshot, brightness-udev
-Recommends: foot, fuzzel, pcmanfm, gvfs-backends, firefox-esr, webext-ublock-origin-firefox, mousepad, ristretto, tumbler, evince, vlc, libreoffice-writer, libreoffice-calc, libreoffice-impress, libreoffice-draw, libreoffice-gtk3, hunspell-en-us, hyphen-en-us, xarchiver, pavucontrol, nm-connection-editor, wpasupplicant, intel-microcode, amd64-microcode, wdisplays, bluez, blueman, cups, system-config-printer, swayidle, swaylock, wlr-randr, grim, slurp, wl-clipboard, cliphist, wlsunset, playerctl, libnotify-bin, xdg-utils, brightnessctl, gnome-themes-extra, nwg-look, fonts-noto-color-emoji, zram-tools, flatpak, gnome-packagekit, gnome-package-updater, ufw, sudo, locales, console-setup, ca-certificates, curl, lxtask, nano, less, pciutils, usbutils, flickos-countme
+Depends: flickos-archive-keyring (>= 1.1), flickos-settings (>= 1.31), flickos-layouts (>= 1.6), flickos-branding (>= 1.3), labwc, xwayland, waybar, swaybg, mako-notifier, xdg-desktop-portal, xdg-desktop-portal-wlr, xdg-desktop-portal-gtk, mate-polkit, polkitd, dbus-user-session, pipewire, pipewire-audio, pipewire-pulse, wireplumber, network-manager, network-manager-applet, udisks2, gvfs, adwaita-icon-theme, fonts-dejavu-core, unattended-upgrades, waypaper, flick-tiler, flickos-shortcuts, flickos-control, systemd-timesyncd, xdg-terminal-exec, flickos-greeter, flickos-menu (>= 1.0), flickos-welcome, flickos-phone, flickos-screenshot, flickos-countme, brightness-udev
+Recommends: foot, fuzzel, pcmanfm, gvfs-backends, firefox-esr, webext-ublock-origin-firefox, mousepad, ristretto, tumbler, evince, vlc, libreoffice-writer, libreoffice-calc, libreoffice-impress, libreoffice-draw, libreoffice-gtk3, hunspell-en-us, hyphen-en-us, xarchiver, pavucontrol, nm-connection-editor, wpasupplicant, intel-microcode, amd64-microcode, wdisplays, bluez, blueman, cups, system-config-printer, swayidle, swaylock, wlr-randr, grim, slurp, wl-clipboard, cliphist, wlsunset, playerctl, libnotify-bin, xdg-utils, brightnessctl, gnome-themes-extra, nwg-look, fonts-noto-color-emoji, zram-tools, flatpak, gnome-packagekit, gnome-package-updater, ufw, sudo, locales, console-setup, ca-certificates, curl, lxtask, nano, less, pciutils, usbutils
 Priority: optional
 Section: metapackages
-Filename: pool/main/f/flickos-desktop/flickos-desktop_1.25_all.deb
-Size: 4112
-SHA256: ed7f54f281196920ac5f98111d72f393be7c28d7d7029406370b43c74127a7e4
-SHA1: 9e1775048dcfd40e3a646db4ebb10d52ce94a294
-MD5sum: 53f6277f16f297d7c9cde59345f3aa7c
+Filename: pool/main/f/flickos-desktop/flickos-desktop_1.26_all.deb
+Size: 4164
+SHA256: 795a99ec02f057aa264730677cbce09f830b0af0fb9f331c2cfb3e6e210d02bf
+SHA1: b81e1addc3138dc26c17d269c8f04f0a65fa631c
+MD5sum: d242f61d114a04a8a52dd57c71e1b901
 Description: FlickOS desktop environment (metapackage)
  Installs the complete FlickOS labwc desktop: compositor, panel,
  notifications, portals, PipeWire audio, networking, Bluetooth, printing,
@@ -286,18 +286,18 @@ Description: send pages, files and text between a phone and FlickOS
  a phone was paired, and nothing runs while it is off.
 
 Package: flickos-screenshot
-Version: 1.4
+Version: 1.5
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 158
+Installed-Size: 160
 Depends: python3, python3-gi, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-gtklayershell-0.1, gir1.2-gdkpixbuf-2.0, gir1.2-pango-1.0, grim, wl-clipboard, libnotify-bin, xdg-user-dirs, xdg-utils, xdg-desktop-portal, xdg-desktop-portal-wlr, gir1.2-gstreamer-1.0, gstreamer1.0-pipewire, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-ugly, wlr-randr, sound-theme-freedesktop, pipewire-bin | pulseaudio-utils
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-screenshot/flickos-screenshot_1.4_all.deb
-Size: 37712
-SHA256: 2db42d1b5998619ab00151f001d52bad2fd32f7428c79ea214899083f8726877
-SHA1: 49f605cb3045aa52867b3bd1ad86d3c1c29ebbbf
-MD5sum: db7fe96f0bb5abecf5e0f397d53ba808
+Filename: pool/main/f/flickos-screenshot/flickos-screenshot_1.5_all.deb
+Size: 38188
+SHA256: 938014729147eb427ad54d93134d1d3c069a9c7f48e100769b305376155a4ac1
+SHA1: c8569a516c8031a77c4e5f6a5af5bf1ff1e1e7e5
+MD5sum: a0bec7b0d68dfcac08d6cfdb391565f9
 Description: screenshots and screen recordings for the FlickOS desktop
  Take a picture of the whole screen or of an area of it, with a delay if
  wanted, or record a video of it. The area is chosen on a frozen picture
