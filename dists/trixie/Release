@@ -1,19 +1,19 @@
 Origin: FlickOS
 Label: FlickOS
 Codename: trixie
-Date: Wed, 30 Sep 2026 13:47:06 UTC
+Date: Thu, 01 Oct 2026 11:22:37 UTC
 Architectures: amd64
 Components: main
 Description: FlickOS package repository
 MD5Sum:
- 2fcc4e97e467ebbd80c953feac626faf 21923 main/binary-amd64/Packages
- 561a5963db3367e16b39f7974ba4a148 8380 main/binary-amd64/Packages.gz
+ 277a7d5016206808170950eb839d46a0 21929 main/binary-amd64/Packages
+ af78d5b108e9861a3a5a8d3fa3f03502 8376 main/binary-amd64/Packages.gz
  4996bc0b6fe407af1e10063597b51190 107 main/binary-amd64/Release
 SHA1:
- 1cce4090661953956e512ce48a9ee8338dba3892 21923 main/binary-amd64/Packages
- aa7be7f0183af435b0e5ce5e96eae3a1245b3c1c 8380 main/binary-amd64/Packages.gz
+ 8af4187550f1df2f1acac6b8b1fa56796c635094 21929 main/binary-amd64/Packages
+ 846e48d23769e2518b7c99027541ef211445dc9c 8376 main/binary-amd64/Packages.gz
  533641725dddc8b260db75e2635080e02d9baa88 107 main/binary-amd64/Release
 SHA256:
- 7f05cf253082f3256cc0117df36a4bcdea9c91956a898f49bd65e04a1cd3e522 21923 main/binary-amd64/Packages
- ccc4f4078ba7237662ce43d5f529dfa24aff67c1c6aebc3288f07d26dc74f297 8380 main/binary-amd64/Packages.gz
+ 2760602e7650fc7f56f884d48d3732d1b2c53f3e587b00ace6fc946a08d8efe0 21929 main/binary-amd64/Packages
+ f5c8708a1e661782451249c97c8e39711ace51dd956aa45ef34562c9795866db 8376 main/binary-amd64/Packages.gz
  dfa7764d94eecd3c6d7c2d7239cd116e854f45521baafb6cf19e9d70d10e52fd 107 main/binary-amd64/Release
