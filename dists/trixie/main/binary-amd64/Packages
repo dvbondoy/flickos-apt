@@ -200,7 +200,7 @@ Description: FlickOS live installer (Calamares configuration)
  the installed system.
 
 Package: flickos-layouts
-Version: 1.39
+Version: 1.40
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 3619
@@ -209,11 +209,11 @@ Recommends: waypaper
 Breaks: flick-tiler (<< 1.7), flickos-menu (<< 1.10)
 Priority: optional
 Section: misc
-Filename: pool/main/f/flickos-layouts/flickos-layouts_1.39_all.deb
-Size: 3512880
-SHA256: 5939b94cd3c9644a82b1ff5cda55d399147c267fac130f777bc80347e638126f
-SHA1: 0187c2199df81dcbde77482d8e928f3191c850dd
-MD5sum: 204dcd93fb42e621cd55089527ecd5db
+Filename: pool/main/f/flickos-layouts/flickos-layouts_1.40_all.deb
+Size: 3512992
+SHA256: d6643806bc26002356d18d0db8ddd75b43cc2544fcc98cbb28ed4c10d64ba00a
+SHA1: 42af64b012d7fbc4705f8e67edbcd2a7c6bf8bf4
+MD5sum: f50c78f26576d15ac6ad325ef9c40329
 Description: FlickOS desktop layouts and styles, and the flickos-layout tool
  Desktop layouts for the FlickOS labwc session: Redmond (one bottom panel),
  Cupertino (top bar and an auto-hiding dock) and Traditional (top panel and
@@ -339,20 +339,20 @@ Description: screenshots and screen recordings for the FlickOS desktop
  stops it.
 
 Package: flickos-settings
-Version: 1.37
+Version: 1.38
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 1840
+Installed-Size: 1891
 Depends: labwc, swaybg, waybar, mako-notifier, mate-polkit, network-manager-applet, swayidle, swaylock, xdg-user-dirs, gsettings-desktop-schemas, dconf-gsettings-backend, arc-theme, numix-icon-theme-circle, flickos-screenshot (>= 1.1)
 Recommends: foot, fuzzel, thunar, wl-clipboard, libnotify-bin, brightnessctl, wireplumber, cliphist, wlsunset, playerctl, vlc, libreoffice-writer, libreoffice-calc, libreoffice-impress, gnome-themes-extra, adwaita-icon-theme, nwg-look, waypaper
 Breaks: flick-tiler (<< 1.7), flickos-control (<< 1.21), flickos-layouts (<< 1.6), flickos-shortcuts (<< 1.14)
 Priority: optional
 Section: misc
-Filename: pool/main/f/flickos-settings/flickos-settings_1.37_all.deb
-Size: 1786196
-SHA256: 2aba3d5135814b917df5b1c355f6c2e60761f4c8e6377dbd68c079aa3b582b62
-SHA1: 5b1b155e89de1b17c3e98a68547166d63c15d1e9
-MD5sum: 795ded1e57224a7e765704d5a5b752a6
+Filename: pool/main/f/flickos-settings/flickos-settings_1.38_all.deb
+Size: 1788724
+SHA256: a184b1bab5997a0edd743caecf41c4e0db2d7bc1553df591e4d6c795365836a2
+SHA1: 6a123a5cb93b6c068edfe4e546f885c39b23e392
+MD5sum: 785b9c3439cfcab0e4c4502c84cc4d18
 Description: FlickOS default desktop configuration
  System-wide defaults for the FlickOS labwc session: keybindings, root menu,
  session startup programs, wallpaper, panel, notification and launcher
