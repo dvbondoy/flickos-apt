@@ -386,6 +386,33 @@ Description: keyboard shortcut sheet for the FlickOS labwc session
  the FlickOS defaults, the tiling keys while tiling is on, or the user's
  own configuration.
 
+Package: flickos-turd-buster
+Version: 1.1
+Architecture: amd64
+Maintainer: Jon <dvbondoy@gmail.com>
+Installed-Size: 16105
+Depends: python3:any, ca-certificates, gir1.2-gtk-3.0, python3-gi, wl-clipboard, xdg-utils
+Priority: optional
+Section: net
+Filename: pool/main/f/flickos-turd-buster/flickos-turd-buster_1.1_amd64.deb
+Size: 4855316
+SHA256: 9532040bb16c85885ec987aeff407ef098a1a1db0edfa1274b27ce6a77c73e5e
+SHA1: 0787443370d71fa10820e0d874eaf499954cdfc0
+MD5sum: 359c9f4207e94dbe7bf0ed421e60ca5b
+Description: check a Reddit draft before posting, for FlickOS
+ Turd Buster compares a title and a post with rules you paste, then lists
+ what is likely to pass or be removed. When a rule fails, it writes a fixed
+ post and checks that one too; only a fixed post that passes is offered,
+ and Copy and Post use it. Post opens Reddit's submit page in the browser.
+ Nothing is posted until you submit it there.
+ .
+ Anything you do not paste is not checked. Checking online sends the draft
+ to OpenCode, through the copy of tgpt this package includes. Checking on
+ this computer uses Ollama, and the draft stays here.
+ .
+ This package is not part of the FlickOS desktop and is never installed
+ with it. Install it yourself when you want it.
+
 Package: flickos-welcome
 Version: 1.4
 Architecture: all
