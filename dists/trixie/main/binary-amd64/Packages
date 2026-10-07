@@ -311,6 +311,33 @@ Description: send pages, files and text between a phone and FlickOS
  It listens only on the networks where a phone was paired, and nothing
  runs while it is off.
 
+Package: flickos-preflight
+Version: 1.2
+Architecture: amd64
+Maintainer: Jon <dvbondoy@gmail.com>
+Installed-Size: 16106
+Depends: python3:any, ca-certificates, gir1.2-gtk-3.0, python3-gi, wl-clipboard, xdg-utils
+Priority: optional
+Section: net
+Filename: pool/main/f/flickos-preflight/flickos-preflight_1.2_amd64.deb
+Size: 4854520
+SHA256: cab4eda3fd58b36d985ba1c5aabc68ba442c6c90400c9f8aedd225cdb757e2c0
+SHA1: 074da7a6637ce9f47d7936f956206937fcb1d668
+MD5sum: b2b310ad0b008d528cde04b494a844b7
+Description: check a Reddit draft before posting, for FlickOS
+ Preflight compares a title and a post with rules you paste, then lists
+ what is likely to pass or be removed. When a rule fails, it writes a fixed
+ post and checks that one too; only a fixed post that passes is offered,
+ and Copy and Post use it. Post opens Reddit's submit page in the browser.
+ Nothing is posted until you submit it there.
+ .
+ Anything you do not paste is not checked. Checking online sends the draft
+ to OpenCode, through the copy of tgpt this package includes. Checking on
+ this computer uses Ollama, and the draft stays here.
+ .
+ This package is not part of the FlickOS desktop and is never installed
+ with it. Install it yourself when you want it.
+
 Package: flickos-screenshot
 Version: 1.7
 Architecture: all
@@ -393,31 +420,22 @@ Description: keyboard shortcut sheet for the FlickOS labwc session
  own configuration.
 
 Package: flickos-turd-buster
-Version: 1.1
-Architecture: amd64
+Source: flickos-preflight
+Version: 1.2
+Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 16105
-Depends: python3:any, ca-certificates, gir1.2-gtk-3.0, python3-gi, wl-clipboard, xdg-utils
+Installed-Size: 14
+Depends: flickos-preflight
 Priority: optional
-Section: net
-Filename: pool/main/f/flickos-turd-buster/flickos-turd-buster_1.1_amd64.deb
-Size: 4855316
-SHA256: 9532040bb16c85885ec987aeff407ef098a1a1db0edfa1274b27ce6a77c73e5e
-SHA1: 0787443370d71fa10820e0d874eaf499954cdfc0
-MD5sum: 359c9f4207e94dbe7bf0ed421e60ca5b
-Description: check a Reddit draft before posting, for FlickOS
- Turd Buster compares a title and a post with rules you paste, then lists
- what is likely to pass or be removed. When a rule fails, it writes a fixed
- post and checks that one too; only a fixed post that passes is offered,
- and Copy and Post use it. Post opens Reddit's submit page in the browser.
- Nothing is posted until you submit it there.
- .
- Anything you do not paste is not checked. Checking online sends the draft
- to OpenCode, through the copy of tgpt this package includes. Checking on
- this computer uses Ollama, and the draft stays here.
- .
- This package is not part of the FlickOS desktop and is never installed
- with it. Install it yourself when you want it.
+Section: oldlibs
+Filename: pool/main/f/flickos-preflight/flickos-turd-buster_1.2_all.deb
+Size: 3068
+SHA256: 651b9c79cfbc41dc7a7e2b8842120f741b77a21221f391ef30451b4bad5271b4
+SHA1: 4f1ea31cc6abef68ef9a2d7b8373f8dd2c27b3a4
+MD5sum: 56333a5ed37caf42b551c4a335da37dd
+Description: transitional package for flickos-preflight
+ Turd Buster is now called Preflight. This package installs
+ flickos-preflight in its place and can be removed afterwards.
 
 Package: flickos-welcome
 Version: 1.4

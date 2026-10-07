@@ -4,35 +4,35 @@ Hash: SHA512
 Origin: FlickOS
 Label: FlickOS
 Codename: trixie
-Date: Wed, 07 Oct 2026 05:08:39 UTC
+Date: Wed, 07 Oct 2026 05:15:06 UTC
 Architectures: amd64
 Components: main
 Description: FlickOS package repository
 MD5Sum:
- 6ca5846ed546d09aa13cc8c6754ec759 24952 main/binary-amd64/Packages
- 96502e1aac081444e461070e08284418 9405 main/binary-amd64/Packages.gz
+ 994309da9c2c428b9a28834267293f8d 25573 main/binary-amd64/Packages
+ 21726b26103eb1d6c0b8023798888a10 9616 main/binary-amd64/Packages.gz
  4996bc0b6fe407af1e10063597b51190 107 main/binary-amd64/Release
 SHA1:
- 2503f7043c3b3541b3fa07e1770e949c75620430 24952 main/binary-amd64/Packages
- 0da241b88a35b5335185890fee1249b3273d05a3 9405 main/binary-amd64/Packages.gz
+ d7af704b35f35c1a67160a5b2697c135d8562e98 25573 main/binary-amd64/Packages
+ aa18616c724c4c10cebda1db157983b3f6f58079 9616 main/binary-amd64/Packages.gz
  533641725dddc8b260db75e2635080e02d9baa88 107 main/binary-amd64/Release
 SHA256:
- 1b6e813f9a7d2098c32053861e3936cb8eba5038eae18637e7a4cd9d0558e6b5 24952 main/binary-amd64/Packages
- 2dbadf759b711e8584983e9421e7e505ddcfc0e8e1e8d972f145d8d2bb91827c 9405 main/binary-amd64/Packages.gz
+ 032420605f09a1143bf28009e7afde0651e06bf3b7ef7b60c695edcf15ad2ca6 25573 main/binary-amd64/Packages
+ 857e144ff3a0ef50a01eb7cec7ef50022bb97e0e9ca2d1879dd8fd3fe27e4657 9616 main/binary-amd64/Packages.gz
  dfa7764d94eecd3c6d7c2d7239cd116e854f45521baafb6cf19e9d70d10e52fd 107 main/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEUgEBifQFVhEh/ZaMmxiP+U7RnmgFAmrF09cACgkQmxiP+U7R
-nmj9zw/9HOufVf3pRThHJhcgKsNPdQhXbDC68ENckiUC6e5tAxcC3z67m84zPspd
-rhCnZDSuN4ElizPmNf7PgVBR4fouDPAvAgMJqgwvbKf04SDWhM2ihW2JYpa2XCOI
-nAT32cURmeU5Yf91iu3xCQ47bmKXqQHFecXCY2TkNHP33GUKElpAmxCYzekMCyUi
-1OvYXGzPCREA6N6L2f3s0x9aVyhAwyBEL7+SXgsQMIqOypjMrhK6fkzA3JQHHcUE
-QOe1pERbWg9p90sfIuMbRcolPOFnuXOoXcUAHgrd3z60MTyfILfuS9lFpBRKzeri
-rL19IzSL8OsAqpaFcAWgUz2TeartZ96j5zGcnMHhVVx9FYg2n0kYTvvb3T18Yteh
-tHrfUpfuFgL1+ASrKVe8/bxASD9zUVb8cDsxLEFnn17pG3412QrXfUmqIcePUdyI
-eLdY/0oi+MitFbe8AcL79kqHRk4tezLR651Pmc5QXUPlSKQF4mTNk8bkEAk7U4FV
-1bHrr500BwBvZnAhiIpSa1mplgqmeGiEMYHUDOWJXT3O9nt51Gkm9N56oygSGSdW
-ssbYjjo26odoqBbxMtrWbpaQZDgYopscoeDEKYYPOf6X8Iru2kDq9DC2f+7iMwcG
-za1baPWuwzgHluDXwm9CBv0RUvjeh6ibuieo4pqNFhmuLMzZeb8=
-=J5zN
+iQIzBAEBCgAdFiEEUgEBifQFVhEh/ZaMmxiP+U7RnmgFAmrF1VoACgkQmxiP+U7R
+nmgfXw/+KMgDGZB2nZkwr9HojLz66hxBdiwvFv6uoDisWAHKr4/ivsYWOiVFU+ZJ
+6haZPhBZlsar/r9btUO1Kyo77UZVTdyNsPT5y6dKDs+PAFuJBt08RpgJIWHgoI0/
+rlBVpwH0xkSufhNv24Z5H0vN9fW3Fv4Gacti0843sRaIruDSWrfdwJr4G5G8OdLI
++4F9ZtGzfTNKrxxyT1bVl5yZUUbI1oqzeiJa0Uo4BDf450f5Z0alOT1Q9mepN5DK
+P07adv7v/y+PLaZecVxFR91cVDkktCyElxsVkSWhnI3A6ILNKfTnIq7aiGrRU0Qd
++U39TW4bgS6ElrNM5eVmTJdOO9UYo5jgiO6pkRiMEL5EcUxFzvXLuLWWpNQ13ZRI
+M10SW1IZQoKfaLHI6MeVLKjANNZir2MQWehjHeHS7Xn2Qp4/jsJbk29rEMtD+74G
+u9C7M1wQiusEkjVz1v6SPtjEVynE7VrzsHHXOFwoOqJoFEUIXOjqJ52OZuMNnvac
+1bn5dk+CSNaJOlohunSWdAD4rMFNovgV2Mza4RjkbAHCQAm1PrL8nFfBk3tr2jNx
+APxi33k1RGweZswOPxFWYoBP5PlOubwbQLcB2YYPE0XPtmcm7n0AZrIl7AErgnMw
+SEkquj5pi6arf2ZpuJksYHsJin4Io7tx1TtLFjxkOdl8uJ6p+ic=
+=7K58
 -----END PGP SIGNATURE-----
