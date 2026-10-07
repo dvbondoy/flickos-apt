@@ -71,20 +71,20 @@ Description: FlickOS branding: logo, boot splash, OS name and login banner
  unchanged, so software that detects Debian keeps working.
 
 Package: flickos-control
-Version: 1.33
+Version: 1.34
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 411
-Depends: python3, python3-gi, gir1.2-gtk-3.0, flickos-layouts (>= 1.37), flick-tiler (>= 1.5), flickos-shortcuts, flickos-screenshot (>= 1.6), pkexec, xkb-data, adduser, xdg-utils, kanshi, wlr-randr
+Installed-Size: 415
+Depends: python3, python3-gi, gir1.2-gtk-3.0, flickos-layouts (>= 1.37), flick-tiler (>= 1.5), flickos-shortcuts, flickos-screenshot (>= 1.6), pkexec, xkb-data, adduser, xdg-utils, libglib2.0-bin, kanshi, wlr-randr
 Recommends: wl-clipboard, pciutils
 Breaks: flickos-phone (<< 1.16)
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-control/flickos-control_1.33_all.deb
-Size: 89944
-SHA256: 7d8f897ab0e8c7eb521cad52682315c1a2afe84d5a60ff1dc201c83034dd2ef3
-SHA1: 7e97758556073b9d06b908d6210691b2cd74f73c
-MD5sum: 9466a35905c736205e35d3e2e11a3222
+Filename: pool/main/f/flickos-control/flickos-control_1.34_all.deb
+Size: 90880
+SHA256: fc55234284c2e7d687bef3bcdb6e610dc5e6201bbf8606a8916f0d8a3693306c
+SHA1: b3f39fbd6a87d4c6fc80fc2efd8e797cdd9fcc3a
+MD5sum: 74906a5da86fe29a7ad31b79b59740f7
 Description: Settings window of the FlickOS desktop
  One window for the settings of the FlickOS labwc desktop: desktop layout,
  style and desktop clicks, mouse and touchpad, keyboard layout and typing,
@@ -200,7 +200,7 @@ Description: FlickOS live installer (Calamares configuration)
  the installed system.
 
 Package: flickos-layouts
-Version: 1.40
+Version: 1.41
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 3619
@@ -209,11 +209,11 @@ Recommends: waypaper
 Breaks: flick-tiler (<< 1.7), flickos-menu (<< 1.10)
 Priority: optional
 Section: misc
-Filename: pool/main/f/flickos-layouts/flickos-layouts_1.40_all.deb
-Size: 3512992
-SHA256: d6643806bc26002356d18d0db8ddd75b43cc2544fcc98cbb28ed4c10d64ba00a
-SHA1: 42af64b012d7fbc4705f8e67edbcd2a7c6bf8bf4
-MD5sum: f50c78f26576d15ac6ad325ef9c40329
+Filename: pool/main/f/flickos-layouts/flickos-layouts_1.41_all.deb
+Size: 3513168
+SHA256: bb249e72e46e88f03c4ee67a0aa28ddaf86b2e74c6013a8f14ed5eb33001548e
+SHA1: 4c7fea90f2d404bc62f8fcb45f62d1dd92a944c9
+MD5sum: d13a60b807cb5479fda8cd4db6c7fa00
 Description: FlickOS desktop layouts and styles, and the flickos-layout tool
  Desktop layouts for the FlickOS labwc session: Redmond (one bottom panel),
  Cupertino (top bar and an auto-hiding dock) and Traditional (top panel and
@@ -235,19 +235,19 @@ Description: FlickOS desktop layouts and styles, and the flickos-layout tool
  reaching every user.
 
 Package: flickos-menu
-Version: 1.14
+Version: 1.16
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 172
-Depends: python3, python3-gi, gir1.2-gtk-3.0, gir1.2-gtklayershell-0.1, labwc, procps
+Installed-Size: 178
+Depends: python3, python3-gi, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-gtklayershell-0.1, labwc, procps
 Breaks: flickos-phone (<< 1.17)
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-menu/flickos-menu_1.14_all.deb
-Size: 38728
-SHA256: 712336d14056d597dbb88f5bf6f4761c43bb5bf6be879ee797e6960bfd3cb489
-SHA1: a7e446291a858fc9a0b21f33ac2304d7174a3133
-MD5sum: 04da59931135f2cd56e9e188123d5fd1
+Filename: pool/main/f/flickos-menu/flickos-menu_1.16_all.deb
+Size: 40336
+SHA256: 0636f10623ca20840527ac3e6b0eb3f081dedeb24670141fe24b08542ae6acd7
+SHA1: d7840c53f389b07c22973424977ccb743ab01cbc
+MD5sum: 80f48ee34a76126b485ed1cacd5d5412
 Description: start menu and Quick Settings for the FlickOS labwc session
  A two-column start menu for the panel's apps button: pinned apps, all apps
  by category, search, the user's folders, Settings, and lock, log out,
@@ -266,18 +266,18 @@ Description: start menu and Quick Settings for the FlickOS labwc session
  recently arrived. The button keeps its menu when this package is removed.
 
 Package: flickos-phone
-Version: 1.23
+Version: 1.24
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 251
+Installed-Size: 262
 Depends: python3, openssl, libnotify-bin (>= 0.8), libglib2.0-bin, wl-clipboard, xdg-utils, xdg-user-dirs, network-manager, openssh-client, python3-gi, gir1.2-gtk-3.0
 Priority: optional
 Section: net
-Filename: pool/main/f/flickos-phone/flickos-phone_1.23_all.deb
-Size: 58304
-SHA256: 8724ab3283de3b01d7116370d6a724bac28866cd4e3c3367e1c0bb41894bbcae
-SHA1: 2e90d701430dbe72415931e17287ad4558195f3b
-MD5sum: 604313f1c35e3be556b8d0924202d5f5
+Filename: pool/main/f/flickos-phone/flickos-phone_1.24_all.deb
+Size: 60540
+SHA256: 6571b1f83f908e9a63bf5e71c3a2b96c4cdf61f824960d2b8a3ea81ce13d901c
+SHA1: 94e86f4a04f8919ed93a7c61c79e856a7c7215cf
+MD5sum: 7558e815a06e51eca66c28aafdda4bbc
 Description: send pages, files and text between a phone and FlickOS
  Share a page, a photo or some text on an Android phone with the KDE
  Connect app, choose this computer, and it arrives here as a notification:
@@ -286,8 +286,10 @@ Description: send pages, files and text between a phone and FlickOS
  sends typed text, the clipboard (a copied web address arrives as a page
  the phone offers to open) or a screenshot. The button also rings the phone when
  it's lost, shows its battery, opens the phone's files and lists what
- came from it. Phone in the apps menu (while the connection is on) is a
- window for the same actions and for everything a phone has sent.
+ came from it. The phone popup shows what the phone plays, with play,
+ pause and next (flickos-phone player). Phone in the apps menu (while
+ the connection is on) is a window for the same actions and for
+ everything a phone has sent.
  .
  It is off until turned on (flickos-phone set enabled yes), and then pairs
  with a phone once (flickos-phone pair). It speaks only the part of KDE
@@ -300,7 +302,7 @@ Description: send pages, files and text between a phone and FlickOS
  is playing pauses until the call ends (flickos-phone set calls yes).
  That is off until turned on, and nothing is shown while the screen is
  locked.
- The phone can control what's playing here, and sees its name and picture
+ The phone can control what's playing here too, and sees its name and picture
  (flickos-phone set media yes). That is off until turned on, and it
  changes nothing while the screen is locked.
  The phone can run commands named on this computer: it is sent only the
@@ -310,18 +312,19 @@ Description: send pages, files and text between a phone and FlickOS
  runs while it is off.
 
 Package: flickos-screenshot
-Version: 1.6
+Version: 1.7
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 175
+Installed-Size: 183
 Depends: python3, python3-gi, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-gtklayershell-0.1, gir1.2-gdkpixbuf-2.0, gir1.2-pango-1.0, grim, wl-clipboard, libnotify-bin, xdg-user-dirs, xdg-utils, xdg-desktop-portal, xdg-desktop-portal-wlr, gir1.2-gstreamer-1.0, gstreamer1.0-pipewire, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-ugly, wlr-randr, sound-theme-freedesktop, pipewire-bin | pulseaudio-utils
+Suggests: tesseract-ocr
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-screenshot/flickos-screenshot_1.6_all.deb
-Size: 41500
-SHA256: e0a2169a363a2297a87faa80cd74b16dc11d0554f25a09067282713f7d000f75
-SHA1: eda7a81ffc2e0939e338654bee5c0e5a7aeba65f
-MD5sum: 7fe07e7a4a535b077de0af7b35349cbb
+Filename: pool/main/f/flickos-screenshot/flickos-screenshot_1.7_all.deb
+Size: 43824
+SHA256: 96924af7b29b6f2e5e77da04165bd3519206d0df85b81e9a869198d60df58126
+SHA1: 515bde111d4599b76bd10f8f938f323566a88808
+MD5sum: 8bb18c90801a0b6629cebbd9f5789211
 Description: screenshots and screen recordings for the FlickOS desktop
  Take a picture of the whole screen or of an area of it, with a delay if
  wanted, or record a video of it. The area is chosen on a frozen picture
@@ -334,25 +337,28 @@ Description: screenshots and screen recordings for the FlickOS desktop
  shouldn't be seen, or crop it. Print, Shift+Print and Ctrl+Print
  take one at once; Super+Shift+S opens a small bar with the choices.
  .
+ With tesseract-ocr installed, the bar also offers Text: the text in the
+ area or on the screen is read and copied to the clipboard.
+ .
  Recordings are MP4 files (H.264 with Opus sound) in Videos/Screen
  Recordings. Super+Shift+R starts one, and the panel shows the time and
  stops it.
 
 Package: flickos-settings
-Version: 1.38
+Version: 1.39
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 1891
+Installed-Size: 1892
 Depends: labwc, swaybg, waybar, mako-notifier, mate-polkit, network-manager-applet, swayidle, swaylock, xdg-user-dirs, gsettings-desktop-schemas, dconf-gsettings-backend, arc-theme, numix-icon-theme-circle, flickos-screenshot (>= 1.1)
 Recommends: foot, fuzzel, thunar, wl-clipboard, libnotify-bin, brightnessctl, wireplumber, cliphist, wlsunset, playerctl, vlc, libreoffice-writer, libreoffice-calc, libreoffice-impress, gnome-themes-extra, adwaita-icon-theme, nwg-look, waypaper
 Breaks: flick-tiler (<< 1.7), flickos-control (<< 1.21), flickos-layouts (<< 1.6), flickos-shortcuts (<< 1.14)
 Priority: optional
 Section: misc
-Filename: pool/main/f/flickos-settings/flickos-settings_1.38_all.deb
-Size: 1788724
-SHA256: a184b1bab5997a0edd743caecf41c4e0db2d7bc1553df591e4d6c795365836a2
-SHA1: 6a123a5cb93b6c068edfe4e546f885c39b23e392
-MD5sum: 785b9c3439cfcab0e4c4502c84cc4d18
+Filename: pool/main/f/flickos-settings/flickos-settings_1.39_all.deb
+Size: 1788936
+SHA256: 8dbee52bc94bbc02894cb8d483d06d773e281efc750fa30c95f0bbb77a23ee59
+SHA1: 58324aeea56776f33623f363af121d439e9768ad
+MD5sum: fed9b6b23381ff5fab1891162875863f
 Description: FlickOS default desktop configuration
  System-wide defaults for the FlickOS labwc session: keybindings, root menu,
  session startup programs, wallpaper, panel, notification and launcher
@@ -365,18 +371,18 @@ Description: FlickOS default desktop configuration
  ~/.config override.
 
 Package: flickos-shortcuts
-Version: 1.14
+Version: 1.15
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 44
+Installed-Size: 47
 Depends: python3, python3-gi, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-gtklayershell-0.1, labwc
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-shortcuts/flickos-shortcuts_1.14_all.deb
-Size: 12644
-SHA256: caa25a59719f7b8a037108ec8253a05935f287bde96d706bb4b4f40ce4a2d50a
-SHA1: 55a88602fb101ed40683ff63c49e1aff25d2b658
-MD5sum: 423c9d33992175b00b0a27098de932d7
+Filename: pool/main/f/flickos-shortcuts/flickos-shortcuts_1.15_all.deb
+Size: 13700
+SHA256: d6e79b45132ae80ed539e3df852770b7956d5edb6f27577fa579d02285228ffe
+SHA1: 79f8c39c00c715257f4ad6290b32787a40d9ac2e
+MD5sum: 98748f8d9c7ce3fcec0c2847618b8399
 Description: keyboard shortcut sheet for the FlickOS labwc session
  Press and hold the Super (Windows) key in the FlickOS session and a sheet
  with the keyboard shortcuts appears until the key is let go. The shortcuts
@@ -437,7 +443,7 @@ Description: welcome window of the FlickOS desktop
  left out. The window can be opened again from the menu, under Welcome.
 
 Package: sfwbar
-Version: 1.0~beta17+git20260910+flickos4
+Version: 1.0~beta17+git20260910+flickos5
 Architecture: amd64
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 1499
@@ -446,11 +452,11 @@ Suggests: python3
 Homepage: https://github.com/LBCrion/sfwbar
 Priority: optional
 Section: x11
-Filename: pool/main/s/sfwbar/sfwbar_1.0~beta17+git20260910+flickos4_amd64.deb
-Size: 319324
-SHA256: c4b2d5278de97c8b01006068eba9f9c851813a7c5c9d07dae1270691adb57bed
-SHA1: 3788a13e80cdd609e95351ab32d4d710fc659b26
-MD5sum: 935758e73f81e52cee745c0ea36ed5e1
+Filename: pool/main/s/sfwbar/sfwbar_1.0~beta17+git20260910+flickos5_amd64.deb
+Size: 319748
+SHA256: c2c7f792a4e4a0ee68b3beb9d7e0feae8a2b35dff793d7f28fdfc746274d80f4
+SHA1: 6ef5cdea9c5a60c17875b79d0bb5e6ac738b5559
+MD5sum: 5949bf6a3101bd826a61f2709c7f12f1
 Description: taskbar, dock and panel for Wayland stacking compositors
  SFWBar is a GTK 3 layer-shell panel for Wayland compositors with a
  stacking layout, such as labwc. It has a taskbar with pinned apps and
