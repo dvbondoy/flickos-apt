@@ -1,0 +1,45 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: FlickOS
+Label: FlickOS Community
+Suite: trixie-community
+Codename: trixie-community
+Date: Fri, 09 Oct 2026 03:37:55 UTC
+Architectures: amd64
+Components: main
+Description: Apps by other developers, built by FlickOS from their source and reviewed
+MD5Sum:
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-amd64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-amd64/Packages.gz
+ 9103bb0fd5d9d2f2e06ba0459c2d727b 70 main/dep11/Components-amd64.yml
+ 71095ccb51ac1aee6a24ad03c0536f6f 116 main/dep11/Components-amd64.yml.gz
+ 810049433198c37eb02800bc6c62765d 190 main/binary-amd64/Release
+SHA1:
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-amd64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-amd64/Packages.gz
+ 761450f2a898cb4999ff7174ede088f53a5cef6e 70 main/dep11/Components-amd64.yml
+ 15b3a8802913fff9bca33a6b507b354e823b3b2f 116 main/dep11/Components-amd64.yml.gz
+ 63ec2368c4b1be9b3a4dca6ef88fbeb67f31a66e 190 main/binary-amd64/Release
+SHA256:
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-amd64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-amd64/Packages.gz
+ d55b1c4244414629c81618e9046bdc17e04963bf68dc69aec6cb0df1ddf5eaec 70 main/dep11/Components-amd64.yml
+ df74df73ea083edd3de987ef1b2fec0b3a4f846a9f8b77509563a7be6acfe641 116 main/dep11/Components-amd64.yml.gz
+ 0e8685865a5fdb5eb30805d32c6ec4951956bf35589c783012ff788ef95e7be9 190 main/binary-amd64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEUgEBifQFVhEh/ZaMmxiP+U7RnmgFAmrIYZkACgkQmxiP+U7R
+nmh4pg/9FVqPqZkVFIrnollwPHZxXd2uy/h2Opn3u0acUdB1Jjq9J3+Wh9VwVPM9
+EJ92SwN8Yv0R1nfJBe0hpuOoaAGeJ49yz0ZKsFWsaAFDl1WPwqp6kMnVxXcZG9xv
+na1GFsdTk79nuRZDF9Ub+kOMXW6XMhzja+vn+cmCPjHaaJgetqcqa+PF0MBM4Esc
+2LycV4sFSmvTBVZnxwX4Gq/zG8rrdFBjPnMkUqgFPNt8sigFQE5D2+4scBJ/kIxF
+6dgRJB0xFXKaRuI8Db/4C/8bdurxwt7X3B7gT16OvliA/+cWpkMbzQ5o+lVlJftl
+3unMNvJCt0WenGEywRGGf+78h51mZ6bqtLsIKeaOTSMmnkpD+HDJsTicb8vek25s
+XYu+evpJ1uHg2bJvGgVRCDRpreQFxqnEPjr7QPs6qYjnLAzpMF9ctlM1kvOCRMVb
+RCQS2Bi5d6q47Rk5lL6iko3LZ+pG3gljwFH7ZTB2Ea30KkyW+eTiU9uw+NvRwPjY
+FhlIjgwcmi4Zjk4vHfZrdrPsli8Qd6nlcuFxRG2cdjTz4eec1bW5bWT0d99Ciy6K
+uSD0teyidEfxOuSZjXKfmg4uoJX+eVHDvmFHWmjg16pR6nFCQLJCiOsQkM2Z24t8
+9dzaimhdDqGO+jla+ldJt5HDMdTi+VDiIrmNNPlA133ob3De044=
+=w5+2
+-----END PGP SIGNATURE-----

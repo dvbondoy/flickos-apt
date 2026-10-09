@@ -1,0 +1,6 @@
+Archive: trixie-community
+Component: main
+Origin: FlickOS
+Label: FlickOS Community
+Architecture: amd64
+Description: Apps by other developers, built by FlickOS from their source and reviewed
