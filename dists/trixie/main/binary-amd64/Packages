@@ -23,17 +23,17 @@ Description: opt-in window tiling for the FlickOS labwc session
  turning it off gives the normal floating desktop back.
 
 Package: flickos-archive-keyring
-Version: 1.5
+Version: 1.6
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 18
 Priority: optional
 Section: misc
-Filename: pool/main/f/flickos-archive-keyring/flickos-archive-keyring_1.5_all.deb
-Size: 4396
-SHA256: bd5aa4f137c16054b6196eda1710898a39c0c9b6e6b08d91dfd85775d8e25c30
-SHA1: ebb863a26d1fa8ee520b5c56449d77662ae9f818
-MD5sum: 3fad3ce495e5a6476ed4cce5153cc131
+Filename: pool/main/f/flickos-archive-keyring/flickos-archive-keyring_1.6_all.deb
+Size: 4732
+SHA256: fb699630471433716524866f3436ab56d9af00e120eb7d13c8062ffeba893353
+SHA1: cbabec0787d53976a2569c57cb3974efc208963e
+MD5sum: d54b02d956ba888a896a8c476f208a67
 Description: OpenPGP key and apt source for the FlickOS package repository
  The public key used to verify packages from the FlickOS apt repository,
  installed to /usr/share/keyrings and referenced with Signed-By so apt trusts
@@ -71,20 +71,20 @@ Description: FlickOS branding: logo, boot splash, OS name and login banner
  unchanged, so software that detects Debian keeps working.
 
 Package: flickos-control
-Version: 1.37
+Version: 1.38
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 419
+Installed-Size: 421
 Depends: python3, python3-gi, gir1.2-gtk-3.0, flickos-layouts (>= 1.37), flick-tiler (>= 1.5), flickos-shortcuts, flickos-screenshot (>= 1.6), pkexec, xkb-data, adduser, xdg-utils, libglib2.0-bin, kanshi, wlr-randr
 Recommends: wl-clipboard, pciutils
 Breaks: flickos-phone (<< 1.16)
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-control/flickos-control_1.37_all.deb
-Size: 92188
-SHA256: 682e43cb0dca672f5edc812ae402dfb70fcaf05332ddb37f4d94f33cf36fd012
-SHA1: 4ee3c201a84351f8e7b7321c0bf7aa2f7a58d2bf
-MD5sum: e5fab607f1a31afd9c4de9fae1700acb
+Filename: pool/main/f/flickos-control/flickos-control_1.38_all.deb
+Size: 92772
+SHA256: 540001894f4bc116bceb52924f8487ee12259a1aa5b3884b710843c08616d4c7
+SHA1: dc957bfc096bb67667c7a86545e390e9bd3d1477
+MD5sum: 8815542fc9487a6729498faf2f4b6276
 Description: Settings window of the FlickOS desktop
  One window for the settings of the FlickOS labwc desktop: desktop layout,
  style and desktop clicks, mouse and touchpad, keyboard layout and typing,
@@ -289,18 +289,18 @@ Description: notes and checklists in Markdown for FlickOS
  window is closed.
 
 Package: flickos-phone
-Version: 1.28
+Version: 1.29
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 267
+Installed-Size: 269
 Depends: python3, openssl, libnotify-bin (>= 0.8), libglib2.0-bin, wl-clipboard, xdg-utils, xdg-user-dirs, network-manager, openssh-client, python3-gi, gir1.2-gtk-3.0
 Priority: optional
 Section: net
-Filename: pool/main/f/flickos-phone/flickos-phone_1.28_all.deb
-Size: 62576
-SHA256: 021ce8d876051dc57a69c4b2897fc4d68f791b0aee3fcd54115a575bb5f107f9
-SHA1: 1feb86c7f4a082b4d2da6e8dbde7719cc77d3f9d
-MD5sum: 91b0f24caa5ce1294da87e445935ed61
+Filename: pool/main/f/flickos-phone/flickos-phone_1.29_all.deb
+Size: 63096
+SHA256: 9d0ef6f20e0b029e49873760a5162e967e5996fc95913f7516ee592c1583a7b6
+SHA1: bf6c6616089a559cb665ad5b8ed3446f802a2934
+MD5sum: 05206720188866ca5393a6c31f6bdb70
 Description: send pages, files and text between a phone and FlickOS
  Share a page, a photo or some text on an Android phone with the KDE
  Connect app, choose this computer, and it arrives here as a notification:
@@ -474,26 +474,29 @@ Description: keyboard shortcut sheet for the FlickOS labwc session
  own configuration.
 
 Package: flickos-software
-Version: 1.0
+Version: 1.1
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 138
+Installed-Size: 149
 Depends: python3, python3-gi, gir1.2-gtk-3.0, appstream, gir1.2-appstream-1.0, packagekit, gir1.2-packagekitglib-1.0, gir1.2-flatpak-1.0
 Recommends: flatpak
 Priority: optional
 Section: admin
-Filename: pool/main/f/flickos-software/flickos-software_1.0_all.deb
-Size: 30924
-SHA256: 84b16f23e5ab14baa5ba988783567d6d63b0220a428ac6d262b6dcf41c47533d
-SHA1: 4c62d045617eafa35e4fa038758ea97464a71e82
-MD5sum: f63520d6f018a7aa593f734a4e6ae9d3
+Filename: pool/main/f/flickos-software/flickos-software_1.1_all.deb
+Size: 33540
+SHA256: 60e3296d1e1fdb872bd8108ef50a26c5d340b032cff5073e1e6b4406627822a6
+SHA1: 9e0fcbc9ca3bd9c588f218b080a02d5468aba330
+MD5sum: fd8d0e7eef9c82501987b19e78899e98
 Description: Software: find, install and remove apps on FlickOS
- A window for apps, not packages: every desktop app in Debian's archive and
- on Flathub, with its icon, description, screenshots and what it needs on
- disk before it is installed. An app that both offer shows once, with
- Debian as the default source and Flathub for the newer version. Debian
- apps are installed through PackageKit and ask for the password; Flathub
- apps go into the system installation.
+ A window for apps, not packages: every desktop app in Debian's archive, in
+ FlickOS's repository (with the community apps other developers publish
+ there, built by FlickOS from their source and reviewed) and on Flathub,
+ with its icon, description, screenshots and what it needs on disk before
+ it is installed. An app that more than one offer shows once, with an apt
+ source as the default and Flathub for the newer version. Apt apps are
+ installed through PackageKit and ask for the password; Flathub apps go
+ into the system installation. The front page's shelves, Made for FlickOS
+ among them, come from a list FlickOS publishes.
  .
  A daily timer updates Flatpak apps and Flathub's catalog while the
  automatic updates are on. Nothing runs while the window is closed, and
