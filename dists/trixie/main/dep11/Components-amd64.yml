@@ -2,3 +2,213 @@
 File: DEP-11
 Version: '1.0'
 Origin: flickos-trixie-main
+---
+Type: desktop-application
+ID: io.github.dvbondoy.flickos.Notes
+Package: flickos-notes
+ProjectLicense: LicenseRef-proprietary
+Name:
+  C: Notes
+Summary:
+  C: Notes and checklists in plain Markdown files
+Description:
+  C: >-
+    <p>Write notes and checklists, tag them with #words in the text, and find any note by its words or tags. Typing is saved
+    by itself.</p>
+
+    <p>Every note is a plain Markdown file in a folder you can see (Documents/Notes by default), so any editor, backup or
+    sync tool can use it.</p>
+
+    <p>A checklist is a Markdown task list: click a box to tick it, and the list of notes shows how many items are left. With
+    a phone paired in Settings, Continue on Phone sends a note to it. Nothing runs while the window is closed.</p>
+
+    <p>Free of charge until the FlickOS store opens.</p>
+Developer:
+  id: io.github.dvbondoy
+  name:
+    C: FlickOS
+Categories:
+- Office
+- Utility
+Keywords:
+  C:
+  - note
+  - markdown
+  - checklist
+  - todo
+  - tag
+  - journal
+Icon:
+  stock: accessories-notes
+Launchable:
+  desktop-id:
+  - flickos-notes.desktop
+Provides:
+  binaries:
+  - flickos-notes
+Releases:
+- version: '0.4'
+  type: stable
+  unix-timestamp: 1791676800
+- version: '0.3'
+  type: stable
+  unix-timestamp: 1791331200
+- version: '0.2'
+  type: stable
+  unix-timestamp: 1790899200
+- version: '0.1'
+  type: stable
+  unix-timestamp: 1790899200
+ContentRating:
+  oars-1.1: {}
+---
+Type: desktop-application
+ID: io.github.dvbondoy.flickos.PhoneScreen
+Package: flickos-phone-screen
+ProjectLicense: LicenseRef-proprietary AND Apache-2.0
+Name:
+  C: Phone Screen
+Summary:
+  C: Use your Android phone's apps from this computer
+Description:
+  C: >-
+    <p>The phone's screen shows in a window, where the computer's mouse, keyboard and clipboard work on the phone. Pairing
+    goes over Wi-Fi with the six digits the phone shows, without a cable or a terminal, and the phone is found on the network
+    by itself.</p>
+
+    <p>The other way round, a tablet or phone can be a second screen for the computer: Use as Second Screen sends it a link
+    that opens the screen in the AVNC app, over an encrypted connection with a new password every time.</p>
+
+    <p>Needs a phone paired in Settings (the KDE Connect app) and Android 11 or newer with Developer options. Nothing runs
+    while the screen isn't shown. It uses scrcpy.</p>
+
+    <p>Free of charge until the FlickOS store opens.</p>
+Developer:
+  id: io.github.dvbondoy
+  name:
+    C: FlickOS
+Categories:
+- Utility
+Keywords:
+  C:
+  - android
+  - phone
+  - mirror
+  - scrcpy
+  - tablet
+  - second screen
+Icon:
+  stock: phone
+Launchable:
+  desktop-id:
+  - flickos-phone-screen.desktop
+  - flickos-second-screen.desktop
+Requires:
+- display_length: 768
+Supports:
+- control: pointing
+- control: keyboard
+Provides:
+  binaries:
+  - flickos-phone-screen
+Releases:
+- version: '0.8'
+  type: stable
+  unix-timestamp: 1791676800
+- version: '0.7'
+  type: stable
+  unix-timestamp: 1791331200
+- version: '0.6'
+  type: stable
+  unix-timestamp: 1791331200
+- version: '0.5'
+  type: stable
+  unix-timestamp: 1791331200
+- version: '0.4'
+  type: stable
+  unix-timestamp: 1791331200
+- version: '0.3'
+  type: stable
+  unix-timestamp: 1791244800
+- version: '0.2'
+  type: stable
+  unix-timestamp: 1790899200
+- version: '0.1'
+  type: stable
+  unix-timestamp: 1790899200
+ContentRating:
+  oars-1.1: {}
+---
+Type: desktop-application
+ID: io.github.dvbondoy.flickos.Write
+Package: flickos-write
+ProjectLicense: LicenseRef-proprietary
+Name:
+  C: Write
+Summary:
+  C: Write books, stories and letters with nothing else on the screen
+Description:
+  C: >-
+    <p>Write books, stories and letters in plain Markdown files. A folder is a project and its files are the chapters, in
+    the order of their numbers. Any other folder or Markdown file opens where it is.</p>
+
+    <p>A writing session fills the screen with the page and holds notifications. The line being written stays in the middle,
+    the rest of the text can be dimmed, and a daily goal counts the words written today. Typing is saved by itself.</p>
+
+    <p>With a phone paired in Settings, a chapter can be continued on the phone and comes back to the computer when it is
+    done. Nothing runs while the window is closed.</p>
+
+    <p>Free of charge until the FlickOS store opens.</p>
+Developer:
+  id: io.github.dvbondoy
+  name:
+    C: FlickOS
+Categories:
+- Office
+- WordProcessor
+Keywords:
+  C:
+  - writing
+  - novel
+  - book
+  - story
+  - manuscript
+  - markdown
+  - distraction-free
+Icon:
+  stock: accessories-text-editor
+Launchable:
+  desktop-id:
+  - flickos-write.desktop
+Provides:
+  binaries:
+  - flickos-write
+  mediatypes:
+  - text/markdown
+Releases:
+- version: '0.8'
+  type: stable
+  unix-timestamp: 1791676800
+- version: '0.7'
+  type: stable
+  unix-timestamp: 1791417600
+- version: '0.6'
+  type: stable
+  unix-timestamp: 1791417600
+- version: '0.5'
+  type: stable
+  unix-timestamp: 1791331200
+- version: '0.4'
+  type: stable
+  unix-timestamp: 1791072000
+- version: '0.3'
+  type: stable
+  unix-timestamp: 1791072000
+- version: '0.2'
+  type: stable
+  unix-timestamp: 1791072000
+- version: '0.1'
+  type: stable
+  unix-timestamp: 1791072000
+ContentRating:
+  oars-1.1: {}
