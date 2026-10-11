@@ -1,17 +1,17 @@
 Package: flick-tiler
-Version: 1.8
+Version: 1.9
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 66
+Installed-Size: 68
 Depends: python3, labwc, flickos-layouts (>= 1.8), flickos-settings (>= 1.11)
 Recommends: fuzzel
 Priority: optional
 Section: x11
-Filename: pool/main/f/flick-tiler/flick-tiler_1.8_all.deb
-Size: 17212
-SHA256: 483b4819353df5f30db24e3a9cb9b8af6e19201e2bda2d25b02a2cdf79c60d19
-SHA1: 8be034a749d6a07e5fb7ca0c4447426cf9523762
-MD5sum: 898630d7a99311a66a15a70e260bf9d9
+Filename: pool/main/f/flick-tiler/flick-tiler_1.9_all.deb
+Size: 17804
+SHA256: cbddaafa7504a58501be1420298622a5caa64cf1e017319194ac290483058781
+SHA1: 92b712286dc47beb547ae756add889854f107ca6
+MD5sum: 1d648a22d175902f30eddd721284be5d
 Description: opt-in window tiling for the FlickOS labwc session
  flick-tiler arranges windows side by side in the FlickOS labwc session:
  master and stack, columns, grid or one at a time, with gaps. New windows
@@ -235,19 +235,19 @@ Description: FlickOS desktop layouts and styles, and the flickos-layout tool
  reaching every user.
 
 Package: flickos-menu
-Version: 1.19
+Version: 1.20
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 178
+Installed-Size: 183
 Depends: python3, python3-gi, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-gtklayershell-0.1, labwc, procps
 Breaks: flickos-phone (<< 1.17)
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-menu/flickos-menu_1.19_all.deb
-Size: 40620
-SHA256: 496c81c5d40c9af07ba5f0cf5bada1062930fde4f9c2384a89c471a50b8aeb82
-SHA1: 9276a29fd916de730a61993426c786f3786c4423
-MD5sum: 956655f0d34f37cedac8aa7d13529337
+Filename: pool/main/f/flickos-menu/flickos-menu_1.20_all.deb
+Size: 41936
+SHA256: 73b760c14fa81c7181ecc04655031b05ec6b8223b672f2972bc75a6fd8baab5b
+SHA1: be5351af1a58cd1fa757bc68bf499a5a38589135
+MD5sum: 0b5eb631d82c20ffcfa2c2baf1fa892c
 Description: start menu and Quick Settings for the FlickOS labwc session
  A two-column start menu for the panel's apps button: pinned apps, all apps
  by category, search, the user's folders, Settings, and lock, log out,
@@ -393,18 +393,18 @@ Description: check a Reddit draft before posting, for FlickOS
  with it. Install it yourself when you want it.
 
 Package: flickos-recovery
-Version: 1.1
+Version: 1.2
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 100
 Depends: python3, btrfs-progs, pkexec
 Priority: optional
 Section: admin
-Filename: pool/main/f/flickos-recovery/flickos-recovery_1.1_all.deb
-Size: 20796
-SHA256: cf2b0ad6fddf626b4d5a6b3175cf2cd44941acfe0404abdc4d225ddbecd7c3a9
-SHA1: 973ff2220c78e52a58e0b12441e6d32dff226798
-MD5sum: 5bffa15c86fe3c1aa305a6088d482f46
+Filename: pool/main/f/flickos-recovery/flickos-recovery_1.2_all.deb
+Size: 20900
+SHA256: d85e0034d3f3ef6cf6d3ce8ab194c4fa07b0d8ed4e078aae506b6f2496eb6bc6
+SHA1: de93926f4c6afbdf2dbd8cbeb423e7eb07de45ea
+MD5sum: 108ec761d61719fbedc069950ac1d865
 Description: restore points of the whole FlickOS system
  Before every software change (apt, the Software and updates apps, automatic
  updates) a read-only btrfs snapshot of the system is taken: a restore point.
