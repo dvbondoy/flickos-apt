@@ -139,6 +139,38 @@ Releases:
 ContentRating:
   oars-1.1: {}
 ---
+Type: addon
+ID: io.github.dvbondoy.flickos.styles.Seven
+Package: flickos-style-seven
+Extends:
+- flickos-layout.desktop
+ProjectLicense: GPL-3.0-or-later
+Name:
+  C: Seven
+Summary:
+  C: Light windows, see-through blue title bars and panel
+Description:
+  C: >-
+    <p>
+          A light style for the FlickOS desktop: windows in the Arc theme, sky blue
+          title bars you can see through, a see-through dark blue panel, a black
+          terminal and a sky wallpaper. It suits the Redmond layout best.
+        </p>
+    <p>
+          After installing it, try it until you log out, or use it. It is listed
+          with Dark and Light in Desktop Layout &amp; Style.
+        </p>
+Developer:
+  id: io.github.dvbondoy
+  name:
+    C: FlickOS
+Url:
+  homepage: https://github.com/dvbondoy/FlickOS
+Icon:
+  stock: preferences-desktop-theme
+Custom:
+  FlickOS::style: seven
+---
 Type: desktop-application
 ID: io.github.dvbondoy.flickos.Write
 Package: flickos-write
