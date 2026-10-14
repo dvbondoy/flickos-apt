@@ -74,20 +74,20 @@ Description: FlickOS branding: logo, boot splash, boot menu, OS name and login b
  unchanged, so software that detects Debian keeps working.
 
 Package: flickos-control
-Version: 1.43
+Version: 1.45
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 444
+Installed-Size: 446
 Depends: python3, python3-gi, gir1.2-gtk-3.0, flickos-layouts (>= 1.46), flick-tiler (>= 1.5), flickos-shortcuts, flickos-screenshot (>= 1.6), pkexec, xkb-data, adduser, xdg-utils, libglib2.0-bin, kanshi, wlr-randr
 Recommends: wl-clipboard, pciutils
 Breaks: flickos-phone (<< 1.16)
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-control/flickos-control_1.43_all.deb
-Size: 97424
-SHA256: d85ae18dfa86fd5724d33f0e93f83778cec6dd498e6c22daf8721c9b36bf71a6
-SHA1: 656efd03cb3be965ec874fc7bdbcf553eb54cb1f
-MD5sum: b54a260c99d5c9d857fb9e09ee38964e
+Filename: pool/main/f/flickos-control/flickos-control_1.45_all.deb
+Size: 97992
+SHA256: ad27249a9e31e2f4ecd37ea0d72d5b60e3cd40ed0f1bb05e3f1f16c439a993b6
+SHA1: 4796b54be35e524dbfab8185cd803a87e96492c2
+MD5sum: 0727fbfcf7df21607bca556c9714b4ea
 Description: Settings window of the FlickOS desktop
  One window for the settings of the FlickOS labwc desktop: desktop layout,
  style and desktop clicks, mouse and touchpad, keyboard layout and typing,
@@ -203,20 +203,20 @@ Description: FlickOS live installer (Calamares configuration)
  the installed system.
 
 Package: flickos-layouts
-Version: 1.54
+Version: 1.58
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 5898
+Installed-Size: 5952
 Depends: flickos-branding (>= 1.4), python3, python3-gi, gir1.2-gtk-3.0, libglib2.0-bin, flickos-settings (>= 1.17), sfwbar (>= 1.0~beta17+git20260910+flickos4)
 Recommends: waypaper
 Breaks: flick-tiler (<< 1.7), flickos-menu (<< 1.10), flickos-shortcuts (<< 1.16)
 Priority: optional
 Section: misc
-Filename: pool/main/f/flickos-layouts/flickos-layouts_1.54_all.deb
-Size: 5782616
-SHA256: 791dbcc33871d6a15ff611a300623d57ac537b08e948fa506037bc36d0edc85b
-SHA1: f2827f09108ef70389d15ed49a68610c0cb8c042
-MD5sum: 2f83bf3d875331076ebeb42dcaa8f4af
+Filename: pool/main/f/flickos-layouts/flickos-layouts_1.58_all.deb
+Size: 5794884
+SHA256: 649a81d13bb2a18a67b24a0141a985fb55fabe3a2bad5a7bdb75ceeb3b57da93
+SHA1: dbb381292cd759722f314c426c289904862b23bb
+MD5sum: 8cda261dc8ac36cc9a0b5814611124e1
 Description: FlickOS desktop layouts and styles, and the flickos-layout tool
  Desktop layouts for the FlickOS labwc session: Redmond (one bottom panel),
  Cupertino (top bar and an auto-hiding dock) and Traditional (top panel and
@@ -501,19 +501,19 @@ Description: keyboard shortcut sheet for the FlickOS labwc session
  own configuration.
 
 Package: flickos-software
-Version: 1.4
+Version: 1.5
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 154
+Installed-Size: 156
 Depends: python3, python3-gi, gir1.2-gtk-3.0, appstream, gir1.2-appstream-1.0, packagekit, gir1.2-packagekitglib-1.0, gir1.2-flatpak-1.0
 Recommends: flatpak
 Priority: optional
 Section: admin
-Filename: pool/main/f/flickos-software/flickos-software_1.4_all.deb
-Size: 35188
-SHA256: 6f97c86013050eb48e2b307294eea315bbe8fa1d9156362e233a45552e326846
-SHA1: c7c8800988360a13ee2d640f7978d3023a418c3c
-MD5sum: f6e27ce4633fecd7a5d6b5065cba30b2
+Filename: pool/main/f/flickos-software/flickos-software_1.5_all.deb
+Size: 35652
+SHA256: bd69137889e074c2d6d4d6117d6dc868bf5b587e79d46e20d3654df2bcfc0444
+SHA1: 025d6369cd0d3e0577f91052ac3759f432a0a848
+MD5sum: 829b832c35b7b44764f962c58a197fce
 Description: Software: find, install and remove apps on FlickOS
  A window for apps, not packages: every desktop app in Debian's archive, in
  FlickOS's repository (with the community apps other developers publish
@@ -529,19 +529,44 @@ Description: Software: find, install and remove apps on FlickOS
  automatic updates are on. Nothing runs while the window is closed, and
  nothing is sent about its user.
 
-Package: flickos-style-seven
+Package: flickos-style-aye3
 Version: 1.0
+Architecture: all
+Maintainer: Jon <dvbondoy@gmail.com>
+Installed-Size: 109
+Depends: flickos-layouts (>= 1.57), arc-theme, numix-icon-theme
+Priority: optional
+Section: x11
+Filename: pool/main/f/flickos-style-aye3/flickos-style-aye3_1.0_all.deb
+Size: 77400
+SHA256: 9e8bc84915f514567a482331b055cf0a67e910068d31ba24068d9f58903206d4
+SHA1: ec7643f96e793983a1f394a2aa3dbef2484a5280
+MD5sum: aa35bf455175ef8f88d99e77bcb2f541
+Description: Aye3 style and layout for the FlickOS desktop
+ A dark style for FlickOS in the look of a classic tiling desktop: flat
+ slate blue title bars on the focused window and grey ones on the others,
+ thin borders, a black terminal, a plain grey app launcher, slate blue
+ notifications and a near-black wallpaper with FlickOS's halo.
+ .
+ Its layout is one black bar at the bottom: the desktops as numbered boxes
+ on the left (4 desktops), the status as monospace text on the right.
+ .
+ Installing it adds Aye3 to Desktop Layout & Style; Software's Use sets the
+ style and the layout together.
+
+Package: flickos-style-seven
+Version: 1.1
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 300
 Depends: flickos-layouts (>= 1.53), arc-theme, numix-icon-theme
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-style-seven/flickos-style-seven_1.0_all.deb
-Size: 250992
-SHA256: f134122c84c02cbe64185fed9e1d869e2a321f6dd7e742b1ea7751e92c86c9b6
-SHA1: 9027c792b09d7fe103b9d1a9b7e34e66873c6354
-MD5sum: 0a65b01604a74e4a946b549322e3eda8
+Filename: pool/main/f/flickos-style-seven/flickos-style-seven_1.1_all.deb
+Size: 251064
+SHA256: 33c6398074939b098ac78675b73f9dff41b5144f8bf2f1e10ee512f4641ff8d8
+SHA1: 6bbb28f94dac2618d7c92c8500e4ce5fa03d9b4d
+MD5sum: cc68900ada6b8d0672f0c7fa170af314
 Description: Seven style for the FlickOS desktop
  A light style for FlickOS: windows in the Arc theme with the Numix icons,
  see-through sky blue title bars and frames, a see-through dark blue

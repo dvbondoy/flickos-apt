@@ -140,6 +140,40 @@ ContentRating:
   oars-1.1: {}
 ---
 Type: addon
+ID: io.github.dvbondoy.flickos.styles.Aye3
+Package: flickos-style-aye3
+Extends:
+- flickos-layout.desktop
+ProjectLicense: GPL-3.0-or-later
+Name:
+  C: Aye3
+Summary:
+  C: Black panel, flat slate blue title bars, desktop numbers
+Description:
+  C: >-
+    <p>
+          A dark style for the FlickOS desktop in the look of a classic tiling
+          desktop: flat slate blue title bars on the window you use and grey ones on
+          the others, thin borders, a black terminal and a near-black wallpaper.
+        </p>
+    <p>
+          It comes with its own layout: one black bar at the bottom with your
+          desktops as numbered boxes on the left and the status as plain text on the
+          right. Use sets both; you can still pick another layout in Settings.
+        </p>
+Developer:
+  id: io.github.dvbondoy
+  name:
+    C: FlickOS
+Url:
+  homepage: https://github.com/dvbondoy/FlickOS
+Icon:
+  stock: preferences-desktop-theme
+Custom:
+  FlickOS::layout: aye3
+  FlickOS::style: aye3
+---
+Type: addon
 ID: io.github.dvbondoy.flickos.styles.Seven
 Package: flickos-style-seven
 Extends:
