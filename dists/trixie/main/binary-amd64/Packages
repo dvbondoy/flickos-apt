@@ -203,20 +203,20 @@ Description: FlickOS live installer (Calamares configuration)
  the installed system.
 
 Package: flickos-layouts
-Version: 1.59
+Version: 1.62
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 5952
+Installed-Size: 5955
 Depends: flickos-branding (>= 1.4), python3, python3-gi, gir1.2-gtk-3.0, libglib2.0-bin, flickos-settings (>= 1.17), sfwbar (>= 1.0~beta17+git20260910+flickos4)
 Recommends: waypaper
 Breaks: flick-tiler (<< 1.7), flickos-menu (<< 1.10), flickos-shortcuts (<< 1.16)
 Priority: optional
 Section: misc
-Filename: pool/main/f/flickos-layouts/flickos-layouts_1.59_all.deb
-Size: 5795060
-SHA256: 7980b20a40621fd291ceadaf2741c89100ec696e367f3a93841be365e7905e54
-SHA1: d51eee670babb153c897cb368042b3832d18b51c
-MD5sum: 8980d7493ca37fa1286edf03c6e84936
+Filename: pool/main/f/flickos-layouts/flickos-layouts_1.62_all.deb
+Size: 5796288
+SHA256: 98e32d7a3eb4ecc1ca9207b677742b98f256c8def786f415a6a855769963e96d
+SHA1: c0b5c2e285970430bbae48346b289f3e50f2afb0
+MD5sum: 0431cea7f62d5f73e0bd096e46fce325
 Description: FlickOS desktop layouts and styles, and the flickos-layout tool
  Desktop layouts for the FlickOS labwc session: Redmond (one bottom panel),
  Cupertino (top bar and an auto-hiding dock) and Traditional (top panel and
@@ -501,7 +501,7 @@ Description: keyboard shortcut sheet for the FlickOS labwc session
  own configuration.
 
 Package: flickos-software
-Version: 1.5
+Version: 1.7
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 156
@@ -509,11 +509,11 @@ Depends: python3, python3-gi, gir1.2-gtk-3.0, appstream, gir1.2-appstream-1.0, p
 Recommends: flatpak
 Priority: optional
 Section: admin
-Filename: pool/main/f/flickos-software/flickos-software_1.5_all.deb
-Size: 35652
-SHA256: bd69137889e074c2d6d4d6117d6dc868bf5b587e79d46e20d3654df2bcfc0444
-SHA1: 025d6369cd0d3e0577f91052ac3759f432a0a848
-MD5sum: 829b832c35b7b44764f962c58a197fce
+Filename: pool/main/f/flickos-software/flickos-software_1.7_all.deb
+Size: 35704
+SHA256: c126b982c29482698e67c6ec5e15d62001639cd21b8cc9d0a700791058325011
+SHA1: 21cca310f35e478fb21fa42712202f70da95a8f0
+MD5sum: e7acfd9d37ba49952205da521d412379
 Description: Software: find, install and remove apps on FlickOS
  A window for apps, not packages: every desktop app in Debian's archive, in
  FlickOS's repository (with the community apps other developers publish
@@ -530,19 +530,19 @@ Description: Software: find, install and remove apps on FlickOS
  nothing is sent about its user.
 
 Package: flickos-style-aye3
-Version: 1.0
+Version: 1.1
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 109
 Depends: flickos-layouts (>= 1.57), arc-theme, numix-icon-theme
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-style-aye3/flickos-style-aye3_1.0_all.deb
-Size: 77400
-SHA256: 9e8bc84915f514567a482331b055cf0a67e910068d31ba24068d9f58903206d4
-SHA1: ec7643f96e793983a1f394a2aa3dbef2484a5280
-MD5sum: aa35bf455175ef8f88d99e77bcb2f541
-Description: Aye3 style and layout for the FlickOS desktop
+Filename: pool/main/f/flickos-style-aye3/flickos-style-aye3_1.1_all.deb
+Size: 77496
+SHA256: 339f35e1e814d2b528f7195d42bb663ff8ae55e31d2acc35ad53050311def04b
+SHA1: 4b3dc1d0180e1c16f6286ae21444b0dee99c49e1
+MD5sum: 01fffd5b2d0ee554fc1677ca17d2b61d
+Description: Aye3wm style and layout for the FlickOS desktop
  A dark style for FlickOS in the look of a classic tiling desktop: flat
  slate blue title bars on the focused window and grey ones on the others,
  thin borders, a black terminal, a plain grey app launcher, slate blue
@@ -551,8 +551,60 @@ Description: Aye3 style and layout for the FlickOS desktop
  Its layout is one black bar at the bottom: the desktops as numbered boxes
  on the left (4 desktops), the status as monospace text on the right.
  .
- Installing it adds Aye3 to Desktop Layout & Style; Software's Use sets the
+ Installing it adds Aye3wm to Desktop Layout & Style; Software's Use sets the
  style and the layout together.
+
+Package: flickos-style-elemental
+Version: 1.0
+Architecture: all
+Maintainer: Jon <dvbondoy@gmail.com>
+Installed-Size: 669
+Depends: flickos-layouts (>= 1.53), sfwbar, gnome-themes-extra-data, elementary-icon-theme, fonts-inter-variable
+Priority: optional
+Section: x11
+Filename: pool/main/f/flickos-style-elemental/flickos-style-elemental_1.0_all.deb
+Size: 616820
+SHA256: 6643ee0ee9cdbe100436b6ce41a9feb874844e4d910e48b1699fe830db4c7bcc
+SHA1: 6311f2df3bb4258116a45af4fb3e39332cc390d4
+MD5sum: d96973c8340a384866b405f8b1acdfe4
+Description: Elemental style for the FlickOS desktop
+ A light style for FlickOS: windows in one light grey (GTK's Adwaita)
+ with the elementary icons, the title in the middle and plain buttons, a
+ see-through dark top bar with white text, a dark slate terminal, a light
+ app launcher and notifications, and a seashore seen from above with
+ FlickOS's halo.
+ .
+ Its layout has a thin top bar with Applications on the left and the date
+ and time in the middle, a light dock at the bottom, and the close button
+ on the left of the title bar and maximize on the right.
+ .
+ Installing it adds Elemental to Desktop Layout & Style; Software's Use sets
+ the style and the layout together.
+
+Package: flickos-style-footprint
+Version: 1.3
+Architecture: all
+Maintainer: Jon <dvbondoy@gmail.com>
+Installed-Size: 131
+Depends: flickos-layouts (>= 1.62), sfwbar (>= 1.0~beta17+git20260910+flickos7), gnome-themes-extra-data, adwaita-icon-theme, adwaita-icon-theme-legacy, fonts-cantarell
+Priority: optional
+Section: x11
+Filename: pool/main/f/flickos-style-footprint/flickos-style-footprint_1.3_all.deb
+Size: 64680
+SHA256: c1808741010a7e36e508b59b8ee033529dad4ced9ad4c83ad57146437a5cb9eb
+SHA1: 7535434da1daebc9f4df7727ab8ddb328148fae8
+MD5sum: 07ac64c54d7566e49e9f9e15b0385b7b
+Description: Footprint style and layout for the FlickOS desktop
+ A dark style for FlickOS: a black top bar, grey windows with the title in
+ the middle and round buttons, a dark grey terminal and a dusk wallpaper
+ with FlickOS's halo.
+ .
+ Its layout has the top bar, with the desktops as dots on the left and the
+ clock in the middle, and a dock on the left edge with your apps and Show
+ Apps, which opens the full-screen apps menu.
+ .
+ Installing it adds Footprint to Desktop Layout & Style; Software's Use sets
+ the style and the layout together.
 
 Package: flickos-style-seven
 Version: 1.1
@@ -669,7 +721,7 @@ Description: quiet writing in Markdown files for FlickOS
  by itself. Nothing runs while the window is closed.
 
 Package: sfwbar
-Version: 1.0~beta17+git20260910+flickos6
+Version: 1.0~beta17+git20260910+flickos7
 Architecture: amd64
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 1499
@@ -678,11 +730,11 @@ Suggests: python3
 Homepage: https://github.com/LBCrion/sfwbar
 Priority: optional
 Section: x11
-Filename: pool/main/s/sfwbar/sfwbar_1.0~beta17+git20260910+flickos6_amd64.deb
-Size: 319548
-SHA256: d72562cb0cf3f848177f83575794bb2cfc6549288c73b8342842949da7ce143e
-SHA1: 48d309e0aa882181ba85b8a0d1d85a1fedb71e6e
-MD5sum: 8b6adcebd7deb963a77b1500da538798
+Filename: pool/main/s/sfwbar/sfwbar_1.0~beta17+git20260910+flickos7_amd64.deb
+Size: 319708
+SHA256: ae33f75948d266792254df6540099b0cc4a99b2237e90997aaa07867ae35713a
+SHA1: ef1014197d7bd30d8792ff48ef50ffaf77d73c5b
+MD5sum: caf9d4d27ef0181201077d233e5697fd
 Description: taskbar, dock and panel for Wayland stacking compositors
  SFWBar is a GTK 3 layer-shell panel for Wayland compositors with a
  stacking layout, such as labwc. It has a taskbar with pinned apps and
