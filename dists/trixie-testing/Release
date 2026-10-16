@@ -1,0 +1,26 @@
+Origin: FlickOS
+Label: FlickOS Testing
+Suite: trixie-testing
+Codename: trixie-testing
+Date: Fri, 16 Oct 2026 14:12:33 UTC
+Architectures: amd64
+Components: main
+Description: FlickOS packages being tried by testers before they reach trixie (added by hand, never by automatic updates)
+MD5Sum:
+ 660690a4cef14a436d010d459b056c7d 2753 main/binary-amd64/Packages
+ 8e10e7111bfc7eaf4c313127eabda3ef 1384 main/binary-amd64/Packages.gz
+ 69a9f4e135958355c6dfb452b79c0272 68 main/dep11/Components-amd64.yml
+ bd4697d403aae8babe72f3fd805fc1c8 114 main/dep11/Components-amd64.yml.gz
+ f5d00f3f2b0083297aaf167a00a91969 221 main/binary-amd64/Release
+SHA1:
+ 8eafdfce2ca90c3477b33712d76eae3e5cb5ffed 2753 main/binary-amd64/Packages
+ e12536a2acdf3d1022267e6756dea108063e3bbe 1384 main/binary-amd64/Packages.gz
+ e147835bf9a3714b13dccfed037a8f08a616372f 68 main/dep11/Components-amd64.yml
+ 3da5657eda16a6b9763ac2c2b23f037395e4e3ef 114 main/dep11/Components-amd64.yml.gz
+ 33d439d112647cfcf8386d5f94890aa0f5f72438 221 main/binary-amd64/Release
+SHA256:
+ 664ff7a92d65ff0e7b21407d6055f47887fa6e09d36fabcc7ba96ffc3c690162 2753 main/binary-amd64/Packages
+ 94a17c44ebb25bc721f8d17fe95cd4edc13a35e4e7a660a98b6afa081f103171 1384 main/binary-amd64/Packages.gz
+ 7ada4a5aabd3e32580e4fb68a9a244cbf9e8b6185cde7f0a9ae4007646edbdfc 68 main/dep11/Components-amd64.yml
+ dd7e210bbdfb91f3f8abc8eb1cf1a33dbf9e564c6b096edfefa2946456b04f24 114 main/dep11/Components-amd64.yml.gz
+ a115b05246e24d6e1268030fca307a5119c8de046901be9566868189aeab2b0a 221 main/binary-amd64/Release

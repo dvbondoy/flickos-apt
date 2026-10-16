@@ -1,0 +1,58 @@
+Package: flickos-control
+Version: 1.48~test1
+Architecture: all
+Maintainer: Jon <dvbondoy@gmail.com>
+Installed-Size: 449
+Depends: python3, python3-gi, gir1.2-gtk-3.0, flickos-layouts (>= 1.46), flick-tiler (>= 1.5), flickos-shortcuts, flickos-screenshot (>= 1.6), pkexec, xkb-data, adduser, xdg-utils, libglib2.0-bin, kanshi, wlr-randr
+Recommends: wl-clipboard, pciutils
+Breaks: flickos-phone (<< 1.16)
+Priority: optional
+Section: x11
+Filename: pool/main/f/flickos-control/flickos-control_1.48~test1_all.deb
+Size: 98884
+SHA256: f0e873b35e095028198e966870acbe88688b9672223ba681e43bbaa09e8749f5
+SHA1: de7ab146d9944a1ba231dac0f96fe1276e826424
+MD5sum: 8a62a1188643e95f4e23d7c2b1b69792
+Description: Settings window of the FlickOS desktop
+ One window for the settings of the FlickOS labwc desktop: desktop layout,
+ style and desktop clicks, mouse and touchpad, keyboard layout and typing,
+ window tiling, screen arrangements kept for every login and whenever the
+ same screens are plugged in, night light, language and formats, the
+ keyboard shortcuts, default applications, startup applications,
+ screenshots and screen recordings, Do Not Disturb for
+ notifications, screen lock and sleep times, the power
+ button and the lid, date and time, automatic updates, logging in
+ automatically, user accounts, the
+ firewall on or off, the anonymous weekly count (while flickos-countme is
+ installed), and what the system is (with a copy for bug reports).
+ Other settings (wallpaper, appearance, arranging the screens, network,
+ sound, Bluetooth, printers, software updates) open their own app from the
+ same window.
+ .
+ Each page runs the FlickOS command that owns the setting, so a change made
+ here is the same as one made in the panel, with a key or on the command
+ line.
+
+Package: flickos-lock
+Version: 1.0~test1
+Architecture: all
+Maintainer: Jon <dvbondoy@gmail.com>
+Installed-Size: 67
+Depends: python3, python3-gi, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-gtksessionlock-0.1, libgtk-session-lock0, libpam0g, swaylock
+Breaks: flickos-control (<< 1.48~)
+Priority: optional
+Section: x11
+Filename: pool/main/f/flickos-lock/flickos-lock_1.0~test1_all.deb
+Size: 17044
+SHA256: 57edf21d00ad84184f0acda0c8ad65a32e9656d0b6394e72c5c111c9d0d2c4c6
+SHA1: 889f970bc132090016ad679c18725eaa9224f6ac
+MD5sum: 35e71d7ea2fe1e1446f82139352cf8fb
+Description: lock screen of the FlickOS desktop
+ Locks the screen with a password box that can show the password, the time,
+ the date and the user's name and picture, in the colors of the desktop style
+ in use.
+ .
+ The screen is covered at once, before the lock screen itself has loaded,
+ and stays covered if the lock screen stops working: swaylock then takes
+ over. FlickOS's Settings run it for Super+L, the menus and the idle lock.
+

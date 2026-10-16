@@ -1,0 +1,6 @@
+Archive: trixie-testing
+Component: main
+Origin: FlickOS
+Label: FlickOS Testing
+Architecture: amd64
+Description: FlickOS packages being tried by testers before they reach trixie (added by hand, never by automatic updates)
