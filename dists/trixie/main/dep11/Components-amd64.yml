@@ -166,7 +166,7 @@ Developer:
   name:
     C: FlickOS
 Url:
-  homepage: https://github.com/dvbondoy/FlickOS
+  homepage: https://flickos.org/
 Icon:
   stock: preferences-desktop-theme
 Custom:
@@ -202,12 +202,48 @@ Developer:
   name:
     C: FlickOS
 Url:
-  homepage: https://github.com/dvbondoy/FlickOS
+  homepage: https://flickos.org/
 Icon:
   stock: preferences-desktop-theme
 Custom:
   FlickOS::layout: elemental
   FlickOS::style: elemental
+---
+Type: addon
+ID: io.github.dvbondoy.flickos.styles.Experience
+Package: flickos-style-experience
+Extends:
+- flickos-layout.desktop
+ProjectLicense: GPL-3.0-or-later
+Name:
+  C: Experience
+Summary:
+  C: Blue title bars, a blue panel with a green Start button
+Description:
+  C: >-
+    <p>
+          A bright style for the FlickOS desktop in the colors of the early 2000s:
+          deep blue title bars with glossy rounded buttons and a red close button,
+          light grey windows with colorful icons, a black console, pale yellow
+          notifications, and a green hill under a blue sky.
+        </p>
+    <p>
+          It comes with a layout of the same name: one blue panel at the bottom
+          with a green Start button, the window list, and a lighter blue
+          notification area with the clock. Use sets both; you can still pick
+          another layout in Settings.
+        </p>
+Developer:
+  id: io.github.dvbondoy
+  name:
+    C: FlickOS
+Url:
+  homepage: https://flickos.org/
+Icon:
+  stock: preferences-desktop-theme
+Custom:
+  FlickOS::layout: experience
+  FlickOS::style: experience
 ---
 Type: addon
 ID: io.github.dvbondoy.flickos.styles.Footprint
@@ -237,7 +273,7 @@ Developer:
   name:
     C: FlickOS
 Url:
-  homepage: https://github.com/dvbondoy/FlickOS
+  homepage: https://flickos.org/
 Icon:
   stock: preferences-desktop-theme
 Custom:
@@ -253,27 +289,31 @@ ProjectLicense: GPL-3.0-or-later
 Name:
   C: Seven
 Summary:
-  C: Light windows, see-through blue title bars and panel
+  C: Light windows, see-through blue title bars, a glass panel
 Description:
   C: >-
     <p>
           A light style for the FlickOS desktop: windows in the Arc theme, sky blue
           title bars you can see through, a see-through dark blue panel, a black
-          terminal and a sky wallpaper. It suits the Redmond layout best.
+          terminal and a sky wallpaper.
         </p>
     <p>
-          After installing it, try it until you log out, or use it. It is listed
-          with Dark and Light in Desktop Layout &amp; Style.
+          It comes with a layout of the same name: one see-through panel at the
+          bottom with a round glossy start button, large window icons in glass
+          boxes, the status and a two-line clock. Use sets both; you can still
+          pick another layout in Settings, and try the style alone until you log
+          out.
         </p>
 Developer:
   id: io.github.dvbondoy
   name:
     C: FlickOS
 Url:
-  homepage: https://github.com/dvbondoy/FlickOS
+  homepage: https://flickos.org/
 Icon:
   stock: preferences-desktop-theme
 Custom:
+  FlickOS::layout: seven
   FlickOS::style: seven
 ---
 Type: desktop-application
