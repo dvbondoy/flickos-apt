@@ -2,25 +2,25 @@ Origin: FlickOS
 Label: FlickOS
 Suite: trixie
 Codename: trixie
-Date: Tue, 20 Oct 2026 06:26:56 UTC
+Date: Sun, 25 Oct 2026 10:14:09 UTC
 Architectures: amd64
 Components: main
 Description: FlickOS package repository
 MD5Sum:
- d130c56b9aacb90164df8286087788ad 39809 main/binary-amd64/Packages
- 50dc2a3c2da4039902791e0ac714344c 14170 main/binary-amd64/Packages.gz
- 1fb0a7e80ed84e332cb016c8955a4019 10481 main/dep11/Components-amd64.yml
- 37e6d8fe59dafeb8e0793a364db5a1cf 2750 main/dep11/Components-amd64.yml.gz
+ 5c911831489ceaaa53d1ddaecd900ad3 42833 main/binary-amd64/Packages
+ 91b78e770060556e7e2ca37b6a107d00 15049 main/binary-amd64/Packages.gz
+ 16147f18cdc9d0096eb1c0c69a83d21d 11725 main/dep11/Components-amd64.yml
+ 6245f14902d165f6fec19683e3e485b1 2974 main/dep11/Components-amd64.yml.gz
  4996bc0b6fe407af1e10063597b51190 107 main/binary-amd64/Release
 SHA1:
- dd9288e194812f83442b4cf02c31e4fe06f64835 39809 main/binary-amd64/Packages
- d5d325b3aa1c4ead1c0ca991d9b98a7d2a3ff113 14170 main/binary-amd64/Packages.gz
- b66bba138e3847f5dd29fd6206d6833df403e41d 10481 main/dep11/Components-amd64.yml
- 53295f83bdc5577a017cb72612b74f35975195ec 2750 main/dep11/Components-amd64.yml.gz
+ 1ecc821fdc2b0bf2dd2bf634a415c0910099ac52 42833 main/binary-amd64/Packages
+ 9f277d8d3a41a04fbe81b8960f8fd1169958d599 15049 main/binary-amd64/Packages.gz
+ e4466e114ecbf0fb863452139c959439548c272e 11725 main/dep11/Components-amd64.yml
+ 786e4813c12fbc8842a0e792a61ce8bbf0d01e3b 2974 main/dep11/Components-amd64.yml.gz
  533641725dddc8b260db75e2635080e02d9baa88 107 main/binary-amd64/Release
 SHA256:
- 2b1f8d181c3d5dcd2656dbd16dc53c2f6f1ee0ea8bbb57df8373ecab8fbc48a9 39809 main/binary-amd64/Packages
- 3ac57e8d729a3e07695ca7c1b16cc07aa116826465688d31fbf560938f64cbe9 14170 main/binary-amd64/Packages.gz
- 6af3e7a2242800c5d2e6abe0dfbb07bad1467ac0c23bdb8d04d373cdbd53c726 10481 main/dep11/Components-amd64.yml
- 31a66b676ff53e1ba26522e2f39ed56e1a67e8d77f6148779c664520be9c12aa 2750 main/dep11/Components-amd64.yml.gz
+ a4a17d9779197db960ee1db9a066f9e2b38595a9364d33867e5d81923ec0621f 42833 main/binary-amd64/Packages
+ b2756a46ac442de1dcde0f2c2660850ccae5d98ea378722c0568415a3fe87faa 15049 main/binary-amd64/Packages.gz
+ a0081fc9c042f33037ec1a477c62bec33ba2e1e45ad118274906d0ce000e5f2b 11725 main/dep11/Components-amd64.yml
+ 73bff92f9ffafdcfb9bde9b855774b50f229ad62575fb8bd5add3b7913ad198b 2974 main/dep11/Components-amd64.yml.gz
  dfa7764d94eecd3c6d7c2d7239cd116e854f45521baafb6cf19e9d70d10e52fd 107 main/binary-amd64/Release
