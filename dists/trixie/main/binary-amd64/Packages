@@ -203,20 +203,20 @@ Description: FlickOS live installer (Calamares configuration)
  the installed system.
 
 Package: flickos-layouts
-Version: 1.72
+Version: 1.73
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 5995
+Installed-Size: 5997
 Depends: flickos-branding (>= 1.4), python3, python3-gi, gir1.2-gtk-3.0, libglib2.0-bin, libxkbcommon0, flickos-settings (>= 1.17), sfwbar (>= 1.0~beta17+git20260910+flickos4)
 Recommends: waypaper
 Breaks: flick-tiler (<< 1.7), flickos-menu (<< 1.10), flickos-shortcuts (<< 1.17)
 Priority: optional
 Section: misc
-Filename: pool/main/f/flickos-layouts/flickos-layouts_1.72_all.deb
-Size: 5805408
-SHA256: d845d88128180a7841556a37f141eff03d035609d0e7f9492f1b862f9f431ccc
-SHA1: a5e523c33e01e42502acd40c183e0930dbbd1167
-MD5sum: 1ae07ece345ab02ad73f8de17cbda145
+Filename: pool/main/f/flickos-layouts/flickos-layouts_1.73_all.deb
+Size: 5805828
+SHA256: 5b39bc2caf7551aef0fcf2a1bfcff78f3ae3af6aa300d28d055556a0d6557fe3
+SHA1: 6f78798d2d670723b3c30412c58a4f4fb0509f77
+MD5sum: 7621d98c917552d7323fc54adaeae6a5
 Description: FlickOS desktop layouts and styles, and the flickos-layout tool
  Desktop layouts for the FlickOS labwc session: Redmond (one bottom panel),
  Cupertino (top bar and an auto-hiding dock) and Traditional (top panel and
