@@ -203,20 +203,20 @@ Description: FlickOS live installer (Calamares configuration)
  the installed system.
 
 Package: flickos-layouts
-Version: 1.70
+Version: 1.72
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 5982
-Depends: flickos-branding (>= 1.4), python3, python3-gi, gir1.2-gtk-3.0, libglib2.0-bin, flickos-settings (>= 1.17), sfwbar (>= 1.0~beta17+git20260910+flickos4)
+Installed-Size: 5995
+Depends: flickos-branding (>= 1.4), python3, python3-gi, gir1.2-gtk-3.0, libglib2.0-bin, libxkbcommon0, flickos-settings (>= 1.17), sfwbar (>= 1.0~beta17+git20260910+flickos4)
 Recommends: waypaper
-Breaks: flick-tiler (<< 1.7), flickos-menu (<< 1.10), flickos-shortcuts (<< 1.16)
+Breaks: flick-tiler (<< 1.7), flickos-menu (<< 1.10), flickos-shortcuts (<< 1.17)
 Priority: optional
 Section: misc
-Filename: pool/main/f/flickos-layouts/flickos-layouts_1.70_all.deb
-Size: 5801604
-SHA256: 479eae3b148708107b805e80609b2a6de07523886d7278e94bffaa65fa6959ea
-SHA1: b6a6a902a0cfd63b2620d5caa85f8d77256e6e0a
-MD5sum: 3f402f50e5ec5b71c4422c47d3334042
+Filename: pool/main/f/flickos-layouts/flickos-layouts_1.72_all.deb
+Size: 5805408
+SHA256: d845d88128180a7841556a37f141eff03d035609d0e7f9492f1b862f9f431ccc
+SHA1: a5e523c33e01e42502acd40c183e0930dbbd1167
+MD5sum: 1ae07ece345ab02ad73f8de17cbda145
 Description: FlickOS desktop layouts and styles, and the flickos-layout tool
  Desktop layouts for the FlickOS labwc session: Redmond (one bottom panel),
  Cupertino (top bar and an auto-hiding dock) and Traditional (top panel and
@@ -261,18 +261,18 @@ Description: lock screen of the FlickOS desktop
  over. FlickOS's Settings run it for Super+L, the menus and the idle lock.
 
 Package: flickos-media
-Version: 1.4
+Version: 1.5
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 67
-Depends: python3, playerctl, cava, python3-gi, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-gtklayershell-0.1, flickos-layouts (>= 1.66)
+Installed-Size: 78
+Depends: python3, playerctl, pipewire-bin, cava, python3-gi, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-gtklayershell-0.1, flickos-layouts (>= 1.66)
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-media/flickos-media_1.4_all.deb
-Size: 17112
-SHA256: 72aabae1b7343b4afdb5c7f63812529f3e818449a55df84bf69cb9efe4bc79ba
-SHA1: 5b1191dc9b3fe7b131f23da0a77fcf9ab7d10560
-MD5sum: e70dbc37f418f838e1f084cd0fd83639
+Filename: pool/main/f/flickos-media/flickos-media_1.5_all.deb
+Size: 20000
+SHA256: 5a5951b9dbe2412d2be9d20796286d8cb0b885bf0615e628627aadcc2af69c59
+SHA1: f3896c7b82b5d19a685b098add857142671c3049
+MD5sum: dbde83c3257223677e8c4bd7032054d1
 Description: media controls and a sound spectrum for the FlickOS panel
  Previous, play or pause, next and the title of what is playing, in the
  FlickOS panel while an app plays music or video. A spectrum that moves with
@@ -283,19 +283,19 @@ Description: media controls and a sound spectrum for the FlickOS panel
  runs while off.
 
 Package: flickos-menu
-Version: 1.22
+Version: 1.23
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 191
+Installed-Size: 195
 Depends: python3, python3-gi, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-gtklayershell-0.1, labwc, procps
 Breaks: flickos-phone (<< 1.17)
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-menu/flickos-menu_1.22_all.deb
-Size: 43700
-SHA256: 94700b204e48f515ad71a191dfad9a4e28ae44046ee90593df96540085c91cd8
-SHA1: 6664bf5064fe1be0abdab1f84c5d7c88b70bcb06
-MD5sum: e9087eab2da21ffcf5e83b23bc1ef382
+Filename: pool/main/f/flickos-menu/flickos-menu_1.23_all.deb
+Size: 44932
+SHA256: 3e0055693e88e047e2b0c439b9d2543164181991d0db60e5d15a090703826b01
+SHA1: d0eaba0550d09aa3e5c241c9bf8f9c1de349f307
+MD5sum: e86bccb7574d230b15a4d985a7d16f94
 Description: start menu and Quick Settings for the FlickOS labwc session
  A two-column start menu for the panel's apps button: pinned apps, all apps
  by category, search, the user's folders, Settings, and lock, log out,
@@ -524,18 +524,18 @@ Description: FlickOS default desktop configuration
  ~/.config override.
 
 Package: flickos-shortcuts
-Version: 1.16
+Version: 1.17
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 48
-Depends: python3, python3-gi, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-gtklayershell-0.1, labwc
+Installed-Size: 51
+Depends: python3, python3-gi, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-gtklayershell-0.1, labwc, libxkbcommon0
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-shortcuts/flickos-shortcuts_1.16_all.deb
-Size: 14288
-SHA256: de015cf58f9d39b8239cc123f25ff6cc84db240dc0c2f3ea3de7f194abf2f824
-SHA1: e69bab37f58673fb2ae971e9574bf2b361edfe81
-MD5sum: c3074935134e192b4df2a04251519871
+Filename: pool/main/f/flickos-shortcuts/flickos-shortcuts_1.17_all.deb
+Size: 15168
+SHA256: 0403458bda6337912d0d325f5937034182fc0da7bdd66f24b5875347786ddf01
+SHA1: dcdf0e63975515bec72a5cdf1b9288fff3acb776
+MD5sum: 1c5889407a1aca0817111654e90bf8e3
 Description: keyboard shortcut sheet for the FlickOS labwc session
  Press and hold the Super (Windows) key in the FlickOS session and a sheet
  with the keyboard shortcuts appears until the key is let go. The shortcuts
@@ -799,18 +799,18 @@ Description: weather in the FlickOS panel
  is sent while off.
 
 Package: flickos-welcome
-Version: 1.6
+Version: 1.7
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 39
+Installed-Size: 41
 Depends: python3, python3-gi, gir1.2-gtk-3.0, flickos-settings (>= 1.19), xdg-utils
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-welcome/flickos-welcome_1.6_all.deb
-Size: 9128
-SHA256: f3894127113f87d4c85beacd48a397730451387c8c4b68cc47b9bb171a5a2a50
-SHA1: 53e70ece3b75e57e021215b75cb3f936859d4bec
-MD5sum: 0d4ce3edffcd55968efeb2c2c1d8a930
+Filename: pool/main/f/flickos-welcome/flickos-welcome_1.7_all.deb
+Size: 9632
+SHA256: 6f11a8e54544d07b900ab4c100ccfc481ea517cc07822e6cc1b4a3e29d61038f
+SHA1: 0221e87b72b4493e582a1354388d9e478c4a280d
+MD5sum: 1baa77564e1c04ed9669d5e0008ea5f1
 Description: welcome window of the FlickOS desktop
  A window shown once, at the first login of a new account on an installed
  FlickOS system: choose a desktop layout and style, open Settings, connect
