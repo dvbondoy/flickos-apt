@@ -74,7 +74,7 @@ Description: FlickOS branding: logo, boot splash, boot menu, OS name and login b
  unchanged, so software that detects Debian keeps working.
 
 Package: flickos-control
-Version: 1.52
+Version: 1.53
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 472
@@ -83,11 +83,11 @@ Recommends: wl-clipboard, pciutils
 Breaks: flickos-phone (<< 1.16)
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-control/flickos-control_1.52_all.deb
-Size: 103584
-SHA256: 866ea19cb20228b5c38f49454328f7a70193e6537ae0a5ba620ac9a6f5ee1452
-SHA1: f687e6f10538cb3fa02ea453b1a8c5737f1199a9
-MD5sum: 322fec0907e8e138ed8c4661c652f323
+Filename: pool/main/f/flickos-control/flickos-control_1.53_all.deb
+Size: 103700
+SHA256: 65d0a1cf4e24e64c67bd3bc2bd7013f970c67ec2c1f1028c2e07109ff961067d
+SHA1: 9c9499d450a145dc086bccec8b6118211384d02f
+MD5sum: 96370dfe4d2374e0c6446e4fc03aae87
 Description: Settings window of the FlickOS desktop
  One window for the settings of the FlickOS labwc desktop: desktop layout,
  style and desktop clicks, mouse and touchpad, keyboard layout and typing,
@@ -441,18 +441,18 @@ Description: check a Reddit draft before posting, for FlickOS
  with it. Install it yourself when you want it.
 
 Package: flickos-recovery
-Version: 1.4
+Version: 1.5
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 101
+Installed-Size: 102
 Depends: python3, btrfs-progs, pkexec
 Priority: optional
 Section: admin
-Filename: pool/main/f/flickos-recovery/flickos-recovery_1.4_all.deb
-Size: 21356
-SHA256: 52b293fc1909e2e68deadff77d7398e87992b29ac0336434d5df7b88857d4037
-SHA1: 1eea3ee6153ba1841d249f005bd245b03b6a2263
-MD5sum: 071dbd30bb5c04542b93e82bebded331
+Filename: pool/main/f/flickos-recovery/flickos-recovery_1.5_all.deb
+Size: 21524
+SHA256: 848742b4b934d67817549d2647190a5d81f8cbd2f164636ae244adb29f865ada
+SHA1: 79963d265ab059ae226b1735c77cc74611602868
+MD5sum: 232c0de4e72c41eba0dee7dc5263653d
 Description: restore points of the whole FlickOS system
  Before every software change (apt, the Software and updates apps, automatic
  updates) a read-only btrfs snapshot of the system is taken: a restore point.
@@ -465,19 +465,19 @@ Description: restore points of the whole FlickOS system
  "flickos-recovery list" shows the restore points.
 
 Package: flickos-screenshot
-Version: 1.7
+Version: 1.8
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 183
+Installed-Size: 185
 Depends: python3, python3-gi, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-gtklayershell-0.1, gir1.2-gdkpixbuf-2.0, gir1.2-pango-1.0, grim, wl-clipboard, libnotify-bin, xdg-user-dirs, xdg-utils, xdg-desktop-portal, xdg-desktop-portal-wlr, gir1.2-gstreamer-1.0, gstreamer1.0-pipewire, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-ugly, wlr-randr, sound-theme-freedesktop, pipewire-bin | pulseaudio-utils
 Suggests: tesseract-ocr
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-screenshot/flickos-screenshot_1.7_all.deb
-Size: 43824
-SHA256: 96924af7b29b6f2e5e77da04165bd3519206d0df85b81e9a869198d60df58126
-SHA1: 515bde111d4599b76bd10f8f938f323566a88808
-MD5sum: 8bb18c90801a0b6629cebbd9f5789211
+Filename: pool/main/f/flickos-screenshot/flickos-screenshot_1.8_all.deb
+Size: 44320
+SHA256: 02d1534ec51a09fe9ef80213ed04e2bd40fd81ffad67ea26c9240d45dc3ae97d
+SHA1: f2db722f2526307fd43ebd97eefa6805e407b383
+MD5sum: a4f8f3a65fa2f49029639c3415de60cd
 Description: screenshots and screen recordings for the FlickOS desktop
  Take a picture of the whole screen or of an area of it, with a delay if
  wanted, or record a video of it. The area is chosen on a frozen picture
