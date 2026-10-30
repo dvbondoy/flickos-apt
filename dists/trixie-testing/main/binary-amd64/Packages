@@ -1,3 +1,29 @@
+Package: flickos-branding
+Version: 1.15~test1
+Architecture: all
+Maintainer: Jon <dvbondoy@gmail.com>
+Installed-Size: 127
+Depends: base-files, plymouth, plymouth-themes, plymouth-label, fonts-dejavu-core
+Priority: optional
+Section: misc
+Filename: pool/main/f/flickos-branding/flickos-branding_1.15~test1_all.deb
+Size: 28872
+SHA256: 8302f68c0db0a9bc9b3dbc034fdedeb210c1cfc2065aa21f0f9103ac5a3233ca
+SHA1: e492250b715c2a17bd5bf4c0dba244b3572b38cf
+MD5sum: 3728d7830e968c9f6b54b6256193aae9
+Description: FlickOS branding: logo, boot splash, boot menu, OS name and login banner
+ Installs the FlickOS logo icons (flickos, flickos-symbolic) and the FlickOS
+ Plymouth boot splash, and makes the splash the default theme.
+ .
+ Gives the GRUB boot menu FlickOS's theme (/etc/default/grub.d/flickos-theme.cfg
+ points update-grub at /usr/share/flickos/grub/).
+ .
+ Shows "FlickOS" in /etc/os-release (PRETTY_NAME, VARIANT) and on the text
+ console login banner (/etc/issue, /etc/issue.net). Debian's originals are
+ kept via dpkg-divert and the FlickOS versions are regenerated from them
+ whenever base-files is upgraded. ID=debian and all version fields stay
+ unchanged, so software that detects Debian keeps working.
+
 Package: flickos-control
 Version: 1.48~test2
 Architecture: all
@@ -33,6 +59,64 @@ Description: Settings window of the FlickOS desktop
  here is the same as one made in the panel, with a key or on the command
  line.
 
+Package: flickos-installer
+Version: 1.33~test1
+Architecture: all
+Maintainer: Jon <dvbondoy@gmail.com>
+Installed-Size: 110
+Depends: calamares, squashfs-tools, dosfstools, rsync, cryptsetup, keyutils, libglib2.0-bin, sudo, qt6-wayland, qml6-module-qtquick, qml6-module-qtquick-window, dconf-gsettings-backend | gsettings-backend, flickos-settings (>= 1.23)
+Conflicts: calamares-settings-debian
+Replaces: calamares-settings-debian
+Provides: calamares-settings
+Priority: optional
+Section: admin
+Filename: pool/main/f/flickos-installer/flickos-installer_1.33~test1_all.deb
+Size: 35320
+SHA256: e645ef6af0635e23139489893d0856cbf94d746696f39ba2dc8beed714cedfae
+SHA1: 07f50f4869866a125843bf8751c306a7a0c28817
+MD5sum: 5cfe66cbf94f561ea397f6a4296e471a
+Description: FlickOS live installer (Calamares configuration)
+ Calamares settings, branding and launcher for installing FlickOS from the
+ live session, plus the live-session menu with an "Install FlickOS" entry.
+ .
+ Based on calamares-settings-debian. The installer removes this package from
+ the installed system.
+
+Package: flickos-layouts
+Version: 1.74~test1
+Architecture: all
+Maintainer: Jon <dvbondoy@gmail.com>
+Installed-Size: 3902
+Depends: flickos-branding (>= 1.15~), python3, python3-gi, gir1.2-gtk-3.0, libglib2.0-bin, libxkbcommon0, flickos-settings (>= 1.17), sfwbar (>= 1.0~beta17+git20260910+flickos4)
+Recommends: waypaper
+Breaks: flick-tiler (<< 1.7), flickos-menu (<< 1.10), flickos-shortcuts (<< 1.17)
+Priority: optional
+Section: misc
+Filename: pool/main/f/flickos-layouts/flickos-layouts_1.74~test1_all.deb
+Size: 3655156
+SHA256: ed66d5b81f305bf23ac17283727a84dac4083c2b7efccb1193b2b86ff77cc05e
+SHA1: d37e12c04be505e0f6fe361f5cb28fb47ff8837d
+MD5sum: 7be7ffe9c2ed07b626b575daf3c776b9
+Description: FlickOS desktop layouts and styles, and the flickos-layout tool
+ Desktop layouts for the FlickOS labwc session: Redmond (one bottom panel),
+ Cupertino (top bar and an auto-hiding dock) and Traditional (top panel and
+ window list), each with its panel arrangement and window title bar
+ buttons. Dark (Arc-Dark) and Light (Arc) styles recolor GTK apps, icons,
+ window borders, panel, terminal, launcher and notifications, and each has
+ its own wallpaper. A user's own wallpaper (waypaper) is kept. Desktop
+ clicks choose what a left or right click on the empty desktop does. Quick
+ Settings, when turned on, opens from the panel's volume and battery icons
+ and Super+A. The phone button opens the phone popup while the phone
+ connection is on, and the fuzzel menu otherwise.
+ flickos-layout lists the layouts and styles, applies a choice to the
+ running session and starts the panel and notifications at login. The
+ Desktop Layout & Style chooser (Settings menu and app launcher) shows each
+ layout with a preview.
+ .
+ The choice is applied through generated files in $XDG_RUNTIME_DIR, so
+ nothing is copied into the home directory and package updates keep
+ reaching every user.
+
 Package: flickos-lock
 Version: 1.0~test1
 Architecture: all
@@ -55,4 +139,160 @@ Description: lock screen of the FlickOS desktop
  The screen is covered at once, before the lock screen itself has loaded,
  and stays covered if the lock screen stops working: swaylock then takes
  over. FlickOS's Settings run it for Super+L, the menus and the idle lock.
+
+Package: flickos-style-aye3
+Version: 1.3~test1
+Architecture: all
+Maintainer: Jon <dvbondoy@gmail.com>
+Installed-Size: 74
+Depends: flickos-layouts (>= 1.57), arc-theme, numix-icon-theme
+Priority: optional
+Section: x11
+Filename: pool/main/f/flickos-style-aye3/flickos-style-aye3_1.3~test1_all.deb
+Size: 40824
+SHA256: 91815b8c4b083b11126933c001b8de115a716c785ba3a5b9b124cec1fa0f41a7
+SHA1: d68e1e333770f4bf1a7535c637bb309ef072ce7a
+MD5sum: 7c4b4b52c2038055043f0d8e9a32fd0d
+Description: Aye3wm style and layout for the FlickOS desktop
+ A dark style for FlickOS in the look of a classic tiling desktop: flat
+ slate blue title bars on the focused window and grey ones on the others,
+ thin borders, a black terminal, a plain grey app launcher, slate blue
+ notifications and a near-black wallpaper with FlickOS's logo.
+ .
+ Its layout is one black bar at the bottom: the desktops as numbered boxes
+ on the left (4 desktops), the status as monospace text on the right.
+ .
+ Installing it adds Aye3wm to Desktop Layout & Style; Software's Use sets the
+ style and the layout together.
+
+Package: flickos-style-elemental
+Version: 1.2~test1
+Architecture: all
+Maintainer: Jon <dvbondoy@gmail.com>
+Installed-Size: 643
+Depends: flickos-layouts (>= 1.53), sfwbar, gnome-themes-extra-data, elementary-icon-theme, fonts-inter-variable
+Priority: optional
+Section: x11
+Filename: pool/main/f/flickos-style-elemental/flickos-style-elemental_1.2~test1_all.deb
+Size: 589808
+SHA256: 9f6a432b9094465fdf92985b60d530c2e474b1416b36d7bfa1a46b0fab7eb3b3
+SHA1: cd223c6b02f72912605d0f1512ffa6fb5c404cd5
+MD5sum: cf1318ec2a1ec769cee2d09f0ef518f4
+Description: Elemental style for the FlickOS desktop
+ A light style for FlickOS: windows in one light grey (GTK's Adwaita)
+ with the elementary icons, the title in the middle and plain buttons, a
+ see-through dark top bar with white text, a dark slate terminal, a light
+ app launcher and notifications, and a seashore seen from above with
+ FlickOS's logo.
+ .
+ Its layout has a thin top bar with Applications on the left and the date
+ and time in the middle, a light dock at the bottom, and the close button
+ on the left of the title bar and maximize on the right.
+ .
+ Installing it adds Elemental to Desktop Layout & Style; Software's Use sets
+ the style and the layout together.
+
+Package: flickos-style-eleven
+Version: 1.3~test1
+Architecture: all
+Maintainer: Jon <dvbondoy@gmail.com>
+Installed-Size: 480
+Depends: flickos-layouts (>= 1.69), flickos-menu (>= 1.22), gnome-themes-extra-data, adwaita-icon-theme, adwaita-icon-theme-legacy, fonts-open-sans
+Priority: optional
+Section: x11
+Filename: pool/main/f/flickos-style-eleven/flickos-style-eleven_1.3~test1_all.deb
+Size: 428704
+SHA256: c0ba6c96564fc8ef43ad5e6f3f6bfdeefa9be042dffdd24229dc15eecc660128
+SHA1: ef4622a262933bb010bc811779254ab9c6d977fb
+MD5sum: d9d0d59235dde94d0f1e1ed50e74f047
+Description: Eleven style and layout for the FlickOS desktop
+ A dark style for FlickOS: neutral dark grey windows and title bars with
+ wide, flat buttons in thin lines and a close button that turns red under
+ the pointer, a sky blue accent, a near-black terminal, and folds of blue
+ light on a deep blue wallpaper with FlickOS's logo.
+ .
+ Its layout has one see-through dark panel at the bottom with the apps
+ button and the open windows in the middle, and the status icons and a
+ two-line clock at the right. The start menu opens above the middle of the
+ panel.
+ .
+ Installing it adds Eleven to Desktop Layout & Style; Software's Use sets
+ the style and the layout together.
+
+Package: flickos-style-experience
+Version: 1.1~test1
+Architecture: all
+Maintainer: Jon <dvbondoy@gmail.com>
+Installed-Size: 970
+Depends: flickos-layouts (>= 1.53), flickos-branding (>= 1.15~), greybird-gtk-theme, tango-icon-theme
+Priority: optional
+Section: x11
+Filename: pool/main/f/flickos-style-experience/flickos-style-experience_1.1~test1_all.deb
+Size: 924324
+SHA256: 1e6ab3e3bfb51f7c3bb31a97923f0150bf91999119d3f1ceda894a2bc440e7c4
+SHA1: 6d48cbac4bd272022bbf3be2d7d345d53f28a47f
+MD5sum: b4f8d0009382c96a5de5daee1b1b7956
+Description: Experience style for the FlickOS desktop
+ A bright style for FlickOS in the colors of the early 2000s: deep blue
+ title bars with glossy rounded buttons and a red close button, windows in
+ Greybird's light grey with the Tango icons, a black console, pale yellow
+ notifications, and a green hill under a blue sky with FlickOS's logo.
+ .
+ Its layout has one blue panel at the bottom: a green Start button, the
+ window list, and a lighter blue notification area with the clock.
+ .
+ Installing it adds Experience to Desktop Layout & Style; Software's Use
+ sets the style and the layout together.
+
+Package: flickos-style-footprint
+Version: 1.5~test1
+Architecture: all
+Maintainer: Jon <dvbondoy@gmail.com>
+Installed-Size: 101
+Depends: flickos-layouts (>= 1.62), sfwbar (>= 1.0~beta17+git20260910+flickos7), gnome-themes-extra-data, adwaita-icon-theme, adwaita-icon-theme-legacy, fonts-cantarell
+Priority: optional
+Section: x11
+Filename: pool/main/f/flickos-style-footprint/flickos-style-footprint_1.5~test1_all.deb
+Size: 31700
+SHA256: c45efbf38a28795fb2077de138331b98c07de6d29a96ac66d68699b3b18546ef
+SHA1: da01d93ff09c225abb7756c4de1d6fb21b447de5
+MD5sum: 273eaad95d71f7f9d20e314063759144
+Description: Footprint style and layout for the FlickOS desktop
+ A dark style for FlickOS: a black top bar, grey windows with the title in
+ the middle and round buttons, a dark grey terminal and a dusk wallpaper
+ with FlickOS's logo.
+ .
+ Its layout has the top bar, with the desktops as dots on the left and the
+ clock in the middle, and a dock on the left edge with your apps and Show
+ Apps, which opens the full-screen apps menu.
+ .
+ Installing it adds Footprint to Desktop Layout & Style; Software's Use sets
+ the style and the layout together.
+
+Package: flickos-style-seven
+Version: 1.3~test1
+Architecture: all
+Maintainer: Jon <dvbondoy@gmail.com>
+Installed-Size: 301
+Depends: flickos-layouts (>= 1.53), flickos-branding (>= 1.15~), arc-theme, numix-icon-theme
+Priority: optional
+Section: x11
+Filename: pool/main/f/flickos-style-seven/flickos-style-seven_1.3~test1_all.deb
+Size: 240492
+SHA256: a75c19f81bc57b1bc574c39902ffa90f56621cd1951aab4444887fd7565257ba
+SHA1: f0e7861ea48470d17471f3f66666fdd243a0db7c
+MD5sum: 891249fb2b24d3982d008b2ec97f0a62
+Description: Seven style for the FlickOS desktop
+ A light style for FlickOS: windows in the Arc theme with the Numix icons,
+ see-through sky blue title bars and frames, a see-through dark blue
+ panel, a black terminal, a light app launcher and notifications, and a
+ sky wallpaper with FlickOS's logo.
+ .
+ Its layout has one see-through panel at the bottom: a round glossy start
+ button, large window icons in glass boxes, the status and a two-line
+ clock.
+ .
+ Installing it adds Seven to Desktop Layout & Style, next to Dark and
+ Light; Software's Use sets the style and the layout together, and
+ "flickos-layout try seven" shows the style until the next login.
 
