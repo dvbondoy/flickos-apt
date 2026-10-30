@@ -74,7 +74,7 @@ Description: FlickOS branding: logo, boot splash, boot menu, OS name and login b
  unchanged, so software that detects Debian keeps working.
 
 Package: flickos-control
-Version: 1.53
+Version: 1.54
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 472
@@ -83,11 +83,11 @@ Recommends: wl-clipboard, pciutils
 Breaks: flickos-phone (<< 1.16)
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-control/flickos-control_1.53_all.deb
-Size: 103700
-SHA256: 65d0a1cf4e24e64c67bd3bc2bd7013f970c67ec2c1f1028c2e07109ff961067d
-SHA1: 9c9499d450a145dc086bccec8b6118211384d02f
-MD5sum: 96370dfe4d2374e0c6446e4fc03aae87
+Filename: pool/main/f/flickos-control/flickos-control_1.54_all.deb
+Size: 103928
+SHA256: b5172a2dcd33a383c9d226c2cace1ea8c594159e68eedd91b5e5f111ccf94ee2
+SHA1: bea8d90b70c77b51dbab6a7aafc9b0f919e946ad
+MD5sum: fe193f638684cf06b344a5273591d6f2
 Description: Settings window of the FlickOS desktop
  One window for the settings of the FlickOS labwc desktop: desktop layout,
  style and desktop clicks, mouse and touchpad, keyboard layout and typing,
@@ -283,19 +283,19 @@ Description: media controls and a sound spectrum for the FlickOS panel
  runs while off.
 
 Package: flickos-menu
-Version: 1.23
+Version: 1.24
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 195
+Installed-Size: 205
 Depends: python3, python3-gi, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-gtklayershell-0.1, labwc, procps
 Breaks: flickos-phone (<< 1.17)
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-menu/flickos-menu_1.23_all.deb
-Size: 44932
-SHA256: 3e0055693e88e047e2b0c439b9d2543164181991d0db60e5d15a090703826b01
-SHA1: d0eaba0550d09aa3e5c241c9bf8f9c1de349f307
-MD5sum: e86bccb7574d230b15a4d985a7d16f94
+Filename: pool/main/f/flickos-menu/flickos-menu_1.24_all.deb
+Size: 47220
+SHA256: f4af4a2c3ac695811188fa8252aa13899db2f4c070f5250ea332ee708236f69c
+SHA1: ed00823e03f1d11325785178b7910fbe09e0992f
+MD5sum: b7c5338bd18758b27be8e09a9801f3f4
 Description: start menu and Quick Settings for the FlickOS labwc session
  A two-column start menu for the panel's apps button: pinned apps, all apps
  by category, search, the user's folders, Settings, and lock, log out,
@@ -465,19 +465,19 @@ Description: restore points of the whole FlickOS system
  "flickos-recovery list" shows the restore points.
 
 Package: flickos-screenshot
-Version: 1.8
+Version: 1.9
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 185
+Installed-Size: 186
 Depends: python3, python3-gi, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-gtklayershell-0.1, gir1.2-gdkpixbuf-2.0, gir1.2-pango-1.0, grim, wl-clipboard, libnotify-bin, xdg-user-dirs, xdg-utils, xdg-desktop-portal, xdg-desktop-portal-wlr, gir1.2-gstreamer-1.0, gstreamer1.0-pipewire, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-ugly, wlr-randr, sound-theme-freedesktop, pipewire-bin | pulseaudio-utils
 Suggests: tesseract-ocr
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-screenshot/flickos-screenshot_1.8_all.deb
-Size: 44320
-SHA256: 02d1534ec51a09fe9ef80213ed04e2bd40fd81ffad67ea26c9240d45dc3ae97d
-SHA1: f2db722f2526307fd43ebd97eefa6805e407b383
-MD5sum: a4f8f3a65fa2f49029639c3415de60cd
+Filename: pool/main/f/flickos-screenshot/flickos-screenshot_1.9_all.deb
+Size: 44720
+SHA256: e562f90ab32e156e9019324564692c572f12266d2192f7f9e1f45ce9f8acb73e
+SHA1: 4232f0f313d1767627705b2a306db96e94f50d98
+MD5sum: 6df6ee13ddddbd645f41fcc73efd64d2
 Description: screenshots and screen recordings for the FlickOS desktop
  Take a picture of the whole screen or of an area of it, with a delay if
  wanted, or record a video of it. The area is chosen on a frozen picture
