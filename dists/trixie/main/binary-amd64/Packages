@@ -1,17 +1,17 @@
 Package: flick-tiler
-Version: 1.9
+Version: 1.10
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 68
-Depends: python3, labwc, flickos-layouts (>= 1.8), flickos-settings (>= 1.11)
+Installed-Size: 75
+Depends: python3, labwc, wtype, flickos-layouts (>= 1.8), flickos-settings (>= 1.11)
 Recommends: fuzzel
 Priority: optional
 Section: x11
-Filename: pool/main/f/flick-tiler/flick-tiler_1.9_all.deb
-Size: 17804
-SHA256: cbddaafa7504a58501be1420298622a5caa64cf1e017319194ac290483058781
-SHA1: 92b712286dc47beb547ae756add889854f107ca6
-MD5sum: 1d648a22d175902f30eddd721284be5d
+Filename: pool/main/f/flick-tiler/flick-tiler_1.10_all.deb
+Size: 19612
+SHA256: 0edc1ab8460dccc091576936568ec7b6bfbaeccf7ff7e2d7f3eb0b47b2e51f18
+SHA1: 63d3aa0d315105603c72b6a36bcddbc6da3cd036
+MD5sum: 4972205a1487032d921dd091f206a0be
 Description: opt-in window tiling for the FlickOS labwc session
  flick-tiler arranges windows side by side in the FlickOS labwc session:
  master and stack, columns, grid or one at a time, with gaps. New windows
@@ -74,20 +74,20 @@ Description: FlickOS branding: logo, boot splash, boot menu, OS name and login b
  unchanged, so software that detects Debian keeps working.
 
 Package: flickos-control
-Version: 1.55
+Version: 1.56
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 472
+Installed-Size: 473
 Depends: python3, python3-gi, gir1.2-gtk-3.0, flickos-layouts (>= 1.46), flick-tiler (>= 1.5), flickos-shortcuts, flickos-screenshot (>= 1.6), pkexec, xkb-data, adduser, xdg-utils, libglib2.0-bin, kanshi, wlr-randr
 Recommends: wl-clipboard, pciutils
 Breaks: flickos-phone (<< 1.16)
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-control/flickos-control_1.55_all.deb
-Size: 104072
-SHA256: 159f787dceee50bdcebcbeea08809c866d7aceab94d05847277cfad82d6995e5
-SHA1: c1b81e58622be32cdc45f1cd7c15a74814b6ef5f
-MD5sum: 7fd48d2df9b98fb4857f9202e368f0fe
+Filename: pool/main/f/flickos-control/flickos-control_1.56_all.deb
+Size: 104344
+SHA256: 97420b238dbbe3c9da47cf54478296f9e41c34970909253391dcab9dd0fbb706
+SHA1: 53104fa2a541f2e22ea7091e99df2349631a260b
+MD5sum: 7118ea5979ca7823338a5ff3ae37f7e3
 Description: Settings window of the FlickOS desktop
  One window for the settings of the FlickOS labwc desktop: desktop layout,
  style and desktop clicks, mouse and touchpad, keyboard layout and typing,
@@ -261,18 +261,18 @@ Description: lock screen of the FlickOS desktop
  over. FlickOS's Settings run it for Super+L, the menus and the idle lock.
 
 Package: flickos-media
-Version: 1.5
+Version: 1.7
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 78
+Installed-Size: 85
 Depends: python3, playerctl, pipewire-bin, cava, python3-gi, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-gtklayershell-0.1, flickos-layouts (>= 1.66)
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-media/flickos-media_1.5_all.deb
-Size: 20000
-SHA256: 5a5951b9dbe2412d2be9d20796286d8cb0b885bf0615e628627aadcc2af69c59
-SHA1: f3896c7b82b5d19a685b098add857142671c3049
-MD5sum: dbde83c3257223677e8c4bd7032054d1
+Filename: pool/main/f/flickos-media/flickos-media_1.7_all.deb
+Size: 21752
+SHA256: 663563dba7a61e6fe582dcfd3638d7d5d026ea43b2d831227303b4c4835e5ebe
+SHA1: 14f01613243fd33e2a0a8e9600ac256b11547812
+MD5sum: 35bac9dfe8f9cb619b0e9bb8baa45feb
 Description: media controls and a sound spectrum for the FlickOS panel
  Previous, play or pause, next and the title of what is playing, in the
  FlickOS panel while an app plays music or video. A spectrum that moves with
