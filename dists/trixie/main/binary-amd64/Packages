@@ -74,7 +74,7 @@ Description: FlickOS branding: logo, boot splash, boot menu, OS name and login b
  unchanged, so software that detects Debian keeps working.
 
 Package: flickos-control
-Version: 1.54
+Version: 1.55
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 472
@@ -83,11 +83,11 @@ Recommends: wl-clipboard, pciutils
 Breaks: flickos-phone (<< 1.16)
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-control/flickos-control_1.54_all.deb
-Size: 103928
-SHA256: b5172a2dcd33a383c9d226c2cace1ea8c594159e68eedd91b5e5f111ccf94ee2
-SHA1: bea8d90b70c77b51dbab6a7aafc9b0f919e946ad
-MD5sum: fe193f638684cf06b344a5273591d6f2
+Filename: pool/main/f/flickos-control/flickos-control_1.55_all.deb
+Size: 104072
+SHA256: 159f787dceee50bdcebcbeea08809c866d7aceab94d05847277cfad82d6995e5
+SHA1: c1b81e58622be32cdc45f1cd7c15a74814b6ef5f
+MD5sum: 7fd48d2df9b98fb4857f9202e368f0fe
 Description: Settings window of the FlickOS desktop
  One window for the settings of the FlickOS labwc desktop: desktop layout,
  style and desktop clicks, mouse and touchpad, keyboard layout and typing,
@@ -135,19 +135,19 @@ Description: anonymous weekly count of FlickOS installs
  "flickos-countme show" prints exactly what is sent.
 
 Package: flickos-desktop
-Version: 1.34
+Version: 1.35
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 10
-Depends: flickos-archive-keyring (>= 1.1), flickos-settings (>= 1.31), flickos-layouts (>= 1.6), flickos-branding (>= 1.3), labwc, xwayland, waybar, swaybg, mako-notifier, xdg-desktop-portal, xdg-desktop-portal-wlr, xdg-desktop-portal-gtk, mate-polkit, polkitd, dbus-user-session, pipewire, pipewire-audio, pipewire-pulse, wireplumber, network-manager, network-manager-applet, udisks2, gvfs, adwaita-icon-theme, fonts-dejavu-core, unattended-upgrades, waypaper, flick-tiler, flickos-shortcuts, flickos-control, systemd-timesyncd, xdg-terminal-exec, flickos-greeter, flickos-menu (>= 1.0), flickos-welcome, flickos-phone, flickos-screenshot, flickos-countme, brightness-udev, flickos-software, flickos-recovery, flickos-lock (>= 1.0), flickos-media (>= 1.0), flickos-weather (>= 1.0), zstd
+Depends: flickos-archive-keyring (>= 1.1), flickos-settings (>= 1.31), flickos-layouts (>= 1.6), flickos-branding (>= 1.3), labwc, xwayland, waybar, swaybg, mako-notifier, xdg-desktop-portal, xdg-desktop-portal-wlr, xdg-desktop-portal-gtk, mate-polkit, polkitd, dbus-user-session, pipewire, pipewire-audio, pipewire-pulse, wireplumber, network-manager, network-manager-applet, udisks2, gvfs, adwaita-icon-theme, fonts-dejavu-core, unattended-upgrades, waypaper, flick-tiler, flickos-shortcuts, flickos-control, systemd-timesyncd, xdg-terminal-exec, flickos-greeter, flickos-menu (>= 1.0), flickos-welcome, flickos-phone, flickos-screenshot, flickos-countme, brightness-udev, flickos-software, flickos-recovery, flickos-lock (>= 1.0), flickos-media (>= 1.0), flickos-weather (>= 1.0), file, zstd
 Recommends: foot, fuzzel, thunar, thunar-archive-plugin, gvfs-backends, firefox-esr, webext-ublock-origin-firefox, mousepad, ristretto, tumbler, evince, vlc, libreoffice-writer, libreoffice-calc, libreoffice-impress, libreoffice-draw, libreoffice-gtk3, hunspell-en-us, hyphen-en-us, xarchiver, pavucontrol, nm-connection-editor, wpasupplicant, intel-microcode, amd64-microcode, wdisplays, bluez, blueman, cups, system-config-printer, swayidle, swaylock, wlr-randr, grim, slurp, wl-clipboard, cliphist, wlsunset, playerctl, libnotify-bin, xdg-utils, brightnessctl, gnome-themes-extra, nwg-look, fonts-noto-color-emoji, zram-tools, flatpak, gnome-package-updater, ufw, sudo, locales, console-setup, ca-certificates, curl, lxtask, fastfetch, nano, less, pciutils, usbutils
 Priority: optional
 Section: metapackages
-Filename: pool/main/f/flickos-desktop/flickos-desktop_1.34_all.deb
-Size: 4828
-SHA256: 8e231cd860f73c3996c3d639321078255a89f8f51123fa70c154366d23191a5a
-SHA1: 28866c617158e9c06860e50c3a16616dd71c7fe7
-MD5sum: 57b8b6a33812bca72aeb9595bddb0e2a
+Filename: pool/main/f/flickos-desktop/flickos-desktop_1.35_all.deb
+Size: 4960
+SHA256: 4b5c2a926a845dc13e8c17236d9fc0922a14309baf6a27bc060bdfe6932c7888
+SHA1: 24c0de4807f49a78bb984ac90897b0373569d8f1
+MD5sum: 75df2a02c66f280281a9e0b85fea7f9c
 Description: FlickOS desktop environment (metapackage)
  Installs the complete FlickOS labwc desktop: compositor, panel,
  notifications, portals, PipeWire audio, networking, Bluetooth, printing,
@@ -203,7 +203,7 @@ Description: FlickOS live installer (Calamares configuration)
  the installed system.
 
 Package: flickos-layouts
-Version: 1.73
+Version: 1.74
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 5997
@@ -212,11 +212,11 @@ Recommends: waypaper
 Breaks: flick-tiler (<< 1.7), flickos-menu (<< 1.10), flickos-shortcuts (<< 1.17)
 Priority: optional
 Section: misc
-Filename: pool/main/f/flickos-layouts/flickos-layouts_1.73_all.deb
-Size: 5805828
-SHA256: 5b39bc2caf7551aef0fcf2a1bfcff78f3ae3af6aa300d28d055556a0d6557fe3
-SHA1: 6f78798d2d670723b3c30412c58a4f4fb0509f77
-MD5sum: 7621d98c917552d7323fc54adaeae6a5
+Filename: pool/main/f/flickos-layouts/flickos-layouts_1.74_all.deb
+Size: 5805992
+SHA256: d4cd40f29bb3f421a404a2f988120ea7d6be940599ed3862483e54bb4b858da4
+SHA1: 3c8eb1f8a2f1206576abbdb6b17dc7e04974ebf4
+MD5sum: d00bb16598df4180a527c7f8751cb429
 Description: FlickOS desktop layouts and styles, and the flickos-layout tool
  Desktop layouts for the FlickOS labwc session: Redmond (one bottom panel),
  Cupertino (top bar and an auto-hiding dock) and Traditional (top panel and
@@ -283,7 +283,7 @@ Description: media controls and a sound spectrum for the FlickOS panel
  runs while off.
 
 Package: flickos-menu
-Version: 1.24
+Version: 1.25
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 205
@@ -291,11 +291,11 @@ Depends: python3, python3-gi, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-gtklayers
 Breaks: flickos-phone (<< 1.17)
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-menu/flickos-menu_1.24_all.deb
-Size: 47220
-SHA256: f4af4a2c3ac695811188fa8252aa13899db2f4c070f5250ea332ee708236f69c
-SHA1: ed00823e03f1d11325785178b7910fbe09e0992f
-MD5sum: b7c5338bd18758b27be8e09a9801f3f4
+Filename: pool/main/f/flickos-menu/flickos-menu_1.25_all.deb
+Size: 47388
+SHA256: 2863eef011300bf64fd7dd69f60ed901e17d6892dc3620951705611ec34696a6
+SHA1: f8eef5c3e1021dd60b47a6922a0d78f4404ca1d6
+MD5sum: 872763a211ebf8e591e1cc93fda43cee
 Description: start menu and Quick Settings for the FlickOS labwc session
  A two-column start menu for the panel's apps button: pinned apps, all apps
  by category, search, the user's folders, Settings, and lock, log out,
