@@ -730,34 +730,6 @@ Description: Seven style for the FlickOS desktop
  Light; Software's Use sets the style and the layout together, and
  "flickos-layout try seven" shows the style until the next login.
 
-Package: flickos-trail
-Version: 0.6
-Architecture: all
-Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 245
-Depends: python3:any, fuzzel, gir1.2-gtk-3.0, grim, libnotify-bin, python3-gi, python3-pil, slurp, tesseract-ocr, tesseract-ocr-eng, wl-clipboard
-Recommends: fzf
-Conflicts: trail
-Replaces: trail
-Priority: optional
-Section: utils
-Filename: pool/main/f/flickos-trail/flickos-trail_0.6_all.deb
-Size: 58300
-SHA256: e11b1441deb1dbb9cff46784b677c2468cf662dd2abc33a7a00808769b858aba
-SHA1: 1fa53c7bb3ea9e4944a65d0620b447c005a56cfd
-MD5sum: d228ae95bde2cdeb2dcb9805d971bb25
-Description: searchable memory of what you did, for FlickOS
- Trail keeps the commands you run in the terminal (with their folder, exit
- code and time), the text you copy, and, when you press a key, the text on
- the screen, read with OCR. Secrets are removed before anything is stored,
- and everything stays in one database on this computer.
- .
- Super+S finds it again in a popup; `trail search` in the terminal. Trail
- in the apps menu chooses what is recorded and how long it is kept. Nothing
- runs in the background but the clipboard watcher, and turning Trail off
- there (or `trail set enabled no`) stops everything: its keys and panel
- button are gone too. Screenshots are never written to disk.
-
 Package: flickos-turd-buster
 Source: flickos-preflight
 Version: 1.2
