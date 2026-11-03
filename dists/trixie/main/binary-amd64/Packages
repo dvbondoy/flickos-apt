@@ -74,20 +74,20 @@ Description: FlickOS branding: logo, boot splash, boot menu, OS name and login b
  unchanged, so software that detects Debian keeps working.
 
 Package: flickos-control
-Version: 1.56
+Version: 1.57
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 473
+Installed-Size: 475
 Depends: python3, python3-gi, gir1.2-gtk-3.0, flickos-layouts (>= 1.46), flick-tiler (>= 1.5), flickos-shortcuts, flickos-screenshot (>= 1.6), pkexec, xkb-data, adduser, xdg-utils, libglib2.0-bin, kanshi, wlr-randr
 Recommends: wl-clipboard, pciutils
 Breaks: flickos-phone (<< 1.16)
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-control/flickos-control_1.56_all.deb
-Size: 104344
-SHA256: 97420b238dbbe3c9da47cf54478296f9e41c34970909253391dcab9dd0fbb706
-SHA1: 53104fa2a541f2e22ea7091e99df2349631a260b
-MD5sum: 7118ea5979ca7823338a5ff3ae37f7e3
+Filename: pool/main/f/flickos-control/flickos-control_1.57_all.deb
+Size: 104744
+SHA256: b626d7c455146a9e43549079751fa9f10edd719545dbbef886e92bce89337d49
+SHA1: efb7de160ae3c164924a0321672a1c6469cb77e3
+MD5sum: 50f61b4b7dc836a60d17b5d4766357ce
 Description: Settings window of the FlickOS desktop
  One window for the settings of the FlickOS labwc desktop: desktop layout,
  style and desktop clicks, mouse and touchpad, keyboard layout and typing,
@@ -283,19 +283,19 @@ Description: media controls and a sound spectrum for the FlickOS panel
  runs while off.
 
 Package: flickos-menu
-Version: 1.25
+Version: 1.26
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 205
+Installed-Size: 235
 Depends: python3, python3-gi, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-gtklayershell-0.1, labwc, procps
 Breaks: flickos-phone (<< 1.17)
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-menu/flickos-menu_1.25_all.deb
-Size: 47388
-SHA256: 2863eef011300bf64fd7dd69f60ed901e17d6892dc3620951705611ec34696a6
-SHA1: f8eef5c3e1021dd60b47a6922a0d78f4404ca1d6
-MD5sum: 872763a211ebf8e591e1cc93fda43cee
+Filename: pool/main/f/flickos-menu/flickos-menu_1.26_all.deb
+Size: 53332
+SHA256: d6fa06573d86cedd32bbd9b9b4a916d601befa14f1f2f37f4dc39cc0bde52329
+SHA1: 56fef3737e96a910373596e619fb4aa4616d5c5d
+MD5sum: 58aa7fc56ebffc19a7cb1fd881c30b08
 Description: start menu and Quick Settings for the FlickOS labwc session
  A two-column start menu for the panel's apps button: pinned apps, all apps
  by category, search, the user's folders, Settings, and lock, log out,
@@ -312,6 +312,9 @@ Description: start menu and Quick Settings for the FlickOS labwc session
  The phone popup opens from the panel's phone button while the phone
  connection is on: the phone, what can be sent, a ringing call, and what
  recently arrived. The button keeps its menu when this package is removed.
+ .
+ After a volume, microphone or brightness key, a ring shows the new level
+ for a moment. Settings > Notifications can turn it off.
 
 Package: flickos-notes
 Version: 0.4
@@ -498,20 +501,20 @@ Description: screenshots and screen recordings for the FlickOS desktop
  stops it.
 
 Package: flickos-settings
-Version: 1.44
+Version: 1.46
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 1896
+Installed-Size: 1897
 Depends: labwc, swaybg, waybar, mako-notifier, mate-polkit, network-manager-applet, swayidle, swaylock, xdg-user-dirs, gsettings-desktop-schemas, dconf-gsettings-backend, arc-theme, numix-icon-theme-circle, flickos-screenshot (>= 1.1)
 Recommends: foot, fuzzel, thunar, wl-clipboard, libnotify-bin, brightnessctl, wireplumber, cliphist, wlsunset, playerctl, vlc, libreoffice-writer, libreoffice-calc, libreoffice-impress, gnome-themes-extra, adwaita-icon-theme, nwg-look, waypaper
 Breaks: flick-tiler (<< 1.7), flickos-control (<< 1.21), flickos-layouts (<< 1.6), flickos-shortcuts (<< 1.16)
 Priority: optional
 Section: misc
-Filename: pool/main/f/flickos-settings/flickos-settings_1.44_all.deb
-Size: 1789836
-SHA256: 3007b677d165a64534c43a018f8ee8b1f2438b68f5e4ffd63aed37da074382ca
-SHA1: a7224b29963ad3e61e102ef6a0113afec22478bb
-MD5sum: 1a7f5429d2ea065764f023a00d239b81
+Filename: pool/main/f/flickos-settings/flickos-settings_1.46_all.deb
+Size: 1790288
+SHA256: 5831f1956903dbf9c593bcfdcc4c5bdbed301f48b3bbd1fa04a748ba5996a8af
+SHA1: e7c04852205b212feb23f9b543570224bb5b1481
+MD5sum: 2d37050cf3661f5ce25a1c77c876b26c
 Description: FlickOS default desktop configuration
  System-wide defaults for the FlickOS labwc session: keybindings, root menu,
  session startup programs, wallpaper, panel, notification and launcher
@@ -524,18 +527,18 @@ Description: FlickOS default desktop configuration
  ~/.config override.
 
 Package: flickos-shortcuts
-Version: 1.17
+Version: 1.18
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 51
+Installed-Size: 56
 Depends: python3, python3-gi, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-gtklayershell-0.1, labwc, libxkbcommon0
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-shortcuts/flickos-shortcuts_1.17_all.deb
-Size: 15168
-SHA256: 0403458bda6337912d0d325f5937034182fc0da7bdd66f24b5875347786ddf01
-SHA1: dcdf0e63975515bec72a5cdf1b9288fff3acb776
-MD5sum: 1c5889407a1aca0817111654e90bf8e3
+Filename: pool/main/f/flickos-shortcuts/flickos-shortcuts_1.18_all.deb
+Size: 16652
+SHA256: 62305bd7765c2552d801944873a35d62e8356de07c25c2327b429fff7b5f0e41
+SHA1: 2ccfc2095c3fea07f67314f94afe38051aa77a7d
+MD5sum: 3a45b868be92995c2b068ea43fd0254f
 Description: keyboard shortcut sheet for the FlickOS labwc session
  Press and hold the Super (Windows) key in the FlickOS session and a sheet
  with the keyboard shortcuts appears until the key is let go. The shortcuts
