@@ -54,20 +54,20 @@ Description: FlickOS desktop environment (metapackage)
  LibreOffice, VLC, Mousepad, Ristretto, Evince, Xarchiver, GNOME PackageKit).
 
 Package: flickos-layouts
-Version: 1.74~test1
+Version: 1.82~test1
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 3902
-Depends: flickos-branding (>= 1.15~), python3, python3-gi, gir1.2-gtk-3.0, libglib2.0-bin, libxkbcommon0, flickos-settings (>= 1.17), sfwbar (>= 1.0~beta17+git20260910+flickos4)
+Installed-Size: 6061
+Depends: flickos-branding (>= 1.4), python3, python3-gi, gir1.2-gtk-3.0, libglib2.0-bin, libxkbcommon0, flickos-settings (>= 1.17), sfwbar (>= 1.0~beta17+git20260910+flickos4)
 Recommends: waypaper
 Breaks: flick-tiler (<< 1.7), flickos-menu (<< 1.10), flickos-shortcuts (<< 1.17)
 Priority: optional
 Section: misc
-Filename: pool/main/f/flickos-layouts/flickos-layouts_1.74~test1_all.deb
-Size: 3655156
-SHA256: ed66d5b81f305bf23ac17283727a84dac4083c2b7efccb1193b2b86ff77cc05e
-SHA1: d37e12c04be505e0f6fe361f5cb28fb47ff8837d
-MD5sum: 7be7ffe9c2ed07b626b575daf3c776b9
+Filename: pool/main/f/flickos-layouts/flickos-layouts_1.82~test1_all.deb
+Size: 5808284
+SHA256: cbfc14edbfc68aaa14b57046ff93715317646641a882153627443521476a7adc
+SHA1: c1b4f49a6af8847f6b5ad93d1e848c55e578b55b
+MD5sum: 34c0040cb528261b8be10ad9280e993d
 Description: FlickOS desktop layouts and styles, and the flickos-layout tool
  Desktop layouts for the FlickOS labwc session: Redmond (one bottom panel),
  Cupertino (top bar and an auto-hiding dock) and Traditional (top panel and
@@ -138,19 +138,19 @@ Description: FlickOS default desktop configuration
  ~/.config override.
 
 Package: flickos-software
-Version: 1.12~test2
+Version: 1.13~test1
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 189
-Depends: python3, python3-gi, gir1.2-gtk-3.0, appstream, gir1.2-appstream-1.0, packagekit, gir1.2-packagekitglib-1.0, gir1.2-flatpak-1.0, flickos-control (>= 1.58~)
+Depends: python3, python3-gi, gir1.2-gtk-3.0, appstream, gir1.2-appstream-1.0, packagekit, gir1.2-packagekitglib-1.0, gir1.2-flatpak-1.0, flickos-control (>= 1.58)
 Recommends: flatpak
 Priority: optional
 Section: admin
-Filename: pool/main/f/flickos-software/flickos-software_1.12~test2_all.deb
-Size: 43336
-SHA256: 47c25872e952a56fcec953dbfdab3a4c463cf6b9790c6b907717807d264389e3
-SHA1: e7d6e028782fc4a2a250fa3f81edc935dc250b98
-MD5sum: 6472be55809a14be862c6725cfa7d053
+Filename: pool/main/f/flickos-software/flickos-software_1.13~test1_all.deb
+Size: 43316
+SHA256: 604ce1c6a4acae309c772909460e4259bc8dbf8654fe2cb1a30953535c34e4e2
+SHA1: 76576936f272e39e7382c957ef0996dd57a1636e
+MD5sum: a2da58ad71eeffa3da9403890f479529
 Description: Software: find, install and remove apps on FlickOS
  A window for apps, not packages: every desktop app in Debian's archive, in
  FlickOS's repository (with the community apps other developers publish
@@ -165,6 +165,33 @@ Description: Software: find, install and remove apps on FlickOS
  A daily timer updates Flatpak apps and Flathub's catalog while the
  automatic updates are on. Nothing runs while the window is closed, and
  nothing is sent about its user.
+
+Package: flickos-style-tortuga
+Version: 1.0~test2
+Architecture: all
+Maintainer: Jon <dvbondoy@gmail.com>
+Installed-Size: 445
+Depends: flickos-layouts (>= 1.82~), flick-tiler (>= 1.11~), sfwbar (>= 1.0~beta17+git20260910+flickos7), arc-theme, numix-icon-theme-circle
+Priority: optional
+Section: x11
+Filename: pool/main/f/flickos-style-tortuga/flickos-style-tortuga_1.0~test2_all.deb
+Size: 389232
+SHA256: aae3cc7d90820735624a47434b9dbbbe9dcce3fba675cf77842a38a8351a0d1f
+SHA1: 5001ad0fd1533d697a1c819c1d4f2175e69d2e47
+MD5sum: acfefab0c14de5117590285f2efa7953
+Description: Tortuga style and layout for the FlickOS desktop
+ A dark style for FlickOS: slate title bars with thin buttons that get a
+ round face under the pointer, a lantern copper accent, a deep slate
+ terminal, and an island harbour at dusk on the wallpaper, with lanterns
+ along the quay and their light in the water.
+ .
+ Its layout has three floating islands at the top with the apps button, the
+ clock and the status, and a dock at the bottom with the desktops as a
+ two-by-two grid beside it. While a window fills the screen the islands join
+ into one panel and the dock hides.
+ .
+ Installing it adds Tortuga to Desktop Layout & Style; Software's Use sets
+ the style and the layout together.
 
 Package: flickos-switch
 Version: 1.4~test2
