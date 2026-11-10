@@ -1,3 +1,27 @@
+Package: flick-tiler
+Version: 1.12~test1
+Architecture: all
+Maintainer: Jon <dvbondoy@gmail.com>
+Installed-Size: 77
+Depends: python3, labwc, wtype, flickos-layouts (>= 1.8), flickos-settings (>= 1.11)
+Recommends: fuzzel
+Priority: optional
+Section: x11
+Filename: pool/main/f/flick-tiler/flick-tiler_1.12~test1_all.deb
+Size: 20344
+SHA256: 83e97fb7b3ebbca8516e5282fcc23d57225af8b077cf1ba6f870af5e2615c6b0
+SHA1: 1328779fffaee961ca49fb6a154165bd9a033061
+MD5sum: 819871411650bef2c7ce189b4d90217d
+Description: opt-in window tiling for the FlickOS labwc session
+ flick-tiler arranges windows side by side in the FlickOS labwc session:
+ master and stack, columns, grid or one at a time, with gaps. New windows
+ are tiled as they open; keybinds move the focus and the windows, and a
+ panel button turns tiling on and off and chooses the arrangement.
+ .
+ labwc stays the window manager. flick-tiler places windows through
+ labwc's own regions, which it rewrites as windows open and close, so
+ turning it off gives the normal floating desktop back.
+
 Package: flickos-control
 Version: 1.58~test2
 Architecture: all
@@ -54,20 +78,20 @@ Description: FlickOS desktop environment (metapackage)
  LibreOffice, VLC, Mousepad, Ristretto, Evince, Xarchiver, GNOME PackageKit).
 
 Package: flickos-layouts
-Version: 1.82~test1
+Version: 1.83~test3
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 6061
+Installed-Size: 13450
 Depends: flickos-branding (>= 1.4), python3, python3-gi, gir1.2-gtk-3.0, libglib2.0-bin, libxkbcommon0, flickos-settings (>= 1.17), sfwbar (>= 1.0~beta17+git20260910+flickos4)
 Recommends: waypaper
-Breaks: flick-tiler (<< 1.7), flickos-menu (<< 1.10), flickos-shortcuts (<< 1.17)
+Breaks: flick-tiler (<< 1.7), flickos-menu (<< 1.32~), flickos-shortcuts (<< 1.17)
 Priority: optional
 Section: misc
-Filename: pool/main/f/flickos-layouts/flickos-layouts_1.82~test1_all.deb
-Size: 5808284
-SHA256: cbfc14edbfc68aaa14b57046ff93715317646641a882153627443521476a7adc
-SHA1: c1b4f49a6af8847f6b5ad93d1e848c55e578b55b
-MD5sum: 34c0040cb528261b8be10ad9280e993d
+Filename: pool/main/f/flickos-layouts/flickos-layouts_1.83~test3_all.deb
+Size: 9641680
+SHA256: 39c04ec817c801e7ad026681435f9ccc62ff9f51b5c5299b63686daa0eb450ad
+SHA1: 196e5af051b7de9262c9370d429d8fab6524d5f4
+MD5sum: 2ecadaf07a3251e5499102481ed87616
 Description: FlickOS desktop layouts and styles, and the flickos-layout tool
  Desktop layouts for the FlickOS labwc session: Redmond (one bottom panel),
  Cupertino (top bar and an auto-hiding dock) and Traditional (top panel and
@@ -110,6 +134,40 @@ Description: lock screen of the FlickOS desktop
  The screen is covered at once, before the lock screen itself has loaded,
  and stays covered if the lock screen stops working: swaylock then takes
  over. FlickOS's Settings run it for Super+L, the menus and the idle lock.
+
+Package: flickos-menu
+Version: 1.32~test10
+Architecture: all
+Maintainer: Jon <dvbondoy@gmail.com>
+Installed-Size: 361
+Depends: python3, python3-gi, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-gtklayershell-0.1, fd-find, labwc, procps, wl-clipboard
+Breaks: flickos-phone (<< 1.17)
+Priority: optional
+Section: x11
+Filename: pool/main/f/flickos-menu/flickos-menu_1.32~test10_all.deb
+Size: 81816
+SHA256: c6a5dd563604e71603aa206a3f435c095d1767a49354bfa1cd669ec67fcd435e
+SHA1: 31a29ace7d917064135e3521fa67bd1bbeafdb4c
+MD5sum: f8cb2979d0ce84866b4d0bc9556284cb
+Description: start menu and Quick Settings for the FlickOS labwc session
+ A two-column start menu for the panel's apps button: pinned apps, all apps
+ by category, search, the user's folders, Settings, and lock, log out,
+ restart and shut down. A tap of the Super (Windows) key opens it too.
+ .
+ It is the apps button's default. Settings > Desktop Layout & Style can
+ switch the button back to the fuzzel launcher. While it is off, nothing of
+ it runs.
+ .
+ Quick Settings, off by default, opens from the panel's volume and battery
+ icons and Super+A: switches for Wi-Fi, Do Not Disturb, night light, tiling
+ and the phone, sliders for volume and brightness, and the battery.
+ .
+ The phone popup opens from the panel's phone button while the phone
+ connection is on: the phone, what can be sent, a ringing call, and what
+ recently arrived. The button keeps its menu when this package is removed.
+ .
+ After a volume, microphone or brightness key, a ring shows the new level
+ for a moment. Settings > Notifications can turn it off.
 
 Package: flickos-settings
 Version: 1.48~test2
