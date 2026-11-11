@@ -337,29 +337,6 @@ Description: start menu and Quick Settings for the FlickOS labwc session
  After a volume, microphone or brightness key, a ring shows the new level
  for a moment. Settings > Notifications can turn it off.
 
-Package: flickos-notes
-Version: 0.4
-Architecture: all
-Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 105
-Depends: python3, python3-gi, gir1.2-gtk-3.0, gir1.2-gtksource-4
-Priority: optional
-Section: editors
-Filename: pool/main/f/flickos-notes/flickos-notes_0.4_all.deb
-Size: 25668
-SHA256: 76673ff7aeaf702cb0117a41c8f08034c69d5cf19b68e9697d699bc2144cc89d
-SHA1: bbc99c64206b34d1f472c7fedf9889350aa9751b
-MD5sum: 29c13fa76b427231f5b97a6d36708e35
-Description: notes and checklists in Markdown for FlickOS
- Write notes and checklists, tag them with #words in the text, and find
- any note by its words or tags. Every note is a plain Markdown file in a
- folder you can see (Documents/Notes by default), so any editor, backup or
- sync tool can use it. Typing is saved by itself.
- .
- A checklist is a Markdown task list (- [ ] milk): click a box to tick it.
- The list of notes shows how many items are left. Nothing runs while the
- window is closed.
-
 Package: flickos-phone
 Version: 1.31
 Architecture: all
@@ -405,37 +382,6 @@ Description: send pages, files and text between a phone and FlickOS
  until one is added, and nothing runs while the screen is locked.
  It listens only on the networks where a phone was paired, and nothing
  runs while it is off.
-
-Package: flickos-phone-screen
-Version: 0.8
-Architecture: amd64
-Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 1076
-Depends: python3, python3-gi, gir1.2-gtk-3.0, flickos-phone (>= 1.8), flickos-layouts (>= 1.33), adb, wtype, wlr-randr, wayvnc, openssl, libavcodec61 (>= 7:7.1.5), libavformat61 (>= 7:7.1.5), libavutil59 (>= 7:7.1.5), libc6 (>= 2.38), libsdl3-0 (>= 3.2.0), libswresample5 (>= 7:7.1.5)
-Priority: optional
-Section: net
-Filename: pool/main/f/flickos-phone-screen/flickos-phone-screen_0.8_amd64.deb
-Size: 843804
-SHA256: 2ad7a64c25dabbd02344f2878486112f6db2531a21614e300539c5a87be2866f
-SHA1: 17db62d8e8997cf5653394903fd71fdcb6e67696
-MD5sum: d76b7fd5b9d9f0af66468f2cdf170487
-Description: show your Android phone's screen on the FlickOS computer
- Use the phone's apps from the computer: its screen shows in a window,
- where the computer's mouse, keyboard and clipboard work on the phone.
- It uses scrcpy, and adds what scrcpy lacks on FlickOS: pairing over Wi-Fi
- with the six digits the phone shows, without a cable or a terminal, and
- finding the phone on the network by itself. Open it with Show Phone Screen
- in the phone button's menu, or Phone Screen in the apps menu.
- .
- Needs the phone paired with flickos-phone (the KDE Connect app) and an
- Android 11 or newer phone with Developer options. Wireless debugging must
- be on while the screen is shown; Android turns it off when the phone
- restarts or changes Wi-Fi. Nothing runs while the screen isn't shown.
- .
- The other way round, a tablet or phone can be a second screen for the
- computer: Use as Second Screen in the phone button's menu sends it a link
- that opens the screen in the AVNC app, over an encrypted connection with
- a new password every time. It turns itself off when the tablet leaves.
 
 Package: flickos-preflight
 Version: 1.2
@@ -843,29 +789,6 @@ Description: welcome window of the FlickOS desktop
  Each card runs the program that already owns the job, so nothing here is a
  second place to change a setting. A card whose program is not installed is
  left out. The window can be opened again from the menu, under Welcome.
-
-Package: flickos-write
-Version: 0.8
-Architecture: all
-Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 174
-Depends: python3, python3-gi, gir1.2-gtk-3.0, gir1.2-gtksource-4
-Priority: optional
-Section: editors
-Filename: pool/main/f/flickos-write/flickos-write_0.8_all.deb
-Size: 41048
-SHA256: 1b6c9cb70154f8e19d76ecd0ac4379aca88cc743ad91bcd8c2da97726b1db191
-SHA1: 5bc4a1ff18142bf5c94c1325135fbc77f27cb2ed
-MD5sum: 77472f74c7df8aa0715eac84c3500fb8
-Description: quiet writing in Markdown files for FlickOS
- Write books, stories and letters in plain Markdown files. A folder is a
- project and its files are the chapters, in the order of their numbers.
- Any other folder or Markdown file opens where it is.
- .
- A writing session fills the screen with the page and holds notifications.
- The line being written stays in the middle, the rest of the text can be
- dimmed, and a daily goal counts the words written today. Typing is saved
- by itself. Nothing runs while the window is closed.
 
 Package: sfwbar
 Version: 1.0~beta17+git20260910+flickos8
