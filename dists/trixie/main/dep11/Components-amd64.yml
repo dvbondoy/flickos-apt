@@ -217,3 +217,40 @@ Icon:
 Custom:
   FlickOS::layout: seven
   FlickOS::style: seven
+---
+Type: addon
+ID: io.github.dvbondoy.flickos.styles.Tortuga
+Package: flickos-style-tortuga
+Extends:
+- flickos-layout.desktop
+ProjectLicense: GPL-3.0-or-later
+Name:
+  C: Tortuga
+Summary:
+  C: Floating islands, lantern light and a harbour at dusk
+Description:
+  C: >-
+    <p>
+          A dark style for the FlickOS desktop: slate title bars with thin
+          buttons that get a round face under the pointer, a lantern copper
+          accent, a deep slate terminal, and an island harbour at dusk on the
+          wallpaper, with lanterns along the quay and their light in the water.
+        </p>
+    <p>
+          It comes with a layout of the same name: three floating islands at the
+          top with the apps button, the clock and the status, and a dock at the
+          bottom with your four desktops as a two-by-two grid beside it. While a
+          window fills the screen the islands join into one panel and the dock
+          hides. Use sets both; you can still pick another layout in Settings.
+        </p>
+Developer:
+  id: io.github.dvbondoy
+  name:
+    C: FlickOS
+Url:
+  homepage: https://flickos.org/
+Icon:
+  stock: preferences-desktop-theme
+Custom:
+  FlickOS::layout: tortuga
+  FlickOS::style: tortuga
