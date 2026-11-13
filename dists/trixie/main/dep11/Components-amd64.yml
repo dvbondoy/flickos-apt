@@ -33,6 +33,22 @@ Url:
   homepage: https://flickos.org/
 Icon:
   stock: preferences-desktop-theme
+Screenshots:
+- default: true
+  caption:
+    C: Files and a terminal in the Aye3wm style and layout
+  thumbnails: []
+  source-image:
+    url: https://dvbondoy.github.io/flickos-apt/screenshots/aye3/1.png
+    width: 1366
+    height: 768
+- caption:
+    C: The start menu
+  thumbnails: []
+  source-image:
+    url: https://dvbondoy.github.io/flickos-apt/screenshots/aye3/2.png
+    width: 1366
+    height: 768
 Custom:
   FlickOS::layout: aye3
   FlickOS::style: aye3
@@ -69,6 +85,22 @@ Url:
   homepage: https://flickos.org/
 Icon:
   stock: preferences-desktop-theme
+Screenshots:
+- default: true
+  caption:
+    C: Files and a terminal in the Elemental style and layout
+  thumbnails: []
+  source-image:
+    url: https://dvbondoy.github.io/flickos-apt/screenshots/elemental/1.png
+    width: 1366
+    height: 768
+- caption:
+    C: All apps in the start menu
+  thumbnails: []
+  source-image:
+    url: https://dvbondoy.github.io/flickos-apt/screenshots/elemental/2.png
+    width: 1366
+    height: 768
 Custom:
   FlickOS::layout: elemental
   FlickOS::style: elemental
@@ -107,6 +139,22 @@ Url:
   homepage: https://flickos.org/
 Icon:
   stock: preferences-desktop-theme
+Screenshots:
+- default: true
+  caption:
+    C: Files and a terminal in the Eleven style and layout
+  thumbnails: []
+  source-image:
+    url: https://dvbondoy.github.io/flickos-apt/screenshots/eleven/1.png
+    width: 1366
+    height: 768
+- caption:
+    C: The start menu
+  thumbnails: []
+  source-image:
+    url: https://dvbondoy.github.io/flickos-apt/screenshots/eleven/2.png
+    width: 1366
+    height: 768
 Custom:
   FlickOS::layout: eleven
   FlickOS::style: eleven
@@ -143,6 +191,22 @@ Url:
   homepage: https://flickos.org/
 Icon:
   stock: preferences-desktop-theme
+Screenshots:
+- default: true
+  caption:
+    C: Files and a terminal in the Experience style and layout
+  thumbnails: []
+  source-image:
+    url: https://dvbondoy.github.io/flickos-apt/screenshots/experience/1.png
+    width: 1366
+    height: 768
+- caption:
+    C: The start menu
+  thumbnails: []
+  source-image:
+    url: https://dvbondoy.github.io/flickos-apt/screenshots/experience/2.png
+    width: 1366
+    height: 768
 Custom:
   FlickOS::layout: experience
   FlickOS::style: experience
@@ -178,6 +242,22 @@ Url:
   homepage: https://flickos.org/
 Icon:
   stock: preferences-desktop-theme
+Screenshots:
+- default: true
+  caption:
+    C: Files and a terminal in the Footprint style and layout
+  thumbnails: []
+  source-image:
+    url: https://dvbondoy.github.io/flickos-apt/screenshots/footprint/1.png
+    width: 1366
+    height: 768
+- caption:
+    C: All apps in the start menu
+  thumbnails: []
+  source-image:
+    url: https://dvbondoy.github.io/flickos-apt/screenshots/footprint/2.png
+    width: 1366
+    height: 768
 Custom:
   FlickOS::layout: footprint
   FlickOS::style: footprint
@@ -214,6 +294,22 @@ Url:
   homepage: https://flickos.org/
 Icon:
   stock: preferences-desktop-theme
+Screenshots:
+- default: true
+  caption:
+    C: Files and a terminal in the Seven style and layout
+  thumbnails: []
+  source-image:
+    url: https://dvbondoy.github.io/flickos-apt/screenshots/seven/1.png
+    width: 1366
+    height: 768
+- caption:
+    C: The start menu
+  thumbnails: []
+  source-image:
+    url: https://dvbondoy.github.io/flickos-apt/screenshots/seven/2.png
+    width: 1366
+    height: 768
 Custom:
   FlickOS::layout: seven
   FlickOS::style: seven
@@ -251,6 +347,22 @@ Url:
   homepage: https://flickos.org/
 Icon:
   stock: preferences-desktop-theme
+Screenshots:
+- default: true
+  caption:
+    C: Files and a terminal in the Tortuga style and layout
+  thumbnails: []
+  source-image:
+    url: https://dvbondoy.github.io/flickos-apt/screenshots/tortuga/1.png
+    width: 1366
+    height: 768
+- caption:
+    C: All apps in the start menu
+  thumbnails: []
+  source-image:
+    url: https://dvbondoy.github.io/flickos-apt/screenshots/tortuga/2.png
+    width: 1366
+    height: 768
 Custom:
   FlickOS::layout: tortuga
   FlickOS::style: tortuga

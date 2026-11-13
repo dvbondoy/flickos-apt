@@ -5,41 +5,41 @@ Origin: FlickOS
 Label: FlickOS
 Suite: trixie
 Codename: trixie
-Date: Fri, 13 Nov 2026 12:34:57 UTC
+Date: Fri, 13 Nov 2026 14:13:19 UTC
 Architectures: amd64
 Components: main
 Description: FlickOS package repository
 MD5Sum:
- 8e9e7924d4a92244d216d4ec1ffe19d9 42577 main/binary-amd64/Packages
- 7223d98d46fef7cdd6dcbafe51ea2f19 15010 main/binary-amd64/Packages.gz
- 4f684943d82a992136f297e4fde9fd6a 7768 main/dep11/Components-amd64.yml
- 09b2af1b88b4a8ab25badc782bb9b904 1815 main/dep11/Components-amd64.yml.gz
+ 0f6772c366e37b928ff997f0ea1c6782 42577 main/binary-amd64/Packages
+ 4107076960b9cf172586e8f5c7aaaeb5 15001 main/binary-amd64/Packages.gz
+ 2bf6f8b40983cc03c9f992c91c96e4f8 10686 main/dep11/Components-amd64.yml
+ 5ab010d409f5846b640103ea3e7f1083 2065 main/dep11/Components-amd64.yml.gz
  4996bc0b6fe407af1e10063597b51190 107 main/binary-amd64/Release
 SHA1:
- 45c1f211e372a65ba54af834a5fa65a1ab8bb70f 42577 main/binary-amd64/Packages
- 93260fc3b8009459fdf81d7a001863b50e1141af 15010 main/binary-amd64/Packages.gz
- 75a1e00318ef39b7220829c579582cb3465dbd1c 7768 main/dep11/Components-amd64.yml
- c315d2e482e6aba0be7b6ea3d002eca9fbd9fb64 1815 main/dep11/Components-amd64.yml.gz
+ 7d8280584ad31f9b6cf80f197bfe0aa531ab83e9 42577 main/binary-amd64/Packages
+ 4382443599971c99dc38a20b9de8082ce242bd6f 15001 main/binary-amd64/Packages.gz
+ 75649242611dc9596e277c9cbc29edd9f534ac3e 10686 main/dep11/Components-amd64.yml
+ 4d98a7d7ce32f84b37d04938773365caca890ea9 2065 main/dep11/Components-amd64.yml.gz
  533641725dddc8b260db75e2635080e02d9baa88 107 main/binary-amd64/Release
 SHA256:
- 22ae2aba0fcd506f7ef987939b06e4f78452bb0b512ffb29d863feae8f56304a 42577 main/binary-amd64/Packages
- b08528ae9d01f3cbedf1647bf666264871ac5942c4b2cc54d947455a06cf34ab 15010 main/binary-amd64/Packages.gz
- ee2ea7ecccde1576cbc47b594e7b7b0d25951a83a8c5493933c59b5efdc53c5a 7768 main/dep11/Components-amd64.yml
- 33a6bb4aaf18487d0210a2f779e69d0cea16702740c52ecd116526413fcc1050 1815 main/dep11/Components-amd64.yml.gz
+ 0be75a2091e8104fd58ab473bc9b4dc2768f14b84b63eff187802f1178dc95db 42577 main/binary-amd64/Packages
+ d995145277432cbf89d64f7ed5b6d78c16c2a539d5a44da760cf0206d15c2342 15001 main/binary-amd64/Packages.gz
+ 8444809229ded40bc119f163c8d2cc95f8c006f11e03aad6b45543ee32ce0639 10686 main/dep11/Components-amd64.yml
+ 520de2905de0b4b8eabdb4c35967390d87b3bc04efa892dc73702f68c6d9c64d 2065 main/dep11/Components-amd64.yml.gz
  dfa7764d94eecd3c6d7c2d7239cd116e854f45521baafb6cf19e9d70d10e52fd 107 main/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEUgEBifQFVhEh/ZaMmxiP+U7RnmgFAmr3A/IACgkQmxiP+U7R
-nmiVtg/9GcuMmbbf6+MLFIfjURmj+8ZPU1a7xVYR3hKriqHTjhxCaGUDd2jInSbq
-jRN7NXrtKGOUI5ZAqrJmy5+ml1wT2wsTLooWNs57hp1ClN3dFhVqJlH8PnxSki8j
-3aayO5qbwiknpMBI1kP0pfp2YbuFgYktt36SuVwuVnIpGv2tsiJbGw/MCutyrbj1
-Gkm8Js/jSI9VsXMMaaWiFSJW2de9J4Uokb+O7XfgHX93Es4hggCEVz5imsJohW+A
-h/X6dVM4+pdzwZbMP47LmHp01PyxClBf/SMr5xjWqTpInE/G3PMiSa1Jhrys0OCk
-HZCwBvNMyAlKJGnA9B/rSgJc2dTKHLwW9OHLBZq3ijjgzEP+8ac0AwbF0nvaSuUC
-re4BhzyEJhYzuM7T3kHC3oLCxpRgYf+c9PrPswDTVZatXfSqKVYPiahACfHzVded
-rzWoYChDY25jqMPNM0Y9Vf6dGXgRunPDMMriSaCEqkNTNG/N7D5haYqIx1XVLhmE
-sn4MG9VpPYYOZ/jcvbolCKrTjioiTt28ulojlvfBT0/yph9iNVmnVBHxmfr2yUa1
-FDAI+QESHhwN80OwP3712GprpZkWuhLJWt4/zq+zp4s8QUMjT8v/NbTtgbS3zEet
-y9e1heQZREHLM+SdzbQLxVOd3du5DhXxVPqSOlnj80JlcYL06AY=
-=oVz5
+iQIzBAEBCgAdFiEEUgEBifQFVhEh/ZaMmxiP+U7RnmgFAmr3Gv8ACgkQmxiP+U7R
+nmhfAw/5AVhP8goIv8fQTpbTCLxP5XJmFY5WATdIcV6YEO41Q68IXQ0/TYmRP9R2
+ctldR/DS6Txe+CteRjHdUcs1AvFbZ/deI4o3rrU5R2yUUnI0u2L9vfFYTUyLONuh
+4LhKnSCsjNKpWa7DQkoURbZD3mZEVxwqCENlVsE6q7eBXzNRNYm/TxHeNFkTvVGs
+N13eY1rwF8EJzHtOI/u2MIC4EM15is6dNjEo54MCpfrTjmZtoz4JC0UYtUw7N5Bw
+0P9zHrcBQSCay9Gnj4Q+4kLORrhlbsEYZJemVwVsdHwCvMCfd9UCgdbSuVGkmccI
+HprvDN6bTzIbrNBoZrTZqR/Jd21D0al4oeribF1febgp6RJqAeRXkUa9iVSOAvA5
+zm+gE8TfU2KGY8/pzskpXhKUeX7fzPIPen6R4VyF8hkihqyIwEDzfh2YbvIxNFHZ
+ZuC+8Wuig5Stzq1Td9MdhuYJ7TK9CPmQLiHzrgNLd2hOUloUj7s6PdxBVDH1VVOa
+FHtJPzwgBSh/8pXLUupFbHU0WtODX1AVcbWghhTaAdrpZXfp5Cz2L+OMXAOQc8WV
+cwF8JeGKTpK2U2LNqvD/URa/Z342lCejD6Dh+HLeCmhkSPi0CGAhGSwtv2cW4V5u
+hjTQ2goOwU9g7RpM0g7cEC6PKsWUkT6EY2GTVfUAHgs0WmcWoeE=
+=jdCb
 -----END PGP SIGNATURE-----

@@ -468,20 +468,20 @@ Description: screenshots and screen recordings for the FlickOS desktop
  stops it.
 
 Package: flickos-settings
-Version: 1.55
+Version: 1.56
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 1914
+Installed-Size: 1917
 Depends: labwc, swaybg, waybar, mako-notifier, mate-polkit, network-manager-applet, swayidle, swaylock, xdg-user-dirs, gsettings-desktop-schemas, dconf-gsettings-backend, arc-theme, flickos-theme (>= 1.0~test1), numix-icon-theme-circle, fonts-inter-variable, flickos-cursor, flickos-screenshot (>= 1.1)
 Recommends: foot, fuzzel, thunar, wl-clipboard, libnotify-bin, brightnessctl, wireplumber, cliphist, wlsunset, playerctl, vlc, libreoffice-writer, libreoffice-calc, libreoffice-impress, gnome-themes-extra, adwaita-icon-theme, nwg-look, waypaper
 Breaks: flick-tiler (<< 1.7), flickos-control (<< 1.21), flickos-layouts (<< 1.6), flickos-shortcuts (<< 1.16)
 Priority: optional
 Section: misc
-Filename: pool/main/f/flickos-settings/flickos-settings_1.55_all.deb
-Size: 1792984
-SHA256: e2628ed8892e56965203314a248e845ce9954651f485a33be61621f88cb06fa0
-SHA1: 3fa3192ab67d833b9ca18e401ec8df21c03ab1d6
-MD5sum: 931dac341e441ec0c66b22aff7479a03
+Filename: pool/main/f/flickos-settings/flickos-settings_1.56_all.deb
+Size: 1793952
+SHA256: a972e31879d1e99937a60dd0ee998f60f300d8c3db058232fd55d5857acc0784
+SHA1: 1913484316c9182be102deade47b8f28a1827706
+MD5sum: 738999c8b01ddd52bffa38f4d9125d6b
 Description: FlickOS default desktop configuration
  System-wide defaults for the FlickOS labwc session: keybindings, root menu,
  session startup programs, wallpaper, panel, notification and launcher
@@ -545,18 +545,18 @@ Description: Software: find, install and remove apps on FlickOS
  nothing is sent about its user.
 
 Package: flickos-style-aye3
-Version: 1.3
+Version: 1.4
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 109
+Installed-Size: 110
 Depends: flickos-layouts (>= 1.57), arc-theme, numix-icon-theme
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-style-aye3/flickos-style-aye3_1.3_all.deb
-Size: 77764
-SHA256: 50b1afeab8cf0bb4a2a2693bde233612162567919f00ae56174912c138213fb6
-SHA1: 29fd69415177f8faf1d2142dd2fc08e1eeb05772
-MD5sum: b5182eb754e21d65071edf5ef0fbe0b4
+Filename: pool/main/f/flickos-style-aye3/flickos-style-aye3_1.4_all.deb
+Size: 77984
+SHA256: 16144a228f8e379911199963ab701cfb36afcb7635cc2cdddc4d3812d73dac74
+SHA1: 3903fb95b9edcd30d53b360b7e0fd54606703839
+MD5sum: de77625cad15bf1965c2bd5fc50ba3a1
 Description: Aye3wm style and layout for the FlickOS desktop
  A dark style for FlickOS in the look of a classic tiling desktop: flat
  slate blue title bars on the focused window and grey ones on the others,
@@ -570,18 +570,18 @@ Description: Aye3wm style and layout for the FlickOS desktop
  style and the layout together.
 
 Package: flickos-style-elemental
-Version: 1.2
+Version: 1.3
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 669
+Installed-Size: 670
 Depends: flickos-layouts (>= 1.53), sfwbar, gnome-themes-extra-data, elementary-icon-theme, fonts-inter-variable
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-style-elemental/flickos-style-elemental_1.2_all.deb
-Size: 617096
-SHA256: 0fbbcf9bbd4e3299a3fb9e9772c99b0f42248500edd7ad7f888ba8a21bd5d644
-SHA1: 79c24effda9b50cdc5fa53a3854d47f2be764971
-MD5sum: f40bea8f9f64b34cd29adb142eb47135
+Filename: pool/main/f/flickos-style-elemental/flickos-style-elemental_1.3_all.deb
+Size: 617320
+SHA256: 4e5abb2ef2c76c6671e872a66e8954f5d29ed83be88b9aae2d05ce7f35035083
+SHA1: 501f1a72bc03d985857b099cd6030e9a01d4c9d6
+MD5sum: 391eba458da515208c5dee439091954f
 Description: Elemental style for the FlickOS desktop
  A light style for FlickOS: windows in one light grey (GTK's Adwaita)
  with the elementary icons, the title in the middle and plain buttons, a
@@ -597,18 +597,18 @@ Description: Elemental style for the FlickOS desktop
  the style and the layout together.
 
 Package: flickos-style-eleven
-Version: 1.3
+Version: 1.4
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 516
+Installed-Size: 517
 Depends: flickos-layouts (>= 1.69), flickos-menu (>= 1.22), gnome-themes-extra-data, adwaita-icon-theme, adwaita-icon-theme-legacy, fonts-open-sans
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-style-eleven/flickos-style-eleven_1.3_all.deb
-Size: 466048
-SHA256: 0f95ef2b84703e65057cf3ed7987946813f9e28835aeb75189c8c342cc597e6f
-SHA1: 7300a3ef36f8c1ad19acec8777c7f17d97526a01
-MD5sum: f523792c3fc796e3929b7cd16b836cc8
+Filename: pool/main/f/flickos-style-eleven/flickos-style-eleven_1.4_all.deb
+Size: 466248
+SHA256: 22939b2fa2350d9fa57f0e1cf164fa29be29255b9b87399a7cafc69030cd79cc
+SHA1: 7de7faeeafd3304c2d26dd2388146962b5109b7f
+MD5sum: 50caa62f770036090b4670bc903f5220
 Description: Eleven style and layout for the FlickOS desktop
  A dark style for FlickOS: neutral dark grey windows and title bars with
  wide, flat buttons in thin lines and a close button that turns red under
@@ -624,18 +624,18 @@ Description: Eleven style and layout for the FlickOS desktop
  the style and the layout together.
 
 Package: flickos-style-experience
-Version: 1.1
+Version: 1.2
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 997
+Installed-Size: 998
 Depends: flickos-layouts (>= 1.53), greybird-gtk-theme, tango-icon-theme
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-style-experience/flickos-style-experience_1.1_all.deb
-Size: 957976
-SHA256: 4b7ddc7db7bb6c241974c0951a5825f86ae3c70e05e0648e67bad58277cdb529
-SHA1: 51fb998c55ac3cf397a8cdc4e1de0f68a23fd6f0
-MD5sum: e6fda93b6858c59326269573801d4541
+Filename: pool/main/f/flickos-style-experience/flickos-style-experience_1.2_all.deb
+Size: 958212
+SHA256: 3203c8c6458eaaa1847e621b1516e419b35dbeaba9a5bdcac556228e63f9e73c
+SHA1: 53f13622f954a0cb4bc4b768470f2c0a89d523c4
+MD5sum: 47689383d4464764a7e69d97e6653370
 Description: Experience style for the FlickOS desktop
  A bright style for FlickOS in the colors of the early 2000s: deep blue
  title bars with glossy rounded buttons and a red close button, windows in
@@ -649,18 +649,18 @@ Description: Experience style for the FlickOS desktop
  sets the style and the layout together.
 
 Package: flickos-style-footprint
-Version: 1.5
+Version: 1.6
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 131
+Installed-Size: 132
 Depends: flickos-layouts (>= 1.62), sfwbar (>= 1.0~beta17+git20260910+flickos7), gnome-themes-extra-data, adwaita-icon-theme, adwaita-icon-theme-legacy, fonts-cantarell
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-style-footprint/flickos-style-footprint_1.5_all.deb
-Size: 64944
-SHA256: f54cc984d5bedf7f3d0b5d21fe071d20f793d6a40324c3ff8bfb6b8c735e13b6
-SHA1: 761d94fd94661efaa99995585a073188155b0b9b
-MD5sum: 260677858e77010bddfc644c2cd16d5a
+Filename: pool/main/f/flickos-style-footprint/flickos-style-footprint_1.6_all.deb
+Size: 65148
+SHA256: 4c1d91100be65e5735213f740fdf1704ebe76e35b4ab32016a94a6a85722d95c
+SHA1: 81fef96f5a6abf61766963ae54a6798410c43a6b
+MD5sum: 423f2809dbdb86f5d1d04803df692f7f
 Description: Footprint style and layout for the FlickOS desktop
  A dark style for FlickOS: a black top bar, grey windows with the title in
  the middle and round buttons, a dark grey terminal and a dusk wallpaper
@@ -674,18 +674,18 @@ Description: Footprint style and layout for the FlickOS desktop
  the style and the layout together.
 
 Package: flickos-style-seven
-Version: 1.3
+Version: 1.4
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 324
+Installed-Size: 325
 Depends: flickos-layouts (>= 1.53), arc-theme, numix-icon-theme
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-style-seven/flickos-style-seven_1.3_all.deb
-Size: 268996
-SHA256: e0c3cf03fd6e32996fd661eb89d26c4dc01b5d199586caf8fe824c93c0a582ac
-SHA1: bbbb9f74787b63e446d9029881233637c0004ded
-MD5sum: 8d649b7bf50f184e09b594b4ad848d6d
+Filename: pool/main/f/flickos-style-seven/flickos-style-seven_1.4_all.deb
+Size: 269184
+SHA256: 71accae7e6e5b851c1e97785fdec58a817d319fce501ef77b1ca32f42977a5b2
+SHA1: 4f93c6546263bcbe1e37c98775d455531e32eefb
+MD5sum: 71ece863da61285fd0a8dddf3045becd
 Description: Seven style for the FlickOS desktop
  A light style for FlickOS: windows in the Arc theme with the Numix icons,
  see-through sky blue title bars and frames, a see-through dark blue
@@ -701,18 +701,18 @@ Description: Seven style for the FlickOS desktop
  "flickos-layout try seven" shows the style until the next login.
 
 Package: flickos-style-tortuga
-Version: 1.0
+Version: 1.1
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 445
+Installed-Size: 446
 Depends: flickos-layouts (>= 1.83~test3), flick-tiler (>= 1.11~), sfwbar (>= 1.0~beta17+git20260910+flickos7), arc-theme, numix-icon-theme-circle
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-style-tortuga/flickos-style-tortuga_1.0_all.deb
-Size: 389360
-SHA256: 030bd1b4f6cb44f0085027c42ab517cad0bcc824cb8349c93b05b25f0992e230
-SHA1: 2d939d5c145de510670edaed5d484c466738c509
-MD5sum: 2fecb544be4503e0a3d33c53b1b71e63
+Filename: pool/main/f/flickos-style-tortuga/flickos-style-tortuga_1.1_all.deb
+Size: 389560
+SHA256: fd820740494b468269bcbfc768630269b8f2305c06710a124073dee972d7fe64
+SHA1: 13e39cf52c7bca5c30bf918bbf960179adfb5886
+MD5sum: 813ad5fe3c97e8130adcc597d5105816
 Description: Tortuga style and layout for the FlickOS desktop
  A dark style for FlickOS: slate title bars with thin buttons that get a
  round face under the pointer, a lantern copper accent, a deep slate
@@ -864,7 +864,7 @@ Description: taskbar, dock and panel for Wayland stacking compositors
  xkbmap modules are not built.
 
 Package: waypaper
-Version: 2.9+flickos1
+Version: 2.9+flickos2
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 245
@@ -873,11 +873,11 @@ Suggests: python3-imageio-ffmpeg
 Homepage: https://github.com/anufrievroman/waypaper
 Priority: optional
 Section: graphics
-Filename: pool/main/w/waypaper/waypaper_2.9+flickos1_all.deb
-Size: 44776
-SHA256: 0043e6376cab83b698c939a41d290fd0b7f6f1111b7d4fbe431df87e5ebe53cb
-SHA1: 58f831458e4ff104f9d420029d5ae2872c4da4c3
-MD5sum: a7d59cc883b66b306bb9173801d5aafb
+Filename: pool/main/w/waypaper/waypaper_2.9+flickos2_all.deb
+Size: 45024
+SHA256: e5350e1ed3500f99b32fc43a57bd808ec33c4b15dfcd98cad3eabb96d3a0c91b
+SHA1: 983128fab0cbbeaf34cdf9d319770f9911bed0cd
+MD5sum: e4346b31e31d8b456b7c80acb22140d9
 Description: GUI wallpaper setter for Wayland
  Waypaper shows the images of a folder as thumbnails and sets the one you
  click as the wallpaper with swaybg (or swww, hyprpaper, mpvpaper and
