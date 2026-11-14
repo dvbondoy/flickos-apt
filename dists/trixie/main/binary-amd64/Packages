@@ -74,20 +74,20 @@ Description: FlickOS branding: logo, boot splash, boot menu, OS name and login b
  unchanged, so software that detects Debian keeps working.
 
 Package: flickos-control
-Version: 1.68
+Version: 1.69
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 572
+Installed-Size: 574
 Depends: python3, python3-gi, gir1.2-gtk-3.0, flickos-layouts (>= 1.80), flick-tiler (>= 1.5), flickos-shortcuts, flickos-screenshot (>= 1.6), pkexec, xkb-data, adduser, accountsservice, xdg-utils, libglib2.0-bin, kanshi, wlr-randr
 Recommends: wl-clipboard, pciutils
 Breaks: flickos-greeter (<< 2.4~), flickos-phone (<< 1.16)
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-control/flickos-control_1.68_all.deb
-Size: 124108
-SHA256: d4513eb9e74e588db279fa47b24074ba5cd5b2f6b55baf63081f82a502871f8b
-SHA1: bae0e891f4fe57a4cddbe99c88527a830d7bd54a
-MD5sum: 77911954800e15478d33d45f68cf0764
+Filename: pool/main/f/flickos-control/flickos-control_1.69_all.deb
+Size: 124772
+SHA256: d260963c309cd57fcae2ef3707b00e667eb5367ab051a393b7e941c97546b90a
+SHA1: 596fe0d67bf89976b182b7738ffc7b985be0cb95
+MD5sum: 184bb446efa54db8f34621e09ccb6fcd
 Description: Settings window of the FlickOS desktop
  One window for the settings of the FlickOS labwc desktop: desktop layout,
  style and desktop clicks, mouse and touchpad, keyboard layout and typing,
@@ -304,19 +304,19 @@ Description: media controls and a sound spectrum for the FlickOS panel
  runs while off.
 
 Package: flickos-menu
-Version: 1.32
+Version: 1.33
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 370
+Installed-Size: 372
 Depends: python3, python3-gi, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-gtklayershell-0.1, eject, fd-find, labwc, procps, wl-clipboard
 Breaks: flickos-phone (<< 1.17)
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-menu/flickos-menu_1.32_all.deb
-Size: 85196
-SHA256: 7750d8779ebb0de60e94b4ef6b1586bbbf21134b4521f3dfba74ce87165f32f2
-SHA1: ce3eadf6a460d68c99557130905ba484feae1c7f
-MD5sum: 22b3ad955482806666b251a9fe443a45
+Filename: pool/main/f/flickos-menu/flickos-menu_1.33_all.deb
+Size: 85804
+SHA256: 2db37ab3aff2242f6dca82c998bf3a327e6d82ac572fcf2cf3466c1a6771808d
+SHA1: 9de753691ad4ce50204f6f41bdd8b8a37efb374a
+MD5sum: a72a3d813ee36a87667c890afad83665
 Description: start menu and Quick Settings for the FlickOS labwc session
  A two-column start menu for the panel's apps button: pinned apps, all apps
  by category, search, the user's folders, Settings, and lock, log out,
