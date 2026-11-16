@@ -649,18 +649,18 @@ Description: Experience style for the FlickOS desktop
  sets the style and the layout together.
 
 Package: flickos-style-footprint
-Version: 1.7
+Version: 1.8
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 133
 Depends: flickos-layouts (>= 1.62), sfwbar (>= 1.0~beta17+git20260910+flickos7), gnome-themes-extra-data, adwaita-icon-theme, adwaita-icon-theme-legacy, fonts-cantarell
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-style-footprint/flickos-style-footprint_1.7_all.deb
-Size: 65636
-SHA256: 1a715bf243629e4243156ba1202226bdc0acfe8303cdb708f6be1cb732732e7b
-SHA1: 89f3207b3ab4b2061859e851443bb79b11cadda6
-MD5sum: b53d6e6b967d9f172e67c9283a1389b1
+Filename: pool/main/f/flickos-style-footprint/flickos-style-footprint_1.8_all.deb
+Size: 65864
+SHA256: 1e2f56fd08dbbb0e9454228fcbf564bf333edd88b9213b357e9d30eb8a0e0c2a
+SHA1: 8f16cd942f827a9063737559925797ac68ee853c
+MD5sum: 811fb809cfb4b39defae87928f4d590f
 Description: Footprint style and layout for the FlickOS desktop
  A dark style for FlickOS: a black top bar, grey windows with the title in
  the middle and round buttons, a dark grey terminal and a dusk wallpaper
