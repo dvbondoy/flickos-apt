@@ -4,6 +4,167 @@ Version: '1.0'
 Origin: flickos-trixie-testing-main
 ---
 Type: addon
+ID: io.github.dvbondoy.flickos.kits.base
+Package: flickos-kit-base
+Extends:
+- flickos-kits.desktop
+ProjectLicense: GPL-3.0-or-later
+Name:
+  C: Developer Basics
+Summary:
+  C: Git, a compiler and the everyday command-line tools
+Description:
+  C: >-
+    <p>
+          The tools most programmers reach for first: git, the GNU compiler and
+          make, the gdb debugger, curl, jq, ripgrep, fd, shellcheck, sqlite3 and
+          GitHub's gh.
+        </p>
+    <p>
+          The other developer kits build on this one, so it is installed with them.
+          Nothing runs in the background.
+        </p>
+Developer:
+  id: io.github.dvbondoy
+  name:
+    C: FlickOS
+Url:
+  homepage: https://flickos.org/
+Icon:
+  stock: applications-development
+Custom:
+  FlickOS::kit: base
+  FlickOS::kit-category: development
+---
+Type: addon
+ID: io.github.dvbondoy.flickos.kits.c
+Package: flickos-kit-c
+Extends:
+- flickos-kits.desktop
+ProjectLicense: GPL-3.0-or-later
+Name:
+  C: C and C++
+Summary:
+  C: CMake, Meson, Ninja, Clang and Valgrind
+Description:
+  C: >-
+    <p>
+          Build systems and a second compiler for C and C++ projects: CMake, Meson,
+          Ninja, Clang, the Valgrind memory checker and pkgconf. The GNU compiler
+          and make come with Developer Basics.
+        </p>
+Developer:
+  id: io.github.dvbondoy
+  name:
+    C: FlickOS
+Url:
+  homepage: https://flickos.org/
+Icon:
+  stock: applications-development
+Custom:
+  FlickOS::kit: c
+  FlickOS::kit-category: development
+---
+Type: addon
+ID: io.github.dvbondoy.flickos.kits.containers
+Package: flickos-kit-containers
+Extends:
+- flickos-kits.desktop
+ProjectLicense: GPL-3.0-or-later
+Name:
+  C: Containers
+Summary:
+  C: Podman and Distrobox, without a daemon running
+Description:
+  C: >-
+    <p>
+          Rootless containers with Podman (the docker command works through it) and
+          Distrobox, which runs another system, such as a newer Debian, with your
+          home folder inside it.
+        </p>
+    <p>
+          No container runs until you start one. Podman's network helper for DHCP
+          networks stays off unless you turn it on, which almost nobody needs.
+        </p>
+Developer:
+  id: io.github.dvbondoy
+  name:
+    C: FlickOS
+Url:
+  homepage: https://flickos.org/
+Icon:
+  stock: utilities-terminal
+Custom:
+  FlickOS::kit: containers
+  FlickOS::kit-category: development
+---
+Type: addon
+ID: io.github.dvbondoy.flickos.kits.python
+Package: flickos-kit-python
+Extends:
+- flickos-kits.desktop
+ProjectLicense: GPL-3.0-or-later
+Name:
+  C: Python
+Summary:
+  C: Virtual environments, pip and pipx for Python projects
+Description:
+  C: >-
+    <p>
+          What a Python project needs on top of the Python that FlickOS already has:
+          virtual environments, the headers to build extensions, pip and pipx.
+        </p>
+    <p>
+          Debian keeps pip out of the system's own Python on purpose, so pip works
+          inside a virtual environment (python3 -m venv), and pipx installs command-
+          line programs of their own.
+        </p>
+Developer:
+  id: io.github.dvbondoy
+  name:
+    C: FlickOS
+Url:
+  homepage: https://flickos.org/
+Icon:
+  stock: applications-development
+Custom:
+  FlickOS::kit: python
+  FlickOS::kit-category: development
+---
+Type: addon
+ID: io.github.dvbondoy.flickos.kits.web
+Package: flickos-kit-web
+Extends:
+- flickos-kits.desktop
+ProjectLicense: GPL-3.0-or-later
+Name:
+  C: Node.js and npm
+Summary:
+  C: Node.js and npm for web and JavaScript projects
+Description:
+  C: >-
+    <p>
+          Node.js and npm from Debian, with the packages Debian's npm needs (a few
+          hundred small libraries).
+        </p>
+    <p>
+          Debian 13 has Node 20, which the Node project stopped supporting in April
+          2026. It still gets Debian's security fixes, but a project that needs a
+          newer Node will not find it here.
+        </p>
+Developer:
+  id: io.github.dvbondoy
+  name:
+    C: FlickOS
+Url:
+  homepage: https://flickos.org/
+Icon:
+  stock: applications-development
+Custom:
+  FlickOS::kit: web
+  FlickOS::kit-category: development
+---
+Type: addon
 ID: io.github.dvbondoy.flickos.styles.Tortuga
 Package: flickos-style-tortuga
 Extends:

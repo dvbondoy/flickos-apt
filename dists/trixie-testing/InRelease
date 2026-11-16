@@ -5,41 +5,41 @@ Origin: FlickOS
 Label: FlickOS Testing
 Suite: trixie-testing
 Codename: trixie-testing
-Date: Wed, 11 Nov 2026 02:50:42 UTC
+Date: Mon, 16 Nov 2026 04:33:01 UTC
 Architectures: amd64
 Components: main
 Description: FlickOS packages being tried by testers before they reach trixie (added by hand, never by automatic updates)
 MD5Sum:
- c389a2dcca5e04ecbd6f616b6e233d2a 18377 main/binary-amd64/Packages
- 7197f9a1e30245beec9a9611cb2a1e50 7105 main/binary-amd64/Packages.gz
- 6c84940c0c4a621a86cf08f11707739d 1286 main/dep11/Components-amd64.yml
- aa412e8e11305b49bdac284c5dda6979 702 main/dep11/Components-amd64.yml.gz
+ b69db8f9d611e255711e5aaf5adc0508 23911 main/binary-amd64/Packages
+ 18a02510ac3cede6562f4f261dcec67d 8818 main/binary-amd64/Packages.gz
+ 7ad61cdc68b884d493dc44033432672a 5351 main/dep11/Components-amd64.yml
+ ac208a4d1f3c335a7299ca83640734b8 1669 main/dep11/Components-amd64.yml.gz
  f5d00f3f2b0083297aaf167a00a91969 221 main/binary-amd64/Release
 SHA1:
- 0d50cb4510f2e6082bc7a623e90a5dbcc14bf705 18377 main/binary-amd64/Packages
- 98acb2f17eb5f585ebf03ab7ff5d47bd64029ca5 7105 main/binary-amd64/Packages.gz
- 26e1b9413e56dd800e2005be5a4ad9a0c03101d9 1286 main/dep11/Components-amd64.yml
- 7339a6d8b92eca00a5517bc1f3a8afbe64c171c7 702 main/dep11/Components-amd64.yml.gz
+ f85578ac79f1eae2d6e1465285c167ac917d80ae 23911 main/binary-amd64/Packages
+ a9ca674cc6494cebd6418e05faa3dba0b9412bfd 8818 main/binary-amd64/Packages.gz
+ c03159e595a80b7913823d77306f68b04f61d719 5351 main/dep11/Components-amd64.yml
+ f90b14590f87bdeb045214d9e8e8c31621bcd0ae 1669 main/dep11/Components-amd64.yml.gz
  33d439d112647cfcf8386d5f94890aa0f5f72438 221 main/binary-amd64/Release
 SHA256:
- 1224d11ea76833c507ed8049b8d32469534158e325e8aa37ba4cfa8e016b09fa 18377 main/binary-amd64/Packages
- 363b736ed7fbbaf395550bcb3afd2e6eb4efa25778cd3eaa503c935acd6bcb9e 7105 main/binary-amd64/Packages.gz
- 2f50e42512d0d06375aa365093df0a0f7720e1acc7542bdd465a4feecf45cd8a 1286 main/dep11/Components-amd64.yml
- 2163cfb3ac5338049ca45550d81d8417d7492f67b348b57137e5e9920afddab3 702 main/dep11/Components-amd64.yml.gz
+ 3a222c8377c08018f65e7f83bbd372ba462b08d945bfca9e6eda336d33e54661 23911 main/binary-amd64/Packages
+ 9163dc1d1d551244de6842cddfc0dc9940672bdd1c961690e3eb76f363a678bf 8818 main/binary-amd64/Packages.gz
+ da8cbade38760f5ccbf01946caa677a82c63cbb8b0d704144fb26d8567f188dc 5351 main/dep11/Components-amd64.yml
+ a953c994f6f32154dd80c3a66dc5bf37c3c86ec4a68257278c198a8d5f6d119b 1669 main/dep11/Components-amd64.yml.gz
  a115b05246e24d6e1268030fca307a5119c8de046901be9566868189aeab2b0a 221 main/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEUgEBifQFVhEh/ZaMmxiP+U7RnmgFAmrz2AcACgkQmxiP+U7R
-nmiZJg/6A0D7pbx3RHNnzTEeYODSfYCWy00oGfYSYro+4LnKlwqlFOgNgTAxJKCI
-/crB3WUkkWRJraTbCFXRlOB+Z4HVqGd9NvZ4Yj1dk5TEVjxfBr9yKkILzB3sU9Cb
-SivB/dWIFe5oj4vneZ7WUtbGL3Kh7L0xgfVi8DUnIuDTZss3TiBlXfXAR/xR8RvZ
-OWiiuMXWxqqwjWeBg4AtfDMOuOz0gdH4/NPxdK1OK1KTx+FozoXehWLAcnI+3586
-VF3KR4njaZeHFkVPl20+fsputYP4nCe/JVfTiprv7SZgGa+hCHgVAcCbSv1EARBE
-2ScT88PfPM94PnpHGEOvzSXpgvmyUMYeD1yNHkiOVW9ADDrKHfRhI0arQBiFtEWv
-65Fdi7NgEn6yy/bCnQE6qyAh+YYz4VkcIv6iLo+cyCXLOW2KNn2q0TLGpY0BEdx2
-A/ia92ESdt5f4W52/yVQ1EiiAhda+SssHff6yR8TkGLdwVEy+FB2RTU9GiVXeNfK
-7OYa1V377+yu6EGelYtoxrh4+emEJPYQJ9cFJkoKoV22YvdWz6z5O+JSE6Vz1C2w
-bOKA7fZcKUMxLh6e8SCwpMXl6I+sU71zAyeLLohGuf0Zm7xVRx0/5L9y3KiT4pxu
-/M5WrMF3SnuAyXyGk8Bia28uxnEAqvqxQLzAA3E+eEGDdSbBAR0=
-=LHT+
+iQIzBAEBCgAdFiEEUgEBifQFVhEh/ZaMmxiP+U7RnmgFAmr6h30ACgkQmxiP+U7R
+nmjilRAAjnlwGQXbg4Z5BV8/w/eQRPQHkTNPV7cLAhqJitoWjzNz2Zk4oqYSMm/q
+RKCpdscBiKSKSZFYi75VAu9egN41Ugq1StK63OXh7Zd4C94CHJgUHhVG7GcYZHAQ
+aj5VKF0BT/pcdKI6lUyh6c/qQIWsVLsnh5f103ptayo+dTzhBmauGouuF9u8/hes
+EfgJfzhxDAHElGjz0Iuzbmup0DJb+4iQvM4sWqLBhcqbOWHZz5uVpgreSJsGcqpK
+RaXd9kD+iOs0lyfGRo8NBV87ec02E4tvIwzCaSDsx0vNUtep1z4WbfnFBI+ru0Y7
+u/Las/pga3wUY+OHX4Q51EIIpaU9sYgF4SoZeseSXuASKdykQpUCmDa7M84fuKZ4
+RhBNuLDsJMPvB+4tL5ZN4DVzD8ms+wxkT1gEu5fWGPGiFfggJohXOv1+zSfVZfmi
+YC0dqkaUsoio8DF0hkHTU4Z3ivaePJF/TTTGSBazSdTZ7t4WkzP/pU5ByIuWBY0Z
+9N5ZD/6IIXQhjcVlRABiNGTbaUZuMkAWfAX6SmNIe+425aEXGciS2NojzIAYB9Um
+wPQZ18324x8fycnTIiNxOYiqE3/UId2WzzntCQyKPQsmbZ2gqXwY4u5lWFwn/SHJ
+/lytGrmounuDJUwbuU82JE6J5bJ1MOZF1o8JsfMPOxW/OgVZQGw=
+=nE0d
 -----END PGP SIGNATURE-----

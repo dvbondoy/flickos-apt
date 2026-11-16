@@ -86,6 +86,135 @@ Description: FlickOS graphical login screen
  The login screen does not run in the live session, which keeps its
  automatic login on tty1.
 
+Package: flickos-installer
+Version: 1.36~test1
+Architecture: all
+Maintainer: Jon <dvbondoy@gmail.com>
+Installed-Size: 114
+Depends: calamares, squashfs-tools, dosfstools, rsync, cryptsetup, keyutils, libglib2.0-bin, sudo, qt6-wayland, qml6-module-qtquick, qml6-module-qtquick-window, dconf-gsettings-backend | gsettings-backend, flickos-settings (>= 1.23)
+Conflicts: calamares-settings-debian
+Replaces: calamares-settings-debian
+Provides: calamares-settings
+Priority: optional
+Section: admin
+Filename: pool/main/f/flickos-installer/flickos-installer_1.36~test1_all.deb
+Size: 37120
+SHA256: ced9e5525c383d7cd4c7a29368222cdb3796500badeac4be5a99a81c946823ca
+SHA1: 57e09ba74800bdc584404ebb83bd6f99a4b7a64e
+MD5sum: 9d781eaf7f2eabc604b327d385383c77
+Description: FlickOS live installer (Calamares configuration)
+ Calamares settings, branding and launcher for installing FlickOS from the
+ live session, plus the live-session menu with an "Install FlickOS" entry.
+ .
+ Based on calamares-settings-debian. The installer removes this package from
+ the installed system.
+
+Package: flickos-kit-base
+Version: 1.0~test1
+Architecture: all
+Maintainer: Jon <dvbondoy@gmail.com>
+Installed-Size: 11
+Depends: git, build-essential, gdb, make, curl, jq, ripgrep, fd-find, shellcheck, sqlite3, gh
+Priority: optional
+Section: devel
+Filename: pool/main/f/flickos-kit-base/flickos-kit-base_1.0~test1_all.deb
+Size: 2736
+SHA256: 9a4c678cd8b371107a43fef570342a10398852950166cba514cd5e572ebb5045
+SHA1: 6526f233b01a9b02744ae6e13327c7a198889081
+MD5sum: 242044bee1e70c326b20075cac69e7bc
+Description: FlickOS developer kit: Git, a C compiler and the everyday command-line tools
+ The tools most programmers reach for first: git, the GNU compiler and
+ make, the gdb debugger, curl, jq, ripgrep, fd, shellcheck, sqlite3 and
+ GitHub's gh. The other kits depend on this one.
+ .
+ A kit is installed from Software's Developer Tools and removed there too.
+ Nothing it installs runs until it is used (docs/design/flickos-dev.md).
+
+Package: flickos-kit-c
+Version: 1.0~test1
+Architecture: all
+Maintainer: Jon <dvbondoy@gmail.com>
+Installed-Size: 11
+Depends: flickos-kit-base, cmake, meson, ninja-build, clang, valgrind, pkgconf
+Priority: optional
+Section: devel
+Filename: pool/main/f/flickos-kit-c/flickos-kit-c_1.0~test1_all.deb
+Size: 2620
+SHA256: 94253131a7576392536025f53a76039b3983049507efa6a65cc23aab6238e731
+SHA1: ad9c2a25f85399948f553cf8a554723b406c3238
+MD5sum: 068ae3d706194b4e87aac0608a187128
+Description: FlickOS developer kit: C and C++ builds: CMake, Meson, Ninja, Clang, Valgrind
+ Build systems and a second compiler for C and C++ projects: CMake,
+ Meson, Ninja, Clang, the Valgrind memory checker and pkgconf. The GNU
+ compiler and make come with flickos-kit-base.
+ .
+ A kit is installed from Software's Developer Tools and removed there too.
+ Nothing it installs runs until it is used (docs/design/flickos-dev.md).
+
+Package: flickos-kit-containers
+Version: 1.0~test1
+Architecture: all
+Maintainer: Jon <dvbondoy@gmail.com>
+Installed-Size: 20
+Depends: flickos-kit-base, podman, podman-docker, distrobox, uidmap, passt
+Priority: optional
+Section: devel
+Filename: pool/main/f/flickos-kit-containers/flickos-kit-containers_1.0~test1_all.deb
+Size: 3068
+SHA256: f640d5df26100ebdba6df51faf40d7a15b4cd732692fe5e98f9f3cac6e301631
+SHA1: d7117a109a6d8284d0548b0842b160fe606f850b
+MD5sum: 300bb9d27665b9e59647bf624894e4f2
+Description: FlickOS developer kit: Podman and Distrobox for containers
+ Rootless containers: Podman (podman-docker makes the docker command
+ work through it) and Distrobox. Nothing runs until a container is
+ started: the kit keeps netavark's DHCP helper off until
+ /etc/flickos/kits/netavark-on exists.
+ .
+ A kit is installed from Software's Developer Tools and removed there too.
+ Nothing it installs runs until it is used (docs/design/flickos-dev.md).
+
+Package: flickos-kit-python
+Version: 1.0~test1
+Architecture: all
+Maintainer: Jon <dvbondoy@gmail.com>
+Installed-Size: 11
+Depends: flickos-kit-base, python3-venv, python3-dev, python3-pip, pipx
+Priority: optional
+Section: devel
+Filename: pool/main/f/flickos-kit-python/flickos-kit-python_1.0~test1_all.deb
+Size: 2672
+SHA256: f87e054efcce7f495114b4b65d2e5787ec5a3fcdcbf0ee8eec3136cce573d7e3
+SHA1: 81e5d862cd1d9b408281ceac982d60199e058595
+MD5sum: eeb51659a6313785d5bcdd5eb6ef2a2a
+Description: FlickOS developer kit: Python development: venv, pip and pipx
+ What a Python project needs: virtual environments, the headers to
+ build extensions, pip and pipx. As Debian intends, pip installs into a
+ virtual environment, not into the system.
+ .
+ A kit is installed from Software's Developer Tools and removed there too.
+ Nothing it installs runs until it is used (docs/design/flickos-dev.md).
+
+Package: flickos-kit-web
+Version: 1.0~test1
+Architecture: all
+Maintainer: Jon <dvbondoy@gmail.com>
+Installed-Size: 11
+Depends: flickos-kit-base, nodejs, npm
+Priority: optional
+Section: devel
+Filename: pool/main/f/flickos-kit-web/flickos-kit-web_1.0~test1_all.deb
+Size: 2628
+SHA256: c05c389dd9f8efa990c8d5241e9d4d31df3785a7521839a84787320f8ccf7fe8
+SHA1: 149dd1e5049c15f8d7af0eb309479e05e6889260
+MD5sum: c529a375dd6eae0243abc16cd5438bd5
+Description: FlickOS developer kit: Node.js and npm
+ Node.js and npm from Debian. Debian 13 has Node 20, which the Node
+ project no longer supports; Debian still patches it. npm brings a few
+ hundred small Debian packages with it.
+ .
+ A kit is installed from Software's Developer Tools and removed there too.
+ Nothing it installs runs until it is used (docs/design/flickos-dev.md).
+
 Package: flickos-layouts
 Version: 1.83~test6
 Architecture: all
@@ -227,19 +356,19 @@ Description: keyboard shortcut sheet for the FlickOS labwc session
  own configuration.
 
 Package: flickos-software
-Version: 1.13~test1
+Version: 1.20~test1
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 189
-Depends: python3, python3-gi, gir1.2-gtk-3.0, appstream, gir1.2-appstream-1.0, packagekit, gir1.2-packagekitglib-1.0, gir1.2-flatpak-1.0, flickos-control (>= 1.58)
+Installed-Size: 283
+Depends: python3, python3-gi, gir1.2-gtk-3.0, appstream, gir1.2-appstream-1.0, packagekit, gir1.2-packagekitglib-1.0, gir1.2-flatpak-1.0, flickos-control (>= 1.64)
 Recommends: flatpak
 Priority: optional
 Section: admin
-Filename: pool/main/f/flickos-software/flickos-software_1.13~test1_all.deb
-Size: 43316
-SHA256: 604ce1c6a4acae309c772909460e4259bc8dbf8654fe2cb1a30953535c34e4e2
-SHA1: 76576936f272e39e7382c957ef0996dd57a1636e
-MD5sum: a2da58ad71eeffa3da9403890f479529
+Filename: pool/main/f/flickos-software/flickos-software_1.20~test1_all.deb
+Size: 62080
+SHA256: 2aa1f8179393f82dd4d4025d5ef96e6cef9f299c71cc7f3c03120902cb9fa0a9
+SHA1: a44c70d267009fb2986f6f499ee84d9a24324f94
+MD5sum: cba6012fd7c45112260d128c50ba256b
 Description: Software: find, install and remove apps on FlickOS
  A window for apps, not packages: every desktop app in Debian's archive, in
  FlickOS's repository (with the community apps other developers publish
