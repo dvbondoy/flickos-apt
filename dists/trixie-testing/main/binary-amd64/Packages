@@ -171,6 +171,28 @@ Description: FlickOS developer kit: C and C++ builds: CMake, Meson, Ninja, Clang
  A kit is installed from Software's Developer Tools and removed there too.
  Nothing it installs runs until it is used (docs/design/flickos-dev.md).
 
+Package: flickos-kit-classroom
+Version: 1.0~test1
+Architecture: all
+Maintainer: Jon <dvbondoy@gmail.com>
+Installed-Size: 11
+Depends: gcompris-qt, kalzium, kgeography, kturtle, kmplot
+Priority: optional
+Section: education
+Filename: pool/main/f/flickos-kit-classroom/flickos-kit-classroom_1.0~test1_all.deb
+Size: 2868
+SHA256: e8a8418394d4341be77d1ef6a78f6770081722f03c0c71bad22b649066c1eea8
+SHA1: a150975affc4e2ff5f2a6a736d7d54458cd69421
+MD5sum: 11a64b05e9d37f17afc624ca4ee8c714
+Description: FlickOS kit: apps for learning and teaching
+ Learning apps for school and home from Debian: GCompris (activities for
+ ages 2 to 10), Kalzium (the periodic table), KGeography, KTurtle
+ (programming for children) and KMPlot (graphs of functions).
+ .
+ A kit is installed from Software and removed there too. Nothing it
+ installs runs until it is used (docs/design/flickos-dev.md, Q15). There is
+ no screen-sharing tool: Veyon's student side can't see a Wayland screen.
+
 Package: flickos-kit-containers
 Version: 1.0~test1
 Architecture: all
@@ -236,18 +258,18 @@ Description: FlickOS developer kit: Node.js and npm
  Nothing it installs runs until it is used (docs/design/flickos-dev.md).
 
 Package: flickos-kits
-Version: 1.0~test1
+Version: 1.1~test1
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 56
-Depends: python3, python3-gi, gir1.2-gtk-3.0, flickos-software (>= 1.20~test1)
+Depends: python3, python3-gi, gir1.2-gtk-3.0, flickos-software (>= 1.21~test1)
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-kits/flickos-kits_1.0~test1_all.deb
-Size: 14680
-SHA256: 1495b955e215430acebd15905380a6b9bcacce61b00631049d3355c1a92b77db
-SHA1: 844d9a8e18ca66fe7dd122919b6a76a61cdc24a7
-MD5sum: 57b0274f194db9f5ce954ac437eabad7
+Filename: pool/main/f/flickos-kits/flickos-kits_1.1~test1_all.deb
+Size: 14848
+SHA256: 61ae39bd5e519fca2158c161bce4970f296a5f044d6f47a96ff626cc6be79f8b
+SHA1: 1977c6333d60b236a8c39ee6703db35b6432ca60
+MD5sum: 9a3971b4ddcc1ca9faa994946e2d6a2c
 Description: install and set up the FlickOS developer kits
  A small window, Tool Kits, to install the kit for each kind of work (Python,
  Node.js, C and C++, containers) with a switch, and to set up what an
@@ -399,7 +421,7 @@ Description: keyboard shortcut sheet for the FlickOS labwc session
  own configuration.
 
 Package: flickos-software
-Version: 1.20~test2
+Version: 1.21~test1
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 284
@@ -407,11 +429,11 @@ Depends: python3, python3-gi, gir1.2-gtk-3.0, appstream, gir1.2-appstream-1.0, p
 Recommends: flatpak
 Priority: optional
 Section: admin
-Filename: pool/main/f/flickos-software/flickos-software_1.20~test2_all.deb
-Size: 62400
-SHA256: 6ac8df76c02946b00c4fa4fb35a2c1191c283db80834adb0119633c6ebf7369a
-SHA1: 7242209fc52652e78f0e20022a7684fdc87c3b5d
-MD5sum: 500cbe25db94557195b6a4741d7045a4
+Filename: pool/main/f/flickos-software/flickos-software_1.21~test1_all.deb
+Size: 62496
+SHA256: 0038787cc599540071d9148e9d365a490bfba34610046b01a572271a3d6bfe81
+SHA1: 206948408bf972dc08f9aac49650cdf92e8a2e95
+MD5sum: 03737b3095b4ae3ad03ec6b5a4401f88
 Description: Software: find, install and remove apps on FlickOS
  A window for apps, not packages: every desktop app in Debian's archive, in
  FlickOS's repository (with the community apps other developers publish

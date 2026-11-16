@@ -66,6 +66,42 @@ Custom:
   FlickOS::kit-category: development
 ---
 Type: addon
+ID: io.github.dvbondoy.flickos.kits.classroom
+Package: flickos-kit-classroom
+Extends:
+- flickos-kits.desktop
+ProjectLicense: GPL-3.0-or-later
+Name:
+  C: Classroom
+Summary:
+  C: Learning apps for school and home
+Description:
+  C: >-
+    <p>
+          Apps for learning from Debian, for a classroom or a home: GCompris
+          with activities for ages 2 to 10, Kalzium for the periodic table,
+          KGeography for maps and flags, KTurtle for first steps in programming
+          and KMPlot for graphs of functions.
+        </p>
+    <p>
+          Nothing here runs until it is opened. A teacher's screen-sharing
+          console is not part of the kit: it needs the students' computers to
+          show their screens, which Debian's Veyon cannot do on FlickOS's
+          Wayland desktop.
+        </p>
+Developer:
+  id: io.github.dvbondoy
+  name:
+    C: FlickOS
+Url:
+  homepage: https://flickos.org/
+Icon:
+  stock: applications-education
+Custom:
+  FlickOS::kit: classroom
+  FlickOS::kit-category: classroom
+---
+Type: addon
 ID: io.github.dvbondoy.flickos.kits.containers
 Package: flickos-kit-containers
 Extends:
