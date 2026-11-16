@@ -74,20 +74,20 @@ Description: FlickOS branding: logo, boot splash, boot menu, OS name and login b
  unchanged, so software that detects Debian keeps working.
 
 Package: flickos-control
-Version: 1.69
+Version: 1.70
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 574
+Installed-Size: 576
 Depends: python3, python3-gi, gir1.2-gtk-3.0, flickos-layouts (>= 1.80), flick-tiler (>= 1.5), flickos-shortcuts, flickos-screenshot (>= 1.6), pkexec, xkb-data, adduser, accountsservice, xdg-utils, libglib2.0-bin, kanshi, wlr-randr
 Recommends: wl-clipboard, pciutils
 Breaks: flickos-greeter (<< 2.4~), flickos-phone (<< 1.16)
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-control/flickos-control_1.69_all.deb
-Size: 124772
-SHA256: d260963c309cd57fcae2ef3707b00e667eb5367ab051a393b7e941c97546b90a
-SHA1: 596fe0d67bf89976b182b7738ffc7b985be0cb95
-MD5sum: 184bb446efa54db8f34621e09ccb6fcd
+Filename: pool/main/f/flickos-control/flickos-control_1.70_all.deb
+Size: 125124
+SHA256: c2b5db18d70354d891c4fffd199b578b2a4cac03e4803eb92a2c3f91fb815b57
+SHA1: eae26d3e4a54c5caf23ad7c1f2fd04035ad5a686
+MD5sum: 6ed56531c6a73016b3e8ae457d66c627
 Description: Settings window of the FlickOS desktop
  One window for the settings of the FlickOS labwc desktop: desktop layout,
  style and desktop clicks, mouse and touchpad, keyboard layout and typing,
@@ -152,19 +152,19 @@ Description: FlickOS's mouse cursors
  5.5 MB, and both can be installed together.
 
 Package: flickos-desktop
-Version: 1.40
+Version: 1.41
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 10
-Depends: flickos-archive-keyring (>= 1.7), flickos-settings (>= 1.52), flickos-layouts (>= 1.6), flickos-branding (>= 1.3), labwc, xwayland, waybar, swaybg, mako-notifier, xdg-desktop-portal, xdg-desktop-portal-wlr, xdg-desktop-portal-gtk, mate-polkit, polkitd, dbus-user-session, pipewire, pipewire-audio, pipewire-pulse, wireplumber, rtkit, network-manager, network-manager-applet, udisks2, gvfs, adwaita-icon-theme, fonts-dejavu-core, flickos-cursor, flickos-theme (>= 1.0~test1), unattended-upgrades, waypaper, flick-tiler, flickos-shortcuts, flickos-control (>= 1.64), systemd-timesyncd, xdg-terminal-exec, flickos-greeter, flickos-menu (>= 1.0), flickos-welcome, flickos-phone, flickos-screenshot, flickos-countme, brightness-udev, flickos-software, flickos-recovery, flickos-lock (>= 1.0), flickos-media (>= 1.0), flickos-weather (>= 1.0), flickos-switch (>= 1.0), file, zstd
+Depends: flickos-archive-keyring (>= 1.7), flickos-settings (>= 1.52), flickos-layouts (>= 1.6), flickos-branding (>= 1.3), labwc, xwayland, waybar, swaybg, mako-notifier, xdg-desktop-portal, xdg-desktop-portal-wlr, xdg-desktop-portal-gtk, mate-polkit, polkitd, dbus-user-session, pipewire, pipewire-audio, pipewire-pulse, wireplumber, rtkit, network-manager, network-manager-applet, udisks2, gvfs, adwaita-icon-theme, fonts-dejavu-core, flickos-cursor, flickos-theme (>= 1.0~test1), unattended-upgrades, waypaper, flick-tiler, flickos-shortcuts, flickos-control (>= 1.64), systemd-timesyncd, xdg-terminal-exec, flickos-greeter, flickos-menu (>= 1.0), flickos-welcome, flickos-phone, flickos-screenshot, flickos-countme, brightness-udev, flickos-software, flickos-recovery, flickos-lock (>= 1.0), flickos-media (>= 1.0), flickos-weather (>= 1.1), flickos-switch (>= 1.0), file, zstd
 Recommends: foot, fuzzel, thunar, thunar-archive-plugin, gvfs-backends, firefox-esr, webext-ublock-origin-firefox, mousepad, ristretto, tumbler, evince, vlc, libreoffice-writer, libreoffice-calc, libreoffice-impress, libreoffice-draw, libreoffice-gtk3, hunspell-en-us, hyphen-en-us, xarchiver, pavucontrol, nm-connection-editor, wpasupplicant, intel-microcode, amd64-microcode, wdisplays, bluez, blueman, cups, system-config-printer, swayidle, swaylock, wlr-randr, grim, slurp, wl-clipboard, cliphist, wlsunset, playerctl, libnotify-bin, xdg-utils, brightnessctl, gnome-themes-extra, nwg-look, fonts-noto-color-emoji, zram-tools, flatpak, gnome-package-updater, ufw, sudo, locales, console-setup, ca-certificates, curl, lxtask, fastfetch, nano, less, pciutils, usbutils
 Priority: optional
 Section: metapackages
-Filename: pool/main/f/flickos-desktop/flickos-desktop_1.40_all.deb
-Size: 5388
-SHA256: e34601e416c19b41c82f727ee491998b3631d9582ef408a8e6f3231aed1f733d
-SHA1: 27089e15ee3cb75d134a740aa5f84cf2d6dfab1c
-MD5sum: 9baad0eb75d9bc8bb49ccb5ea09ab230
+Filename: pool/main/f/flickos-desktop/flickos-desktop_1.41_all.deb
+Size: 5436
+SHA256: 8fee40fff7fa471f9abc374299e0f2a9e5225aba94b843819791fd6f6cc6d5ca
+SHA1: 071105b0fdb100c35ddb886f64c451dbfa2dff75
+MD5sum: 393f726ac152af67206cd87bd1b99454
 Description: FlickOS desktop environment (metapackage)
  Installs the complete FlickOS labwc desktop: compositor, panel,
  notifications, portals, PipeWire audio, networking, Bluetooth, printing,
@@ -793,18 +793,18 @@ Description: transitional package for flickos-preflight
  flickos-preflight in its place and can be removed afterwards.
 
 Package: flickos-weather
-Version: 1.0
+Version: 1.1
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 50
+Installed-Size: 51
 Depends: python3, flickos-layouts (>= 1.69)
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-weather/flickos-weather_1.0_all.deb
-Size: 12800
-SHA256: 523b1b51c4c3fbc0b2bec33d1eb60b19a44d8a9a1c4ca5f18ac7c519f679d236
-SHA1: 575b7200b0cb01195f1932969b590fef544405e3
-MD5sum: 9f703c92271224c2e820cc3814e1b43c
+Filename: pool/main/f/flickos-weather/flickos-weather_1.1_all.deb
+Size: 13340
+SHA256: 1146acc61aadb13ddbc33604c8144df6503a27413a0765a3c6dd4845930f7fcf
+SHA1: d942a1128487e0995e310d1ccc2dd68748417e12
+MD5sum: ce3ae458c3012185ed216b039e753d39
 Description: weather in the FlickOS panel
  The temperature and the sky now in the FlickOS panel, and the next hours
  and days when you point at it, for a town or city you pick. The forecast
