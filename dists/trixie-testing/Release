@@ -2,25 +2,25 @@ Origin: FlickOS
 Label: FlickOS Testing
 Suite: trixie-testing
 Codename: trixie-testing
-Date: Mon, 16 Nov 2026 04:33:01 UTC
+Date: Mon, 16 Nov 2026 05:04:55 UTC
 Architectures: amd64
 Components: main
 Description: FlickOS packages being tried by testers before they reach trixie (added by hand, never by automatic updates)
 MD5Sum:
- b69db8f9d611e255711e5aaf5adc0508 23911 main/binary-amd64/Packages
- 18a02510ac3cede6562f4f261dcec67d 8818 main/binary-amd64/Packages.gz
+ b23b4487b2ca0f7aa49f521f4b0a1771 27430 main/binary-amd64/Packages
+ c00833c42d4ffec4fce0c329849232e3 10004 main/binary-amd64/Packages.gz
  7ad61cdc68b884d493dc44033432672a 5351 main/dep11/Components-amd64.yml
  ac208a4d1f3c335a7299ca83640734b8 1669 main/dep11/Components-amd64.yml.gz
  f5d00f3f2b0083297aaf167a00a91969 221 main/binary-amd64/Release
 SHA1:
- f85578ac79f1eae2d6e1465285c167ac917d80ae 23911 main/binary-amd64/Packages
- a9ca674cc6494cebd6418e05faa3dba0b9412bfd 8818 main/binary-amd64/Packages.gz
+ 71a2c985264db558c1a198eed08665939de73463 27430 main/binary-amd64/Packages
+ 321a2d03b489f546e1220d57ed06b33213fb0a00 10004 main/binary-amd64/Packages.gz
  c03159e595a80b7913823d77306f68b04f61d719 5351 main/dep11/Components-amd64.yml
  f90b14590f87bdeb045214d9e8e8c31621bcd0ae 1669 main/dep11/Components-amd64.yml.gz
  33d439d112647cfcf8386d5f94890aa0f5f72438 221 main/binary-amd64/Release
 SHA256:
- 3a222c8377c08018f65e7f83bbd372ba462b08d945bfca9e6eda336d33e54661 23911 main/binary-amd64/Packages
- 9163dc1d1d551244de6842cddfc0dc9940672bdd1c961690e3eb76f363a678bf 8818 main/binary-amd64/Packages.gz
+ d424354de67a2dac3b618cf4a491fb192408d92107e499deead2b0a68ddaf0aa 27430 main/binary-amd64/Packages
+ 931eca4cc9f8a7be4167c3f0b6577b46298b545dd940a1d60060aea742bd64ff 10004 main/binary-amd64/Packages.gz
  da8cbade38760f5ccbf01946caa677a82c63cbb8b0d704144fb26d8567f188dc 5351 main/dep11/Components-amd64.yml
  a953c994f6f32154dd80c3a66dc5bf37c3c86ec4a68257278c198a8d5f6d119b 1669 main/dep11/Components-amd64.yml.gz
  a115b05246e24d6e1268030fca307a5119c8de046901be9566868189aeab2b0a 221 main/binary-amd64/Release
