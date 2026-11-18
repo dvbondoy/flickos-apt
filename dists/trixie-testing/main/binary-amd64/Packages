@@ -23,18 +23,18 @@ Description: opt-in window tiling for the FlickOS labwc session
  turning it off gives the normal floating desktop back.
 
 Package: flickos-classroom-view
-Version: 1.0~test2
+Version: 1.0~test3
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 118
-Depends: python3, python3-gi, gir1.2-gtk-3.0, python3-pil, grim, openssl, libnotify-bin, xdg-utils, flickos-lock (>= 1.3~test1), flickos-layouts (>= 1.88~test1), flickos-control (>= 1.75~test1), systemd
+Installed-Size: 146
+Depends: python3, python3-gi, gir1.2-gtk-3.0, python3-pil, grim, openssl, libnotify-bin, xdg-utils, flickos-lock (>= 1.4~test1), flickos-layouts (>= 1.88~test1), flickos-control (>= 1.75~test1), systemd, wayvnc, libneatvnc0 (>= 0.9.1+dfsg+flickos1~test1), gir1.2-gtk-vnc-2.0, gir1.2-gtklayershell-0.1
 Priority: optional
 Section: education
-Filename: pool/main/f/flickos-classroom-view/flickos-classroom-view_1.0~test2_all.deb
-Size: 26928
-SHA256: 4ba8ed78f158309a1fb15aaed99a5f205a1b8a271318d78c002c1638fc96a31a
-SHA1: 85d32797f0b62f32df659a7df8138896b6d41dc6
-MD5sum: ac9476d2071503c6dc0f159a3b3f36e4
+Filename: pool/main/f/flickos-classroom-view/flickos-classroom-view_1.0~test3_all.deb
+Size: 33776
+SHA256: fd28070bcfaefa28c2f5035ec46b3928a86dbdb9f8af60ff22ce8b629917f8e6
+SHA1: 3a5c355d53afef122f11a0a275e17c3d59d7ef6c
+MD5sum: 9ad5a0f502155bf08c5042ca5f96b51a
 Description: see and guide a classroom of FlickOS computers
  A teacher's window shows every paired student's screen in a grid, and can
  lock the screens with a message, show a message, or open a web page on
@@ -340,19 +340,19 @@ Description: FlickOS desktop layouts and styles, and the flickos-layout tool
  reaching every user.
 
 Package: flickos-lock
-Version: 1.3~test1
+Version: 1.4~test1
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 73
+Installed-Size: 76
 Depends: python3, python3-gi, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-gtksessionlock-0.1, libgtk-session-lock0, libpam0g, swaylock
 Breaks: flickos-control (<< 1.48~)
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-lock/flickos-lock_1.3~test1_all.deb
-Size: 18620
-SHA256: 26b7aeebe50a786193885e1799d16860df8a477ea748a92819cd1d1114471950
-SHA1: 387363063664a8a1e3dbf2d48828fc864741fc23
-MD5sum: b93a882d1c127b101fa14a432747325b
+Filename: pool/main/f/flickos-lock/flickos-lock_1.4~test1_all.deb
+Size: 19464
+SHA256: e8ad1a337727e97876e271660cd7ac18cbff74ea1b5b84cab983f776ef9db54d
+SHA1: 586c5de61d9f037ef88fd0d3d85f15516d6755bf
+MD5sum: 3bf0ca26c229ea607b10dc9cfaa4b9b7
 Description: lock screen of the FlickOS desktop
  Locks the screen with a password box that can show the password, the time,
  the date and the user's name and picture, in the colors of the desktop style
@@ -569,6 +569,29 @@ Description: welcome window of the FlickOS desktop
  Each card runs the program that already owns the job, so nothing here is a
  second place to change a setting. A card whose program is not installed is
  left out. The window can be opened again from the menu, under Welcome.
+
+Package: libneatvnc0
+Source: neatvnc
+Version: 0.9.1+dfsg+flickos1~test1
+Architecture: amd64
+Maintainer: Han Gao <rabenda.cn@gmail.com>
+Installed-Size: 170
+Depends: libaml0t64 (>= 0.3.0), libc6 (>= 2.38), libgbm1 (>= 12.0.0~0), libgmp10 (>= 2:6.3.0+dfsg), libgnutls30t64 (>= 3.8.1), libhogweed6t64, libnettle8t64, libpixman-1-0 (>= 0.27.4), libturbojpeg0 (>= 1.2.90), zlib1g (>= 1:1.2.0)
+Multi-Arch: same
+Homepage: https://github.com/any1/neatvnc/
+Priority: optional
+Section: libs
+Filename: pool/main/n/neatvnc/libneatvnc0_0.9.1+dfsg+flickos1~test1_amd64.deb
+Size: 64460
+SHA256: ac1237928ab15baab7aaaab6e9e2010fdad1be43743b8f8ec61ded3f7c8eaeac
+SHA1: 15366f32b37340a3c4dba75df8630092cc192b8d
+MD5sum: 13a4d2f7aba95c6da8489caacd5e8ce9
+Description: Fast and neat VNC server library (shared library)
+ Neatvnc is a liberally licensed VNC server library that's intended
+ to be fast and neat. It comes with the goal of speed, clean interface
+ and interoperability with the Freedesktop.org ecosystem.
+ .
+ This package provides shared libraries.
 
 Package: sfwbar
 Version: 1.0~beta17+git20260910+flickos8~test2
