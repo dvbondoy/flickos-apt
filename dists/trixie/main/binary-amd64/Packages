@@ -74,20 +74,20 @@ Description: FlickOS branding: logo, boot splash, boot menu, OS name and login b
  unchanged, so software that detects Debian keeps working.
 
 Package: flickos-control
-Version: 1.75
+Version: 1.76
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 621
+Installed-Size: 625
 Depends: python3, python3-gi, gir1.2-gtk-3.0, flickos-layouts (>= 1.80), flick-tiler (>= 1.5), flickos-shortcuts, flickos-screenshot (>= 1.6), pkexec, xkb-data, adduser, accountsservice, xdg-utils, libglib2.0-bin, kanshi, wlr-randr
 Recommends: wl-clipboard, pciutils
 Breaks: flickos-greeter (<< 2.4~), flickos-phone (<< 1.16)
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-control/flickos-control_1.75_all.deb
-Size: 133184
-SHA256: fb2a79d27d0c65f1e122b6fe4acad4b96f2c4e05029bb35312186f1d85596a6f
-SHA1: 9ecacdca5bac26e341f36ad1f0ecba086579c8b4
-MD5sum: 092279c4615b2314ba2b1ec77d2de826
+Filename: pool/main/f/flickos-control/flickos-control_1.76_all.deb
+Size: 134044
+SHA256: f70f4628934048ad54eb0fb080baa4c9a939203e590b141892bd22c4f288ec65
+SHA1: 3f48c3fee0a080dcb76e3346ff1369e4e9689a65
+MD5sum: 772ed581f33ea6f816182e62e9f2a56d
 Description: Settings window of the FlickOS desktop
  One window for the settings of the FlickOS labwc desktop: desktop layout,
  style and desktop clicks, mouse and touchpad, keyboard layout and typing,
