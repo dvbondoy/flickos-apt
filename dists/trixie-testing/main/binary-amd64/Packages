@@ -72,7 +72,7 @@ Description: share a FlickOS computer's screen with a teacher
  flickos-classroom-teacher. FlickOS computers only.
 
 Package: flickos-control
-Version: 1.82~test1
+Version: 1.84~test2
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 670
@@ -81,11 +81,11 @@ Recommends: wl-clipboard, pciutils
 Breaks: flickos-greeter (<< 2.4~), flickos-phone (<< 1.16)
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-control/flickos-control_1.82~test1_all.deb
-Size: 147100
-SHA256: f474c100124a320f94a5112330de7077080c189866de9af84852b881b561226e
-SHA1: 4a0332fcf80848aed7363fd4b44298d19429f633
-MD5sum: b3be64dc5ca0d5cf53ebc2504e831ca6
+Filename: pool/main/f/flickos-control/flickos-control_1.84~test2_all.deb
+Size: 147308
+SHA256: 93335adf848c18fd7d212d5d19360d42d080e5cf076b3df7d3b37e6c7f39143b
+SHA1: bf52f2a124b0d5bc1a9f031119efc83b63db89a3
+MD5sum: f3301b63f7bffeb76dde104d975e9ac7
 Description: Settings window of the FlickOS desktop
  One window for the settings of the FlickOS labwc desktop: desktop layout,
  style and desktop clicks, mouse and touchpad, keyboard layout and typing,
@@ -221,26 +221,25 @@ Description: FlickOS developer kit: C and C++ builds: CMake, Meson, Ninja, Clang
  Nothing it installs runs until it is used (docs/design/flickos-dev.md).
 
 Package: flickos-kit-classroom
-Version: 1.0~test1
+Version: 1.1~test2
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 11
 Depends: gcompris-qt, kalzium, kgeography, kturtle, kmplot
 Priority: optional
 Section: education
-Filename: pool/main/f/flickos-kit-classroom/flickos-kit-classroom_1.0~test1_all.deb
-Size: 2868
-SHA256: e8a8418394d4341be77d1ef6a78f6770081722f03c0c71bad22b649066c1eea8
-SHA1: a150975affc4e2ff5f2a6a736d7d54458cd69421
-MD5sum: 11a64b05e9d37f17afc624ca4ee8c714
-Description: FlickOS kit: apps for learning and teaching
+Filename: pool/main/f/flickos-kit-classroom/flickos-kit-classroom_1.1~test2_all.deb
+Size: 2872
+SHA256: b3d53f68f432bac40e050151f7916436748af612ea5c5b12b13c659cb4d4c861
+SHA1: 78cfbd3673858bb9d7d14eed22e76ca528984e67
+MD5sum: a7540adb92c7055b5bd16547fc1e2922
+Description: FlickOS kit: Young Learners, apps for children
  Learning apps for school and home from Debian: GCompris (activities for
  ages 2 to 10), Kalzium (the periodic table), KGeography, KTurtle
  (programming for children) and KMPlot (graphs of functions).
  .
  A kit is installed from Software and removed there too. Nothing it
- installs runs until it is used (docs/design/flickos-dev.md, Q15). There is
- no screen-sharing tool: Veyon's student side can't see a Wayland screen.
+ installs runs until it is used (docs/design/flickos-dev.md, Q15).
 
 Package: flickos-kit-containers
 Version: 1.0~test1
@@ -265,18 +264,18 @@ Description: FlickOS developer kit: Podman and Distrobox for containers
  Nothing it installs runs until it is used (docs/design/flickos-dev.md).
 
 Package: flickos-kit-forensics
-Version: 1.0~test1
+Version: 1.0~test3
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 11
 Depends: sleuthkit, autopsy, binwalk, foremost, scalpel, testdisk, dc3dd, ewf-tools, hashdeep, yara, libimage-exiftool-perl, steghide
 Priority: optional
 Section: utils
-Filename: pool/main/f/flickos-kit-forensics/flickos-kit-forensics_1.0~test1_all.deb
-Size: 2968
-SHA256: 918e5b458458761bde38d04696293240f81330c6bf4327b8877e4a8b3ee01edb
-SHA1: d4b6dca5bc53395ec0ea6baa5b56bba50616e96a
-MD5sum: f6fc20910f6bf47459278f836c25484f
+Filename: pool/main/f/flickos-kit-forensics/flickos-kit-forensics_1.0~test3_all.deb
+Size: 3080
+SHA256: 4fbf0ac17de896945792c53e20a048a7e5f44624692dae52730d8ec711159aa6
+SHA1: 203dd8cf2879f7a2a0422b223182fd01784f2fc1
+MD5sum: c0a60f31dc09a5cfce0d825934cf486b
 Description: FlickOS security kit: forensics
  The Sleuth Kit and Autopsy, binwalk, foremost, scalpel, TestDisk, dc3dd,
  the EWF tools, hashdeep, YARA, ExifTool and steghide from Debian.
@@ -294,18 +293,18 @@ Description: FlickOS security kit: forensics
  (docs/design/flickos-security.md).
 
 Package: flickos-kit-network
-Version: 1.0~test1
+Version: 1.0~test3
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 11
 Depends: nmap, ndiff, ncat, netcat-openbsd, socat, wireshark, tshark, tcpdump, arp-scan, bind9-dnsutils, whois, traceroute, mtr-tiny, iperf3, ngrep, tcpflow, smbclient, ldap-utils, nbtscan, snmp, onesixtyone, bettercap, ettercap-graphical
 Priority: optional
 Section: net
-Filename: pool/main/f/flickos-kit-network/flickos-kit-network_1.0~test1_all.deb
-Size: 3152
-SHA256: 1b90f022b2ce64307b4748503834ba1d5bfce1c1acb01aaa1ae2720e53e41127
-SHA1: 7fb1efebff628568daa0d0fb34aed350d3fd7ce3
-MD5sum: cac970b2eb32ca1e00a802b8f6e9cdbf
+Filename: pool/main/f/flickos-kit-network/flickos-kit-network_1.0~test3_all.deb
+Size: 3264
+SHA256: 2f35fbe5ae5de11a8177379b69497eb77be97bda48c489e7c614e633f7369aac
+SHA1: daf3d5f6ea47120abcc144afd9b26ceab24d9ab8
+MD5sum: 39bbd4436901a4a1ef302f79c46caea3
 Description: FlickOS security kit: network analysis
  Nmap, Wireshark and tshark, tcpdump, arp-scan, Ettercap and bettercap from
  Debian, with the everyday tools for networks: ncat, socat, dig, whois,
@@ -325,18 +324,18 @@ Description: FlickOS security kit: network analysis
  (docs/design/flickos-security.md).
 
 Package: flickos-kit-passwords
-Version: 1.0~test1
+Version: 1.0~test3
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 11
 Depends: john, hashcat, hydra, medusa, crunch, fcrackzip, pdfcrack, hashid
 Priority: optional
 Section: utils
-Filename: pool/main/f/flickos-kit-passwords/flickos-kit-passwords_1.0~test1_all.deb
-Size: 2876
-SHA256: 87cabdd4f12150e5e3d5096cc5dbd1aa1c231aa91c4c4c1dcad2ee340a561164
-SHA1: 86eb4587010441e6e4d0775b8da2b1d7e1e16fc1
-MD5sum: 9a4d32b36db72a460ee2488a8d2edff1
+Filename: pool/main/f/flickos-kit-passwords/flickos-kit-passwords_1.0~test3_all.deb
+Size: 2992
+SHA256: a09a67c573ec85cd629c54db340162c9a59de52d4e8e8c0fc11557baec317e25
+SHA1: 6f5afa9ddef275f7783c97076a73351fbf7900df
+MD5sum: 8cd4a6be7b710dd3a0502416f8152f6d
 Description: FlickOS security kit: password testing
  John the Ripper, hashcat, Hydra, Medusa, crunch, fcrackzip, pdfcrack and
  hashID from Debian.
@@ -375,18 +374,18 @@ Description: FlickOS developer kit: Python development: venv, pip and pipx
  Nothing it installs runs until it is used (docs/design/flickos-dev.md).
 
 Package: flickos-kit-reversing
-Version: 1.0~test1
+Version: 1.0~test3
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 11
 Depends: gdb, binutils, ltrace, strace, edb-debugger, apktool, ghex, hexedit
 Priority: optional
 Section: devel
-Filename: pool/main/f/flickos-kit-reversing/flickos-kit-reversing_1.0~test1_all.deb
-Size: 2804
-SHA256: d1b51dba15530ffb81113619407ace14e844a57592c71b104332ed71695b0835
-SHA1: dcd635d81f86bf8188d45ad4e4e8e63bb5a3ec29
-MD5sum: 4608c1421f0a021df371a3631cf0ea81
+Filename: pool/main/f/flickos-kit-reversing/flickos-kit-reversing_1.0~test3_all.deb
+Size: 2916
+SHA256: 1d17581d5b8eadf3adab17bd93c26e1271dd62fd3018fee6615706cd4b3b2445
+SHA1: b134cdad1a816950ff3e4832e1bd39a610d9c7c3
+MD5sum: f05807eeaf3e11c29f37c6e959c9848c
 Description: FlickOS security kit: reverse engineering
  gdb and edb, ltrace and strace, objdump and readelf, apktool for Android
  apps, and the GHex and hexedit hex editors from Debian. apktool brings a
@@ -401,6 +400,28 @@ Description: FlickOS security kit: reverse engineering
  A kit is installed from Software's Security Tools and removed there too.
  Nothing it installs runs until it is used
  (docs/design/flickos-security.md).
+
+Package: flickos-kit-study
+Version: 1.0~test2
+Architecture: all
+Maintainer: Jon <dvbondoy@gmail.com>
+Installed-Size: 11
+Depends: xournalpp, labplot, kwordquiz, artha
+Priority: optional
+Section: education
+Filename: pool/main/f/flickos-kit-study/flickos-kit-study_1.0~test2_all.deb
+Size: 2788
+SHA256: 7bbecd42c3b96bd5171629d190876532e2d62b7882e1f367d025824465bf8916
+SHA1: 2eb2d119eaaa83fa89b9bab2e939e49744583c29
+MD5sum: a675168760bc21d022a22942bc1ced02
+Description: FlickOS kit: apps for students
+ Apps for studying from Debian, for secondary school and university:
+ Xournal++ (handwritten notes, and writing on PDFs), LabPlot (graphs and
+ data), KWordQuiz (flashcards) and Artha (an English dictionary and
+ thesaurus that works offline).
+ .
+ A kit is installed from Software and removed there too. Nothing it
+ installs runs until it is used (docs/design/flickos-dev.md, Q16).
 
 Package: flickos-kit-web
 Version: 1.0~test1
@@ -424,18 +445,18 @@ Description: FlickOS developer kit: Node.js and npm
  Nothing it installs runs until it is used (docs/design/flickos-dev.md).
 
 Package: flickos-kit-web-testing
-Version: 1.0~test1
+Version: 1.0~test3
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 11
 Depends: sqlmap, gobuster, ffuf, wfuzz, dirb, whatweb, cewl, sslscan, testssl.sh
 Priority: optional
 Section: web
-Filename: pool/main/f/flickos-kit-web-testing/flickos-kit-web-testing_1.0~test1_all.deb
-Size: 2792
-SHA256: 5f27864c1247453f2a8ce9f6b752f14625b7cca1187d96787dcc89961455104b
-SHA1: a68fe0eac147506732cdbd005635c71257e488ac
-MD5sum: bc0471faaf43aec2ca537f47e5b54f04
+Filename: pool/main/f/flickos-kit-web-testing/flickos-kit-web-testing_1.0~test3_all.deb
+Size: 2904
+SHA256: 0a92f2d189c3b078363d1ed632bd313dd125761729f6345ea802be31a4fcd66c
+SHA1: 1276ca32ccd717d4c372d960538d9730f2118bfd
+MD5sum: a522f322bc0427a1b74738321b2434ce
 Description: FlickOS security kit: web application testing
  sqlmap, ffuf, gobuster, wfuzz, dirb, WhatWeb and CeWL from Debian, with
  sslscan and testssl.sh to check a server's TLS.
@@ -451,18 +472,18 @@ Description: FlickOS security kit: web application testing
  (docs/design/flickos-security.md).
 
 Package: flickos-kit-wireless
-Version: 1.0~test1
+Version: 1.0~test3
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 11
 Depends: aircrack-ng, reaver, wifite, hcxtools, hcxdumptool, iw, macchanger
 Priority: optional
 Section: net
-Filename: pool/main/f/flickos-kit-wireless/flickos-kit-wireless_1.0~test1_all.deb
-Size: 2920
-SHA256: 5a5083e8fb1a9be638f34f221dc542aa152bf392a7e308aa8e3f5f66459b985c
-SHA1: 9236bb919480c4c8001308c0329ad2f05e368889
-MD5sum: 0b9269313fc43fda7548f01805192dd2
+Filename: pool/main/f/flickos-kit-wireless/flickos-kit-wireless_1.0~test3_all.deb
+Size: 3032
+SHA256: 2abaf4f6d0e3e5c5e65bdf3e8e798271fba720e9acfd8c78dc28b04cfb676936
+SHA1: bb49666ef166892bb652f4e146903c729f08a58c
+MD5sum: 95979994e1ce8b85294e3f66c17cbd1d
 Description: FlickOS security kit: wireless testing
  Aircrack-ng, Reaver, Wifite, hcxdumptool and hcxtools, iw and macchanger
  from Debian. They need administrator rights and an adapter that can do
@@ -480,19 +501,19 @@ Description: FlickOS security kit: wireless testing
  (docs/design/flickos-security.md).
 
 Package: flickos-kits
-Version: 1.2~test1
+Version: 1.4~test5
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 129
+Installed-Size: 133
 Depends: python3, python3-gi, gir1.2-gtk-3.0, flickos-software (>= 1.21)
-Breaks: flickos-control (<< 1.82~), flickos-software (<< 1.24~)
+Breaks: flickos-control (<< 1.84~), flickos-software (<< 1.24~)
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-kits/flickos-kits_1.2~test1_all.deb
-Size: 31700
-SHA256: dbf2ff9bd95c87d8f75f7f109eec950cddde8b5fc72d3ec32ff5922b3eab4587
-SHA1: 64f24b18e385e39a977e097f96b6dbde52e69306
-MD5sum: 3c73efee1ad83c66b0d272ad57731529
+Filename: pool/main/f/flickos-kits/flickos-kits_1.4~test5_all.deb
+Size: 33348
+SHA256: b28e81af48c48877505cf65db1f69a321e2dea72523e07259d282761ebd9f78a
+SHA1: 3566cbe1cf3d4d21357851813cd7ee87533db9fb
+MD5sum: da50ac43e4547734decddcba1eb1c756
 Description: install and set up the FlickOS developer and security kits
  A small window, Tool Kits, to install the kit for each kind of work (Python,
  Node.js, C and C++, containers, and security work such as network analysis
@@ -600,7 +621,7 @@ Description: start menu and Quick Settings for the FlickOS labwc session
  for a moment. Settings > Notifications can turn it off.
 
 Package: flickos-settings
-Version: 1.61~test1
+Version: 1.61~test2
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 1919
@@ -609,11 +630,11 @@ Recommends: foot, fuzzel, thunar, wl-clipboard, libnotify-bin, brightnessctl, wi
 Breaks: flick-tiler (<< 1.7), flickos-control (<< 1.21), flickos-layouts (<< 1.6), flickos-shortcuts (<< 1.16)
 Priority: optional
 Section: misc
-Filename: pool/main/f/flickos-settings/flickos-settings_1.61~test1_all.deb
-Size: 1795084
-SHA256: e9ce028cd0bf8d7b725cfc0b89e0a5c0925fb3695d76300dbc14ee91311be0bc
-SHA1: 1c62cb3e8ec5ae6f7effb031d7e98f3e098aa10d
-MD5sum: 775af1b709d3e0347ecaf7d966084062
+Filename: pool/main/f/flickos-settings/flickos-settings_1.61~test2_all.deb
+Size: 1795228
+SHA256: b7f2dc6c6983e5b1d0186feb15ab41f0443c7a05d4029820df15460e6ff1f17f
+SHA1: c31ec339e31f1fd8cb1126c237ca4947137698f4
+MD5sum: 9cc48debc906cb20d4e1eda33f57df73
 Description: FlickOS default desktop configuration
  System-wide defaults for the FlickOS labwc session: keybindings, root menu,
  session startup programs, wallpaper, panel, notification and launcher
@@ -648,7 +669,7 @@ Description: keyboard shortcut sheet for the FlickOS labwc session
  own configuration.
 
 Package: flickos-software
-Version: 1.24~test1
+Version: 1.24~test2
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 290
@@ -656,11 +677,11 @@ Depends: python3, python3-gi, gir1.2-gtk-3.0, appstream, gir1.2-appstream-1.0, p
 Recommends: flatpak
 Priority: optional
 Section: admin
-Filename: pool/main/f/flickos-software/flickos-software_1.24~test1_all.deb
-Size: 63996
-SHA256: b4c2f2636880eaf8ab5d1c6d8860a1667d4aa33fe2e8134444b2b1abd22f6b5d
-SHA1: 24884cf980d73f8c601d95df80ef2316ed3d5e42
-MD5sum: c43b586492bc1564241342aa1714f9d3
+Filename: pool/main/f/flickos-software/flickos-software_1.24~test2_all.deb
+Size: 64072
+SHA256: ff09d6b2f7318b2a891c75e759300b722b5ca157f7e2eb6141eff815493de642
+SHA1: 14538e8ac5f56487d8128c94d5e481a1b8588e0f
+MD5sum: eaeab0c3bea67efa262a56ed06c70782
 Description: Software: find, install and remove apps on FlickOS
  A window for apps, not packages: every desktop app in Debian's archive, in
  FlickOS's repository (with the community apps other developers publish

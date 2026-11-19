@@ -72,9 +72,9 @@ Extends:
 - flickos-kits.desktop
 ProjectLicense: GPL-3.0-or-later
 Name:
-  C: Classroom
+  C: Young Learners
 Summary:
-  C: Learning apps for school and home
+  C: Learning apps for children, at school and at home
 Description:
   C: >-
     <p>
@@ -84,10 +84,7 @@ Description:
           and KMPlot for graphs of functions.
         </p>
     <p>
-          Nothing here runs until it is opened. A teacher's screen-sharing
-          console is not part of the kit: it needs the students' computers to
-          show their screens, which Debian's Veyon cannot do on FlickOS's
-          Wayland desktop.
+          Nothing here runs until it is opened.
         </p>
 Developer:
   id: io.github.dvbondoy
@@ -305,6 +302,39 @@ Icon:
 Custom:
   FlickOS::kit: reversing
   FlickOS::kit-category: security
+---
+Type: addon
+ID: io.github.dvbondoy.flickos.kits.study
+Package: flickos-kit-study
+Extends:
+- flickos-kits.desktop
+ProjectLicense: GPL-3.0-or-later
+Name:
+  C: Study
+Summary:
+  C: Notes, flashcards and graphs for students
+Description:
+  C: >-
+    <p>
+          Apps for studying from Debian, for secondary school and university:
+          Xournal++ for handwritten notes and for writing on PDFs, LabPlot for
+          graphs and data, KWordQuiz for flashcards, and Artha, an English
+          dictionary and thesaurus that works offline.
+        </p>
+    <p>
+          Nothing here runs until it is opened.
+        </p>
+Developer:
+  id: io.github.dvbondoy
+  name:
+    C: FlickOS
+Url:
+  homepage: https://flickos.org/
+Icon:
+  stock: applications-science
+Custom:
+  FlickOS::kit: study
+  FlickOS::kit-category: classroom
 ---
 Type: addon
 ID: io.github.dvbondoy.flickos.kits.web
