@@ -135,6 +135,112 @@ Custom:
   FlickOS::kit-category: development
 ---
 Type: addon
+ID: io.github.dvbondoy.flickos.kits.forensics
+Package: flickos-kit-forensics
+Extends:
+- flickos-kits.desktop
+ProjectLicense: GPL-3.0-or-later
+Name:
+  C: Forensics
+Summary:
+  C: The Sleuth Kit, Autopsy and tools for disk images
+Description:
+  C: >-
+    <p>
+          The Sleuth Kit and Autopsy, binwalk, foremost, scalpel,
+          TestDisk, dc3dd, the EWF tools, hashdeep, YARA, ExifTool and
+          steghide from Debian.
+        </p>
+    <p>
+          Autopsy is the older web version: it listens on this computer
+          only, while it runs. dc3dd and ewfacquire image disks from the
+          command line. Guymager isn't part of the kit, because the disk
+          tools it brings start a service; Software installs it on its
+          own.
+        </p>
+Developer:
+  id: io.github.dvbondoy
+  name:
+    C: FlickOS
+Url:
+  homepage: https://flickos.org/
+Icon:
+  stock: security-high
+Custom:
+  FlickOS::kit: forensics
+  FlickOS::kit-category: security
+---
+Type: addon
+ID: io.github.dvbondoy.flickos.kits.network
+Package: flickos-kit-network
+Extends:
+- flickos-kits.desktop
+ProjectLicense: GPL-3.0-or-later
+Name:
+  C: Network Analysis
+Summary:
+  C: Wireshark, Nmap and the tools for looking at a network
+Description:
+  C: >-
+    <p>
+          Nmap, Wireshark and tshark, tcpdump, arp-scan, Ettercap and
+          bettercap from Debian, with the everyday tools for networks:
+          ncat, socat, dig, whois, traceroute, mtr, iperf3, ngrep,
+          tcpflow, and the SMB, LDAP, NetBIOS and SNMP clients.
+        </p>
+    <p>
+          Capturing packets needs administrator rights as Debian installs
+          it: Wireshark lists no interfaces until your account may capture
+          (sudo dpkg-reconfigure wireshark-common, add yourself to the
+          wireshark group and log in again). Raw scans stay sudo nmap.
+        </p>
+Developer:
+  id: io.github.dvbondoy
+  name:
+    C: FlickOS
+Url:
+  homepage: https://flickos.org/
+Icon:
+  stock: security-high
+Custom:
+  FlickOS::kit: network
+  FlickOS::kit-category: security
+---
+Type: addon
+ID: io.github.dvbondoy.flickos.kits.passwords
+Package: flickos-kit-passwords
+Extends:
+- flickos-kits.desktop
+ProjectLicense: GPL-3.0-or-later
+Name:
+  C: Passwords
+Summary:
+  C: John the Ripper, hashcat and Hydra for testing passwords
+Description:
+  C: >-
+    <p>
+          John the Ripper, hashcat, Hydra, Medusa, crunch, fcrackzip,
+          pdfcrack and hashID from Debian.
+        </p>
+    <p>
+          hashcat runs on the processor as installed. To use a graphics
+          card, install its maker's OpenCL driver, or mesa-opencl-icd and
+          set RUSTICL_ENABLE for the card's driver. Debian has no
+          wordlists, so none come with the kit.
+        </p>
+Developer:
+  id: io.github.dvbondoy
+  name:
+    C: FlickOS
+Url:
+  homepage: https://flickos.org/
+Icon:
+  stock: security-high
+Custom:
+  FlickOS::kit: passwords
+  FlickOS::kit-category: security
+---
+Type: addon
 ID: io.github.dvbondoy.flickos.kits.python
 Package: flickos-kit-python
 Extends:
@@ -168,6 +274,39 @@ Custom:
   FlickOS::kit-category: development
 ---
 Type: addon
+ID: io.github.dvbondoy.flickos.kits.reversing
+Package: flickos-kit-reversing
+Extends:
+- flickos-kits.desktop
+ProjectLicense: GPL-3.0-or-later
+Name:
+  C: Reverse Engineering
+Summary:
+  C: Debuggers, tracers and hex editors for programs
+Description:
+  C: >-
+    <p>
+          gdb and edb, ltrace and strace, objdump and readelf, apktool for
+          Android apps, and the GHex and hexedit hex editors from Debian.
+          apktool brings a Java runtime.
+        </p>
+    <p>
+          Ghidra, radare2 and rizin aren't in Debian 13, so they aren't
+          part of the kit.
+        </p>
+Developer:
+  id: io.github.dvbondoy
+  name:
+    C: FlickOS
+Url:
+  homepage: https://flickos.org/
+Icon:
+  stock: security-high
+Custom:
+  FlickOS::kit: reversing
+  FlickOS::kit-category: security
+---
+Type: addon
 ID: io.github.dvbondoy.flickos.kits.web
 Package: flickos-kit-web
 Extends:
@@ -199,6 +338,73 @@ Icon:
 Custom:
   FlickOS::kit: web
   FlickOS::kit-category: development
+---
+Type: addon
+ID: io.github.dvbondoy.flickos.kits.web-testing
+Package: flickos-kit-web-testing
+Extends:
+- flickos-kits.desktop
+ProjectLicense: GPL-3.0-or-later
+Name:
+  C: Web Testing
+Summary:
+  C: Fuzzers, sqlmap and TLS checks for testing web apps
+Description:
+  C: >-
+    <p>
+          sqlmap, ffuf, gobuster, wfuzz, dirb, WhatWeb and CeWL from
+          Debian, with sslscan and testssl.sh to check a server's TLS.
+        </p>
+    <p>
+          Burp Suite, ZAP and nikto aren't in Debian's main archive, so
+          they aren't part of the kit.
+        </p>
+Developer:
+  id: io.github.dvbondoy
+  name:
+    C: FlickOS
+Url:
+  homepage: https://flickos.org/
+Icon:
+  stock: security-high
+Custom:
+  FlickOS::kit: web-testing
+  FlickOS::kit-category: security
+---
+Type: addon
+ID: io.github.dvbondoy.flickos.kits.wireless
+Package: flickos-kit-wireless
+Extends:
+- flickos-kits.desktop
+ProjectLicense: GPL-3.0-or-later
+Name:
+  C: Wireless Testing
+Summary:
+  C: Aircrack-ng and the tools for testing Wi-Fi networks
+Description:
+  C: >-
+    <p>
+          Aircrack-ng, Reaver, Wifite, hcxdumptool and hcxtools, iw and
+          macchanger from Debian. They need administrator rights and an
+          adapter that can do monitor mode.
+        </p>
+    <p>
+          Use a second, USB adapter and start it with airmon-ng start
+          alone. airmon-ng check kill stops this computer's own network;
+          if you ran it, sudo systemctl start NetworkManager brings it
+          back.
+        </p>
+Developer:
+  id: io.github.dvbondoy
+  name:
+    C: FlickOS
+Url:
+  homepage: https://flickos.org/
+Icon:
+  stock: security-high
+Custom:
+  FlickOS::kit: wireless
+  FlickOS::kit-category: security
 ---
 Type: addon
 ID: io.github.dvbondoy.flickos.styles.Tortuga
