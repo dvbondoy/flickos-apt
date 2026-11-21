@@ -73,6 +73,55 @@ Description: FlickOS branding: logo, boot splash, boot menu, OS name and login b
  whenever base-files is upgraded. ID=debian and all version fields stay
  unchanged, so software that detects Debian keeps working.
 
+Package: flickos-classroom-teacher
+Source: flickos-classroom-view
+Version: 1.0
+Architecture: all
+Maintainer: Jon <dvbondoy@gmail.com>
+Installed-Size: 11
+Depends: flickos-classroom-view (= 1.0), gir1.2-gtk-vnc-2.0
+Priority: optional
+Section: education
+Filename: pool/main/f/flickos-classroom-view/flickos-classroom-teacher_1.0_all.deb
+Size: 4020
+SHA256: 524058807ea4b73ea17da016bc6d10139d272a39d91222ab839af7f84500ee6f
+SHA1: eda58f66ce7d594530987c13c42c053250b0489d
+MD5sum: 2e6013e4e9664e6b24c0d25aa037d1cd
+Description: see and guide a classroom of FlickOS computers
+ The teacher's window of FlickOS Classroom: every paired student's screen
+ in a grid; lock the screens with a message, show a message, open a web
+ page on every screen, view or control one student's screen, or show the
+ teacher's screen in the students' class lock. Students pair with this
+ computer by typing a six-digit code.
+ .
+ Students' computers need only flickos-classroom-view. FlickOS computers
+ only.
+
+Package: flickos-classroom-view
+Version: 1.0
+Architecture: all
+Maintainer: Jon <dvbondoy@gmail.com>
+Installed-Size: 183
+Depends: python3, python3-gi, gir1.2-gtk-3.0, python3-pil, grim, openssl, libnotify-bin, xdg-utils, flickos-lock (>= 1.4~test1), flickos-layouts (>= 1.88~test1), flickos-control (>= 1.78~test1), systemd, wayvnc, libneatvnc0 (>= 0.9.1+dfsg+flickos1), gir1.2-gtklayershell-0.1
+Priority: optional
+Section: education
+Filename: pool/main/f/flickos-classroom-view/flickos-classroom-view_1.0_all.deb
+Size: 44624
+SHA256: 2df2af3a202ef4b4cedeaaf356a630d1cce8b41f3f2acc2eeaf151fc3faa8a24
+SHA1: 8df22fe22ab799a26ecf2f715429fcf18756c4e1
+MD5sum: cb2595d819562e054d38631be59adf6c
+Description: share a FlickOS computer's screen with a teacher
+ A student's half of FlickOS Classroom: a paired teacher's computer sees
+ this screen, and can lock it with a message, show a message, open a web
+ page, or view and control it. Students pair with the teacher's computer by
+ typing a six-digit code; a school's lab computers are paired once by an
+ administrator.
+ .
+ Nothing runs until sharing is turned on in Settings > Classroom, and the
+ panel always shows when the screen can be seen and when a teacher is
+ looking. Nothing is recorded. The teacher's computer needs
+ flickos-classroom-teacher. FlickOS computers only.
+
 Package: flickos-control
 Version: 1.84
 Architecture: all
@@ -1234,8 +1283,31 @@ Description: welcome window of the FlickOS desktop
  second place to change a setting. A card whose program is not installed is
  left out. The window can be opened again from the menu, under Welcome.
 
+Package: libneatvnc0
+Source: neatvnc
+Version: 0.9.1+dfsg+flickos1
+Architecture: amd64
+Maintainer: Han Gao <rabenda.cn@gmail.com>
+Installed-Size: 170
+Depends: libaml0t64 (>= 0.3.0), libc6 (>= 2.38), libgbm1 (>= 12.0.0~0), libgmp10 (>= 2:6.3.0+dfsg), libgnutls30t64 (>= 3.8.1), libhogweed6t64, libnettle8t64, libpixman-1-0 (>= 0.27.4), libturbojpeg0 (>= 1.2.90), zlib1g (>= 1:1.2.0)
+Multi-Arch: same
+Homepage: https://github.com/any1/neatvnc/
+Priority: optional
+Section: libs
+Filename: pool/main/n/neatvnc/libneatvnc0_0.9.1+dfsg+flickos1_amd64.deb
+Size: 64516
+SHA256: 9d279d89ff2358f8d9e08c97eb8ea353f50099af16b954e8e4796c8242552002
+SHA1: d49a8ec28554b6f08e2fddcf48203e3b87fe3704
+MD5sum: 64e714fc451e0601308650c58065a628
+Description: Fast and neat VNC server library (shared library)
+ Neatvnc is a liberally licensed VNC server library that's intended
+ to be fast and neat. It comes with the goal of speed, clean interface
+ and interoperability with the Freedesktop.org ecosystem.
+ .
+ This package provides shared libraries.
+
 Package: sfwbar
-Version: 1.0~beta17+git20260910+flickos10
+Version: 1.0~beta17+git20260910+flickos11
 Architecture: amd64
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 1534
@@ -1244,11 +1316,11 @@ Suggests: python3
 Homepage: https://github.com/LBCrion/sfwbar
 Priority: optional
 Section: x11
-Filename: pool/main/s/sfwbar/sfwbar_1.0~beta17+git20260910+flickos10_amd64.deb
-Size: 330520
-SHA256: d846de0926759130d55dced114c2432f670fffe259ff7ccdb4dd58caf03787f0
-SHA1: 837941d97e87065d4f1ecafb4c36d655536eb6fd
-MD5sum: c7693251d2900314ecb387cc4101e7b7
+Filename: pool/main/s/sfwbar/sfwbar_1.0~beta17+git20260910+flickos11_amd64.deb
+Size: 331036
+SHA256: 2b6a24c432fa970079b320a911e5b68e3a34807841fdcff8910a23b1d769d7f7
+SHA1: 0f86c50ae2084a35c0ffbaafc07023929d1da10c
+MD5sum: 8e4a3e6ebd4d174ea1544cdfc58811d2
 Description: taskbar, dock and panel for Wayland stacking compositors
  SFWBar is a GTK 3 layer-shell panel for Wayland compositors with a
  stacking layout, such as labwc. It has a taskbar with pinned apps and
