@@ -2,25 +2,25 @@ Origin: FlickOS
 Label: FlickOS
 Suite: trixie
 Codename: trixie
-Date: Sat, 21 Nov 2026 12:45:17 UTC
+Date: Sat, 21 Nov 2026 14:25:01 UTC
 Architectures: amd64
 Components: main
 Description: FlickOS package repository
 MD5Sum:
- 0bfee2f14217b530517b67f215e3a46f 62787 main/binary-amd64/Packages
- 0b3109b557ccfe1569624885fa11f3a2 21565 main/binary-amd64/Packages.gz
+ 5adfe3b5e891219ded06b9caf2361d5f 62787 main/binary-amd64/Packages
+ be0a4439688ce6c89d694681eaafd696 21560 main/binary-amd64/Packages.gz
  f7cb74c78d8f08e0f8b8599bdca4a04a 21817 main/dep11/Components-amd64.yml
  dff4312f7fa6e4a09a9db687273a3869 4750 main/dep11/Components-amd64.yml.gz
  4996bc0b6fe407af1e10063597b51190 107 main/binary-amd64/Release
 SHA1:
- 77441d025b1481891d6896c494cb94d4ed7cd0f7 62787 main/binary-amd64/Packages
- 821781c665cc7d8d783557ba850e7f6d3c7c4aa1 21565 main/binary-amd64/Packages.gz
+ a5dfa6203322a1ce61213951ac4010861c4a5df4 62787 main/binary-amd64/Packages
+ 6a0b159160870b2c7a652abf99aed06364b6268e 21560 main/binary-amd64/Packages.gz
  efecf85dcd3dcec41ddbe0925449bf6433a5e867 21817 main/dep11/Components-amd64.yml
  f1bbf00b95b6a44ad88f1cf43787f2228dd5f2f6 4750 main/dep11/Components-amd64.yml.gz
  533641725dddc8b260db75e2635080e02d9baa88 107 main/binary-amd64/Release
 SHA256:
- 7319aefb28702ab2ab8170036b2ab66baca55e573808262b3628ddbf942b017b 62787 main/binary-amd64/Packages
- 2cf173f3831b68bca2b362c4875aea2138d9afcb29051c2b9f919ecf7de55540 21565 main/binary-amd64/Packages.gz
+ c4c6cf95bebad027e3ce3567a0d1426afe35fc076fcd125ac797fa5e4dacc8f0 62787 main/binary-amd64/Packages
+ ee79766b9b55919c4c4dd248eca2bca69489ee1b99fe217e3d27242eece14d62 21560 main/binary-amd64/Packages.gz
  64c5c2c7a9c0dce63f97638b17864e3e4828adfb17b3207194e76fdf500147f0 21817 main/dep11/Components-amd64.yml
  c86b459e6725c131d02f6a3aa26275f0a32a3b1ba60da5340260feb8556055a6 4750 main/dep11/Components-amd64.yml.gz
  dfa7764d94eecd3c6d7c2d7239cd116e854f45521baafb6cf19e9d70d10e52fd 107 main/binary-amd64/Release

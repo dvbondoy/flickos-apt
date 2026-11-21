@@ -123,20 +123,20 @@ Description: share a FlickOS computer's screen with a teacher
  flickos-classroom-teacher. FlickOS computers only.
 
 Package: flickos-control
-Version: 1.84
+Version: 1.85
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 670
+Installed-Size: 679
 Depends: python3, python3-gi, gir1.2-gtk-3.0, flickos-layouts (>= 1.80), flick-tiler (>= 1.5), flickos-shortcuts, flickos-screenshot (>= 1.6), pkexec, xkb-data, adduser, accountsservice, xdg-utils, libglib2.0-bin, kanshi, wlr-randr
 Recommends: wl-clipboard, pciutils
 Breaks: flickos-greeter (<< 2.4~), flickos-phone (<< 1.16)
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-control/flickos-control_1.84_all.deb
-Size: 147232
-SHA256: f90d70329d95abecd7f3363770c3d67529d2a20cd927c516fb2e10818d637eec
-SHA1: c6d568b4510d63a4234365341bda5b3772549880
-MD5sum: 963574c28843ecdd070b16f1feb6e4b5
+Filename: pool/main/f/flickos-control/flickos-control_1.85_all.deb
+Size: 149004
+SHA256: eeb71dc372ed5b904c88c36797a15edae44ef434e166796e72191df87dd6d14a
+SHA1: 4d439368dc6a4318e3039e1014fceff3ea5f396e
+MD5sum: c92efb74384d85f87c07ab0f03bc0fd5
 Description: Settings window of the FlickOS desktop
  One window for the settings of the FlickOS labwc desktop: desktop layout,
  style and desktop clicks, mouse and touchpad, keyboard layout and typing,
