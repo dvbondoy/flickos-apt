@@ -48,18 +48,18 @@ Description: OpenPGP key and apt source for the FlickOS package repository
  they allow.
 
 Package: flickos-branding
-Version: 1.15
+Version: 1.16
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 193
-Depends: base-files, plymouth, plymouth-themes, plymouth-label, fonts-dejavu-core
+Depends: plymouth, plymouth-themes, plymouth-label, fonts-dejavu-core
 Priority: optional
 Section: misc
-Filename: pool/main/f/flickos-branding/flickos-branding_1.15_all.deb
-Size: 49256
-SHA256: 51dad2950cf98c25907d7b010033b67a6be59f0881080a510fc79d709004b0a5
-SHA1: 52f009e47f91cdc55f93c812422fd1a504238519
-MD5sum: 67ffe23e991e310c0bc7b9609a99cfe1
+Filename: pool/main/f/flickos-branding/flickos-branding_1.16_all.deb
+Size: 49356
+SHA256: b799b89a568eac5a8af63cbef7e8044b08f48113ab85ad0226a7890de2ac5b6a
+SHA1: c0dcf201702ae57beecf91e91edeaeee000cced8
+MD5sum: 81e85044b3bb5e4fb9e0f2bdddd90a88
 Description: FlickOS branding: logo, boot splash, boot menu, OS name and login banner
  Installs the FlickOS logo icons (flickos, flickos-symbolic) and the FlickOS
  Plymouth boot splash, and makes the splash the default theme.
@@ -297,7 +297,7 @@ Description: run your own programs when something happens on the FlickOS desktop
  shows what ran.
 
 Package: flickos-installer
-Version: 1.35
+Version: 1.36
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 114
@@ -307,11 +307,11 @@ Replaces: calamares-settings-debian
 Provides: calamares-settings
 Priority: optional
 Section: admin
-Filename: pool/main/f/flickos-installer/flickos-installer_1.35_all.deb
-Size: 37000
-SHA256: aa0ddd6fe02fdf1d0da9f7a3090543bfb8ca3e54daaefdc7be644000fdbd40a2
-SHA1: 58072d246d0206f3febda7b0fe3ac0f26895bf24
-MD5sum: cb8e1975d92f98f2480b444dacb98eca
+Filename: pool/main/f/flickos-installer/flickos-installer_1.36_all.deb
+Size: 37124
+SHA256: 7e5152b4e7aaa4cb6f3b1e0d41cca0bdbe6d9f8db92b39b7c3431cfe817c42d5
+SHA1: 00014a9be935ca19ea81f10a32496ee8ab1e6dd4
+MD5sum: 71e722a97bf77eda3473965210211567
 Description: FlickOS live installer (Calamares configuration)
  Calamares settings, branding and launcher for installing FlickOS from the
  live session, plus the live-session menu with an "Install FlickOS" entry.
