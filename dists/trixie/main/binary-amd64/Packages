@@ -670,7 +670,7 @@ Description: install and set up the FlickOS developer and security kits
  the administrator's password and keeps them in History.
 
 Package: flickos-layouts
-Version: 1.91
+Version: 1.92
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 13588
@@ -679,11 +679,11 @@ Recommends: waypaper
 Breaks: flick-tiler (<< 1.15), flickos-classroom-view (<< 1.0~test11), flickos-media (<< 1.9), flickos-menu (<< 1.34~), flickos-phone (<< 1.33), flickos-screenshot (<< 1.11), flickos-shortcuts (<< 1.17), flickos-weather (<< 1.4)
 Priority: optional
 Section: misc
-Filename: pool/main/f/flickos-layouts/flickos-layouts_1.91_all.deb
-Size: 9706708
-SHA256: 5b9703a4cb0a053e6540c0fd2e2ef2dc775f56fc38dc6e560fedfca282760aa9
-SHA1: ea93a54241055af46849b32c72b54e6f6e4f9ccd
-MD5sum: 13199312d02a6b959862c49f34aa3404
+Filename: pool/main/f/flickos-layouts/flickos-layouts_1.92_all.deb
+Size: 9682176
+SHA256: 78729e114de33ed08172efd70118d2c7789482f2f8ad670a63d2fd6c0e628455
+SHA1: 9eb337e5a9b972d1e43430580245acbdf1842679
+MD5sum: b0ffdfea18766163f02588963d6027ff
 Description: FlickOS desktop layouts and styles, and the flickos-layout tool
  Desktop layouts for the FlickOS labwc session: Redmond (one bottom panel),
  Cupertino (top bar and an auto-hiding dock) and Traditional (top panel and
