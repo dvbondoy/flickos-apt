@@ -48,18 +48,18 @@ Description: OpenPGP key and apt source for the FlickOS package repository
  they allow.
 
 Package: flickos-branding
-Version: 1.16
+Version: 1.16.1
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 193
+Installed-Size: 198
 Depends: plymouth, plymouth-themes, plymouth-label, fonts-dejavu-core
 Priority: optional
 Section: misc
-Filename: pool/main/f/flickos-branding/flickos-branding_1.16_all.deb
-Size: 49356
-SHA256: b799b89a568eac5a8af63cbef7e8044b08f48113ab85ad0226a7890de2ac5b6a
-SHA1: c0dcf201702ae57beecf91e91edeaeee000cced8
-MD5sum: 81e85044b3bb5e4fb9e0f2bdddd90a88
+Filename: pool/main/f/flickos-branding/flickos-branding_1.16.1_all.deb
+Size: 50832
+SHA256: 1403a2d85ea51e87f05f4d9d28400f52f76ca2bb3bbef6be4e5fa94521c9700a
+SHA1: f772e8b107df70aa9e27c5a3ccd3f59eb044f53a
+MD5sum: ec44f9472e2a457bae38606769050aa1
 Description: FlickOS branding: logo, boot splash, boot menu, OS name and login banner
  Installs the FlickOS logo icons (flickos, flickos-symbolic) and the FlickOS
  Plymouth boot splash, and makes the splash the default theme.
@@ -123,20 +123,20 @@ Description: share a FlickOS computer's screen with a teacher
  flickos-classroom-teacher. FlickOS computers only.
 
 Package: flickos-control
-Version: 1.85
+Version: 1.86
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 679
+Installed-Size: 790
 Depends: python3, python3-gi, gir1.2-gtk-3.0, flickos-layouts (>= 1.80), flick-tiler (>= 1.5), flickos-shortcuts, flickos-screenshot (>= 1.6), pkexec, xkb-data, adduser, accountsservice, xdg-utils, libglib2.0-bin, kanshi, wlr-randr
 Recommends: wl-clipboard, pciutils
-Breaks: flickos-greeter (<< 2.4~), flickos-phone (<< 1.16)
+Breaks: flickos-greeter (<< 2.4~), flickos-phone (<< 1.16), flickos-recovery (<< 1.8~)
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-control/flickos-control_1.85_all.deb
-Size: 149004
-SHA256: eeb71dc372ed5b904c88c36797a15edae44ef434e166796e72191df87dd6d14a
-SHA1: 4d439368dc6a4318e3039e1014fceff3ea5f396e
-MD5sum: c92efb74384d85f87c07ab0f03bc0fd5
+Filename: pool/main/f/flickos-control/flickos-control_1.86_all.deb
+Size: 172580
+SHA256: 71734247b013c2a48679ad45b11131bf5ee6224b3ed08af8d8c2981b3c1e8c92
+SHA1: 9b40ca58f5b8c5046e83014ceeecb9beaf3e8f0a
+MD5sum: af86adc6cc06c87243d3239d2b22f103
 Description: Settings window of the FlickOS desktop
  One window for the settings of the FlickOS labwc desktop: desktop layout,
  style and desktop clicks, mouse and touchpad, keyboard layout and typing,
@@ -245,19 +245,19 @@ Description: keep FlickOS computers set up the way their organization chose
  "flickos-fleet check FILE --dry-run" shows what a policy would change.
 
 Package: flickos-greeter
-Version: 2.4
+Version: 2.4.1
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 105
+Installed-Size: 106
 Depends: greetd, gtkgreet, cage, arc-theme, flickos-theme (>= 1.0~test1), python3, python3-gi, python3-gi-cairo, gir1.2-gtk-3.0, systemd, xkb-data, flickos-settings (>= 1.42), flickos-layouts (>= 1.47)
 Breaks: flickos-recovery (<< 1.6~)
 Priority: optional
 Section: misc
-Filename: pool/main/f/flickos-greeter/flickos-greeter_2.4_all.deb
-Size: 24612
-SHA256: e497936335cecc6a5e7bf8469fda15162ab95fc524b983545add547810a5b989
-SHA1: f46cc7e9fe5a792f2ca930d6d3565e2b20c16865
-MD5sum: 965181aadf9b6565b069b1f55bb2f1a0
+Filename: pool/main/f/flickos-greeter/flickos-greeter_2.4.1_all.deb
+Size: 25264
+SHA256: d104e1a058c2ef70536bbdce43da6338232138af35a147dfa22a770247f333d7
+SHA1: f2f4a0cd6bae7f7c1220d634a6c16cdd619571ad
+MD5sum: 8eedd6d25722f2ab95f4a86939a4c5d7
 Description: FlickOS graphical login screen
  Sets up greetd with FlickOS's own login screen (in the cage kiosk
  compositor) on installed FlickOS systems: the computer's users with their
@@ -297,7 +297,7 @@ Description: run your own programs when something happens on the FlickOS desktop
  shows what ran.
 
 Package: flickos-installer
-Version: 1.36
+Version: 1.36.1
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 114
@@ -307,11 +307,11 @@ Replaces: calamares-settings-debian
 Provides: calamares-settings
 Priority: optional
 Section: admin
-Filename: pool/main/f/flickos-installer/flickos-installer_1.36_all.deb
-Size: 37124
-SHA256: 7e5152b4e7aaa4cb6f3b1e0d41cca0bdbe6d9f8db92b39b7c3431cfe817c42d5
-SHA1: 00014a9be935ca19ea81f10a32496ee8ab1e6dd4
-MD5sum: 71e722a97bf77eda3473965210211567
+Filename: pool/main/f/flickos-installer/flickos-installer_1.36.1_all.deb
+Size: 37352
+SHA256: e4b6f8f0bd53d6086e9860b8f934a32738141f0934285364d724a2945dc2740b
+SHA1: 3684bdec4ea9ceaf558f0faad7eb1680392dc908
+MD5sum: 2514d8396c1ee0e32d2a031386552014
 Description: FlickOS live installer (Calamares configuration)
  Calamares settings, branding and launcher for installing FlickOS from the
  live session, plus the live-session menu with an "Install FlickOS" entry.
@@ -857,18 +857,18 @@ Description: check a Reddit draft before posting, for FlickOS
  with it. Install it yourself when you want it.
 
 Package: flickos-recovery
-Version: 1.7
+Version: 1.8
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 102
+Installed-Size: 105
 Depends: python3, btrfs-progs, pkexec
 Priority: optional
 Section: admin
-Filename: pool/main/f/flickos-recovery/flickos-recovery_1.7_all.deb
-Size: 21868
-SHA256: 6d8e603f319080546f90091bafde7ab98e79960fdcd5b50eca84fb756c7b55c6
-SHA1: bcd00756a2b97f259cd087e8765962fc87e282f0
-MD5sum: a6bc7089eb3bbaa3cea4ae56ba781782
+Filename: pool/main/f/flickos-recovery/flickos-recovery_1.8_all.deb
+Size: 22928
+SHA256: 69fd0a48f6a5843a46fb3fbb5900b3dd5619f06654f94a8856084cf5b723fccf
+SHA1: 7cba363dffa85dbdd2a597a7df3e5791b80568ee
+MD5sum: d72eac31e748861dfc300316f5209033
 Description: restore points of the whole FlickOS system
  Before every software change (apt, the Software and updates apps, automatic
  updates) a read-only btrfs snapshot of the system is taken: a restore point.
@@ -914,7 +914,7 @@ Description: screenshots and screen recordings for the FlickOS desktop
  stops it.
 
 Package: flickos-settings
-Version: 1.61
+Version: 1.62
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 1919
@@ -923,11 +923,11 @@ Recommends: foot, fuzzel, thunar, wl-clipboard, libnotify-bin, brightnessctl, wi
 Breaks: flick-tiler (<< 1.7), flickos-control (<< 1.21), flickos-layouts (<< 1.6), flickos-shortcuts (<< 1.16)
 Priority: optional
 Section: misc
-Filename: pool/main/f/flickos-settings/flickos-settings_1.61_all.deb
-Size: 1795092
-SHA256: 529f78009d8e9822cdee90be8f53fd12b159294590a50ab2a975c738b02120f0
-SHA1: 0e89709d3ca25a78ca27381e5f417326fab2cda5
-MD5sum: 7110b8a5db4ff9b5c9a79621d5e5407f
+Filename: pool/main/f/flickos-settings/flickos-settings_1.62_all.deb
+Size: 1795328
+SHA256: 9643c0fefe4ef9174d6382d924ae276deec5cb4ddaf6775d5a45aa378ae46221
+SHA1: 30a7f3d82b1705e1b84a75c44e4cdbcef2118c75
+MD5sum: 3ab8d287a54556455f383be741196e82
 Description: FlickOS default desktop configuration
  System-wide defaults for the FlickOS labwc session: keybindings, root menu,
  session startup programs, wallpaper, panel, notification and launcher
@@ -1307,7 +1307,7 @@ Description: Fast and neat VNC server library (shared library)
  This package provides shared libraries.
 
 Package: sfwbar
-Version: 1.0~beta17+git20260910+flickos11
+Version: 1.0~beta17+git20260910+flickos12
 Architecture: amd64
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 1534
@@ -1316,11 +1316,11 @@ Suggests: python3
 Homepage: https://github.com/LBCrion/sfwbar
 Priority: optional
 Section: x11
-Filename: pool/main/s/sfwbar/sfwbar_1.0~beta17+git20260910+flickos11_amd64.deb
-Size: 331036
-SHA256: 2b6a24c432fa970079b320a911e5b68e3a34807841fdcff8910a23b1d769d7f7
-SHA1: 0f86c50ae2084a35c0ffbaafc07023929d1da10c
-MD5sum: 8e4a3e6ebd4d174ea1544cdfc58811d2
+Filename: pool/main/s/sfwbar/sfwbar_1.0~beta17+git20260910+flickos12_amd64.deb
+Size: 331304
+SHA256: 5dea9e2ef1707e13627e86cf2ae90286de489672e4ad2f9003dfc7d980be2d64
+SHA1: c6975b4bf8c8b2c0585149cbef42f478d96af42e
+MD5sum: 4f971f0e37cde9a9965fca9c2de9789f
 Description: taskbar, dock and panel for Wayland stacking compositors
  SFWBar is a GTK 3 layer-shell panel for Wayland compositors with a
  stacking layout, such as labwc. It has a taskbar with pinned apps and
