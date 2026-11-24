@@ -1100,18 +1100,18 @@ Description: Experience style for the FlickOS desktop
  sets the style and the layout together.
 
 Package: flickos-style-footprint
-Version: 1.10
+Version: 1.11
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 140
-Depends: flickos-layouts (>= 1.86), sfwbar (>= 1.0~beta17+git20260910+flickos9), gnome-themes-extra-data, adwaita-icon-theme, adwaita-icon-theme-legacy, fonts-cantarell
+Installed-Size: 141
+Depends: flickos-layouts (>= 1.86), sfwbar (>= 1.0~beta17+git20260910+flickos13), gnome-themes-extra-data, adwaita-icon-theme, adwaita-icon-theme-legacy, fonts-cantarell
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-style-footprint/flickos-style-footprint_1.10_all.deb
-Size: 67148
-SHA256: c78ce01ac69f34d12c53e4c15846f619b676fce869cd35779d871b7edd9f3cb3
-SHA1: 5f3c21e46b441b012bbcb3e889def4624b82074f
-MD5sum: ed4e2517613b7a9113e6261b943ce8c4
+Filename: pool/main/f/flickos-style-footprint/flickos-style-footprint_1.11_all.deb
+Size: 67876
+SHA256: a38934f6866d62e2631496cf9cda6bf0e436750034669fb9b28baf092f844ba9
+SHA1: 2c295b7e836c1f9f871104ecb645fa19ed8effd6
+MD5sum: e3dd99975ba8bc51da29465e65ca3fba
 Description: Footprint style and layout for the FlickOS desktop
  A dark style for FlickOS: a black top bar, grey windows with the title in
  the middle and round buttons, a dark grey terminal and a dusk wallpaper
@@ -1312,7 +1312,7 @@ Description: Fast and neat VNC server library (shared library)
  This package provides shared libraries.
 
 Package: sfwbar
-Version: 1.0~beta17+git20260910+flickos12
+Version: 1.0~beta17+git20260910+flickos13
 Architecture: amd64
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 1534
@@ -1321,11 +1321,11 @@ Suggests: python3
 Homepage: https://github.com/LBCrion/sfwbar
 Priority: optional
 Section: x11
-Filename: pool/main/s/sfwbar/sfwbar_1.0~beta17+git20260910+flickos12_amd64.deb
-Size: 331304
-SHA256: 5dea9e2ef1707e13627e86cf2ae90286de489672e4ad2f9003dfc7d980be2d64
-SHA1: c6975b4bf8c8b2c0585149cbef42f478d96af42e
-MD5sum: 4f971f0e37cde9a9965fca9c2de9789f
+Filename: pool/main/s/sfwbar/sfwbar_1.0~beta17+git20260910+flickos13_amd64.deb
+Size: 331004
+SHA256: 43d118e973a6040fa8a44b094fc28e14bb3afea1739d5ec693658b005a9cf121
+SHA1: 6f8a968cef9394b3db1ba98a99a1f98ed4f176c0
+MD5sum: a78a749d49b16459c2c80e554d75b5b3
 Description: taskbar, dock and panel for Wayland stacking compositors
  SFWBar is a GTK 3 layer-shell panel for Wayland compositors with a
  stacking layout, such as labwc. It has a taskbar with pinned apps and
