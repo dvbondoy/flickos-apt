@@ -48,24 +48,29 @@ Description: OpenPGP key and apt source for the FlickOS package repository
  they allow.
 
 Package: flickos-branding
-Version: 1.16.1
+Version: 1.16.2
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 198
-Depends: plymouth, plymouth-themes, plymouth-label, fonts-dejavu-core
+Depends: plymouth, plymouth-themes, plymouth-label, fonts-dejavu-core, shim-signed, grub-efi-amd64-signed
 Priority: optional
 Section: misc
-Filename: pool/main/f/flickos-branding/flickos-branding_1.16.1_all.deb
-Size: 50832
-SHA256: 1403a2d85ea51e87f05f4d9d28400f52f76ca2bb3bbef6be4e5fa94521c9700a
-SHA1: f772e8b107df70aa9e27c5a3ccd3f59eb044f53a
-MD5sum: ec44f9472e2a457bae38606769050aa1
+Filename: pool/main/f/flickos-branding/flickos-branding_1.16.2_all.deb
+Size: 51116
+SHA256: 11cfde0fa1b247f95dfeec2fe2cd75e17eed4bb4e93472130d03a6cce92556c9
+SHA1: 2c5e001f2bacc5f6c6c3dab3cbd1aab7d6615ffb
+MD5sum: 517c6487fd596ecc8c606274012f3694
 Description: FlickOS branding: logo, boot splash, boot menu, OS name and login banner
  Installs the FlickOS logo icons (flickos, flickos-symbolic) and the FlickOS
  Plymouth boot splash, and makes the splash the default theme.
  .
  Gives the GRUB boot menu FlickOS's theme (/etc/default/grub.d/flickos-theme.cfg
  points update-grub at /usr/share/flickos/grub/).
+ .
+ Brings Secure Boot's shim-signed and grub-efi-amd64-signed (only recommended
+ by Debian's GRUB, and FlickOS installs no recommends): on a UEFI computer
+ their install puts shim and the signed GRUB on the EFI partition, so FlickOS
+ starts with Secure Boot on. On a BIOS computer they change nothing.
  .
  Shows "FlickOS" in /etc/os-release (PRETTY_NAME, VARIANT) and on the text
  console login banner (/etc/issue, /etc/issue.net). Debian's originals are
@@ -75,18 +80,18 @@ Description: FlickOS branding: logo, boot splash, boot menu, OS name and login b
 
 Package: flickos-classroom-teacher
 Source: flickos-classroom-view
-Version: 1.0
+Version: 1.1
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 11
-Depends: flickos-classroom-view (= 1.0), gir1.2-gtk-vnc-2.0
+Installed-Size: 12
+Depends: flickos-classroom-view (= 1.1), gir1.2-gtk-vnc-2.0
 Priority: optional
 Section: education
-Filename: pool/main/f/flickos-classroom-view/flickos-classroom-teacher_1.0_all.deb
-Size: 4020
-SHA256: 524058807ea4b73ea17da016bc6d10139d272a39d91222ab839af7f84500ee6f
-SHA1: eda58f66ce7d594530987c13c42c053250b0489d
-MD5sum: 2e6013e4e9664e6b24c0d25aa037d1cd
+Filename: pool/main/f/flickos-classroom-view/flickos-classroom-teacher_1.1_all.deb
+Size: 4132
+SHA256: 6aa16d2ef1f6fe32d55d147a2dec93f8dcd651d8688339a39c709a0832d4244a
+SHA1: 83b6468abacff8e6ef722676a873f3c53dd8fd12
+MD5sum: e355f357f84dbc6d3a01acdda1e457f4
 Description: see and guide a classroom of FlickOS computers
  The teacher's window of FlickOS Classroom: every paired student's screen
  in a grid; lock the screens with a message, show a message, open a web
@@ -98,18 +103,18 @@ Description: see and guide a classroom of FlickOS computers
  only.
 
 Package: flickos-classroom-view
-Version: 1.0
+Version: 1.1
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 183
+Installed-Size: 184
 Depends: python3, python3-gi, gir1.2-gtk-3.0, python3-pil, grim, openssl, libnotify-bin, xdg-utils, flickos-lock (>= 1.4~test1), flickos-layouts (>= 1.88~test1), flickos-control (>= 1.78~test1), systemd, wayvnc, libneatvnc0 (>= 0.9.1+dfsg+flickos1), gir1.2-gtklayershell-0.1
 Priority: optional
 Section: education
-Filename: pool/main/f/flickos-classroom-view/flickos-classroom-view_1.0_all.deb
-Size: 44624
-SHA256: 2df2af3a202ef4b4cedeaaf356a630d1cce8b41f3f2acc2eeaf151fc3faa8a24
-SHA1: 8df22fe22ab799a26ecf2f715429fcf18756c4e1
-MD5sum: cb2595d819562e054d38631be59adf6c
+Filename: pool/main/f/flickos-classroom-view/flickos-classroom-view_1.1_all.deb
+Size: 44780
+SHA256: 8a8d082d6863674b890147d99bc7a082618e30f2b507e9ae79cda333685b1cf5
+SHA1: 32c35c89f2936374acd2086c3723373b149596fc
+MD5sum: 0511f5d764423787a7856dde518cec37
 Description: share a FlickOS computer's screen with a teacher
  A student's half of FlickOS Classroom: a paired teacher's computer sees
  this screen, and can lock it with a message, show a message, open a web
@@ -123,20 +128,20 @@ Description: share a FlickOS computer's screen with a teacher
  flickos-classroom-teacher. FlickOS computers only.
 
 Package: flickos-control
-Version: 1.86
+Version: 1.88
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 790
+Installed-Size: 794
 Depends: python3, python3-gi, gir1.2-gtk-3.0, flickos-layouts (>= 1.80), flick-tiler (>= 1.5), flickos-shortcuts, flickos-screenshot (>= 1.6), pkexec, xkb-data, adduser, accountsservice, xdg-utils, libglib2.0-bin, kanshi, wlr-randr
 Recommends: wl-clipboard, pciutils
 Breaks: flickos-greeter (<< 2.4~), flickos-phone (<< 1.16), flickos-recovery (<< 1.8~)
 Priority: optional
 Section: x11
-Filename: pool/main/f/flickos-control/flickos-control_1.86_all.deb
-Size: 172580
-SHA256: 71734247b013c2a48679ad45b11131bf5ee6224b3ed08af8d8c2981b3c1e8c92
-SHA1: 9b40ca58f5b8c5046e83014ceeecb9beaf3e8f0a
-MD5sum: af86adc6cc06c87243d3239d2b22f103
+Filename: pool/main/f/flickos-control/flickos-control_1.88_all.deb
+Size: 174176
+SHA256: 5079b90294794d628c873060b33c766735f2bb2673e79bb345d3a830df436de0
+SHA1: 6481ee8e13970e4a4c4c1badeb8d14623577d932
+MD5sum: aa7b56ba9cdd146cc6cd307db66db4e4
 Description: Settings window of the FlickOS desktop
  One window for the settings of the FlickOS labwc desktop: desktop layout,
  style and desktop clicks, mouse and touchpad, keyboard layout and typing,
@@ -297,21 +302,21 @@ Description: run your own programs when something happens on the FlickOS desktop
  shows what ran.
 
 Package: flickos-installer
-Version: 1.36.1
+Version: 1.36.2
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
-Installed-Size: 114
+Installed-Size: 117
 Depends: calamares, squashfs-tools, dosfstools, rsync, cryptsetup, keyutils, libglib2.0-bin, sudo, qt6-wayland, qml6-module-qtquick, qml6-module-qtquick-window, dconf-gsettings-backend | gsettings-backend, flickos-settings (>= 1.23)
 Conflicts: calamares-settings-debian
 Replaces: calamares-settings-debian
 Provides: calamares-settings
 Priority: optional
 Section: admin
-Filename: pool/main/f/flickos-installer/flickos-installer_1.36.1_all.deb
-Size: 37352
-SHA256: e4b6f8f0bd53d6086e9860b8f934a32738141f0934285364d724a2945dc2740b
-SHA1: 3684bdec4ea9ceaf558f0faad7eb1680392dc908
-MD5sum: 2514d8396c1ee0e32d2a031386552014
+Filename: pool/main/f/flickos-installer/flickos-installer_1.36.2_all.deb
+Size: 38244
+SHA256: 0c646bdc1cd3b10448210d56347c97e1a63470150bbaf20f3e5ff4df18b4f356
+SHA1: 67233de3b5bceb1e1a16c83a8443408703f16bf1
+MD5sum: 17ff1a8e5a177478fdfdb1fa13b6528f
 Description: FlickOS live installer (Calamares configuration)
  Calamares settings, branding and launcher for installing FlickOS from the
  live session, plus the live-session menu with an "Install FlickOS" entry.
@@ -857,18 +862,18 @@ Description: check a Reddit draft before posting, for FlickOS
  with it. Install it yourself when you want it.
 
 Package: flickos-recovery
-Version: 1.8
+Version: 1.9
 Architecture: all
 Maintainer: Jon <dvbondoy@gmail.com>
 Installed-Size: 105
 Depends: python3, btrfs-progs, pkexec
 Priority: optional
 Section: admin
-Filename: pool/main/f/flickos-recovery/flickos-recovery_1.8_all.deb
-Size: 22928
-SHA256: 69fd0a48f6a5843a46fb3fbb5900b3dd5619f06654f94a8856084cf5b723fccf
-SHA1: 7cba363dffa85dbdd2a597a7df3e5791b80568ee
-MD5sum: d72eac31e748861dfc300316f5209033
+Filename: pool/main/f/flickos-recovery/flickos-recovery_1.9_all.deb
+Size: 23072
+SHA256: 29b7033f5b299f66141751fc83ebd2ce3a4f410e3c30a7d7109d12045dceff5c
+SHA1: 2139cda3eb1efbff2b4352fa2caf0f596eec938f
+MD5sum: 3d9e113525a76bc40c5ca33f87e2ab3f
 Description: restore points of the whole FlickOS system
  Before every software change (apt, the Software and updates apps, automatic
  updates) a read-only btrfs snapshot of the system is taken: a restore point.
